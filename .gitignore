@@ -1,0 +1,4 @@
+dist/
+.scrape/
+.DS_Store
+make_assets.py

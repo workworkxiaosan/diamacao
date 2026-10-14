@@ -1,0 +1,1022 @@
+{
+  "languages": [
+    { "code": "zh-TW", "label": "繁體中文", "flag": "🇲🇴" },
+    { "code": "zh-CN", "label": "简体中文", "flag": "🇨🇳" },
+    { "code": "en", "label": "English", "flag": "🇬🇧" },
+    { "code": "pt", "label": "Português", "flag": "🇵🇹" }
+  ],
+  "default_lang": "zh-TW",
+  "site_name": "澳門數字創新協會",
+  "site_name_en": "Macao Digital Innovation Association",
+  "site_name_pt": "Associação de Inovação Digital de Macau",
+  "site_url": "https://www.diamacao.com",
+  "email": "info@diamacao.com",
+  "year": 2026,
+  "address": {
+    "zh-TW": "澳門何老桂巷5號",
+    "zh-CN": "澳门何老桂巷5号",
+    "en": "Rua de Ho Lo Kuai, No. 5, Macao",
+    "pt": "Rua de Ho Lo Kuai, n.º 5, Macau"
+  },
+  "social": {
+    "facebook": "#",
+    "linkedin": "#",
+    "instagram": "#"
+  },
+  "i18n": {
+    "zh-TW": {
+      "nav": {
+        "home": "首頁",
+        "about": "關於我們",
+        "members": "架構成員",
+        "news": "新聞動態",
+        "policy": "出海政策",
+        "partners": "合作夥伴",
+        "contact": "聯繫我們"
+      },
+      "hero": {
+        "headline": "數字驅動創新，鏈接全球未來",
+        "subtitle": "澳門數字創新協會致力推動數字技術與多元產業深度融合，搭建企業跨境出海平台，助力澳門經濟適度多元發展",
+        "cta1": "了解我們",
+        "cta2": "出海政策",
+        "cta3": "聯繫我們"
+      },
+      "home": {
+        "focusTitle": "我們的重點工作",
+        "focusSub": "以創新平台連接政府、企業與科研力量，服務澳門數字經濟發展",
+        "newsTitle": "最新動態",
+        "policyTitle": "出海政策速遞",
+        "viewAll": "查看全部",
+        "ctaBandTitle": "與我們攜手，共拓數字未來",
+        "ctaBandLead": "無論是企業出海、數字化轉型還是國際合作，澳門數字創新協會都是您的橋樑與夥伴"
+      },
+      "about": {
+        "title": "關於我們",
+        "subtitle": "推動澳門數字領域全方位發展的非牟利團體",
+        "purposeTitle": "協會宗旨",
+        "purpose": [
+          "澳門數字創新協會秉持愛國愛澳精神，致力於推動澳門數字領域全方位發展。協會以促進數字技術與澳門多元產業深度融合為核心，通過搭建創新平台，助力傳統行業數字化轉型，挖掘數字經濟新增長點，推動澳門經濟適度多元化進程。",
+          "在創新生態培育方面，協會積極匯聚數字領域相關人才、科研機構與企業，促進產學研協同創新，加速科技成果轉化應用，提升澳門數字創新的整體實力與競爭力。同時，協會着力拓展國際視野，加強與全球數字創新前沿地區的交流合作，引進先進理念與技術，為澳門數字產業邁向國際舞台創造機遇。",
+          "協會重視數字知識普及與人才培養，開展各類培訓、講座及交流活動，提升澳門民眾數字素養，培育適應數字時代發展的創新人才隊伍，為澳門數字創新發展注入源源不斷的動力，在服務國家發展大局及粵港澳大灣區建設中，發揮澳門獨特優勢，貢獻積極力量。"
+        ],
+        "visionTitle": "願景",
+        "visionText": "成為立足澳門、連接內地與國際的數字創新樞紐，助力澳門建設成為數字經濟發展與中國企業出海的戰略支點。",
+        "missionTitle": "使命",
+        "missionText": "以創新平台促進數字技術與多元產業深度融合，培育數字人才，拓展國際合作，推動澳門經濟適度多元發展，服務國家發展大局與粵港澳大灣區建設。",
+        "objectivesTitle": "戰略目標",
+        "objective1": "推動傳統行業數字化轉型與數字經濟發展",
+        "objective2": "搭建企業跨境出海與國際合作平台",
+        "objective3": "促進產學研協同與科技成果轉化",
+        "objective4": "普及數字知識與培育創新人才",
+        "areasTitle": "重點領域",
+        "area1": "數字經濟",
+        "area2": "企業出海",
+        "area3": "人工智能應用",
+        "area4": "跨境電商與數字貿易",
+        "area5": "品牌全球化",
+        "area6": "數字人才培育"
+      },
+      "members": {
+        "title": "架構成員",
+        "subtitle": "本會領導架構與組織機關",
+        "leadersTitle": "會長及理事長",
+        "orgTitle": "組織機關",
+        "note": "本會理、監事會成員名單將陸續公佈。歡迎認同本會宗旨的各界人士及機構申請入會，詳情請與我們聯繫。"
+      },
+      "news": {
+        "title": "新聞動態",
+        "subtitle": "本會最新公開動態與媒體報道",
+        "readMore": "閱讀更多",
+        "backToNews": "返回新聞動態",
+        "sourcePrefix": "原文出處"
+      },
+      "policy": {
+        "title": "出海政策",
+        "subtitle": "定期更新中國企業出海相關政策與市場動態，助力企業把握高水平開放機遇",
+        "learnMore": "了解詳情",
+        "regions": {
+          "national": "國家政策",
+          "gba": "大灣區與橫琴",
+          "macao": "澳門平台",
+          "global": "重點海外市場"
+        }
+      },
+      "partners": {
+        "title": "合作夥伴",
+        "subtitle": "攜手各界力量，共建數字創新生態"
+      },
+      "contact": {
+        "title": "聯繫我們",
+        "subtitle": "歡迎就入會申請、合作洽談與活動查詢與我們聯繫",
+        "orgName": "澳門數字創新協會",
+        "addressLabel": "會址",
+        "email": "電郵",
+        "followUs": "關注我們",
+        "contactForm": "聯絡表格",
+        "cooperationForm": "合作洽談",
+        "name": "姓名",
+        "namePlaceholder": "請輸入姓名",
+        "emailLabel": "電郵地址",
+        "emailPlaceholder": "請輸入電郵地址",
+        "message": "訊息內容",
+        "messagePlaceholder": "請輸入訊息內容",
+        "submit": "提交",
+        "successMessage": "提交成功！我們會盡快回覆。",
+        "errorRequired": "此欄位為必填項",
+        "errorEmail": "請輸入有效的電郵地址",
+        "submitting": "提交中…",
+        "organization": "機構名稱",
+        "organizationPlaceholder": "請輸入機構名稱",
+        "inquiryType": "查詢類型",
+        "inquiryTypePlaceholder": "請選擇查詢類型",
+        "inquiryTypes": {
+          "member": "入會申請",
+          "goingGlobal": "企業出海服務",
+          "event": "活動合作",
+          "media": "媒體查詢",
+          "other": "其他"
+        }
+      },
+      "footer": {
+        "description": "澳門數字創新協會為非牟利團體，致力推動澳門數字領域全方位發展，搭建創新平台，助力企業出海，服務國家發展大局與粵港澳大灣區建設。",
+        "quickLinks": "快速鏈接",
+        "updates": "最新資訊",
+        "contactTitle": "聯繫方式",
+        "allRightsReserved": "版權所有"
+      }
+    },
+    "zh-CN": {
+      "nav": {
+        "home": "首页",
+        "about": "关于我们",
+        "members": "架构成员",
+        "news": "新闻动态",
+        "policy": "出海政策",
+        "partners": "合作伙伴",
+        "contact": "联系我们"
+      },
+      "hero": {
+        "headline": "数字驱动创新，链接全球未来",
+        "subtitle": "澳门数字创新协会致力推动数字技术与多元产业深度融合，搭建企业跨境出海平台，助力澳门经济适度多元发展",
+        "cta1": "了解我们",
+        "cta2": "出海政策",
+        "cta3": "联系我们"
+      },
+      "home": {
+        "focusTitle": "我们的重点工作",
+        "focusSub": "以创新平台连接政府、企业与科研力量，服务澳门数字经济发展",
+        "newsTitle": "最新动态",
+        "policyTitle": "出海政策速递",
+        "viewAll": "查看全部",
+        "ctaBandTitle": "与我们携手，共拓数字未来",
+        "ctaBandLead": "无论是企业出海、数字化转型还是国际合作，澳门数字创新协会都是您的桥梁与伙伴"
+      },
+      "about": {
+        "title": "关于我们",
+        "subtitle": "推动澳门数字领域全方位发展的非牟利团体",
+        "purposeTitle": "协会宗旨",
+        "purpose": [
+          "澳门数字创新协会秉持爱国爱澳精神，致力于推动澳门数字领域全方位发展。协会以促进数字技术与澳门多元产业深度融合为核心，通过搭建创新平台，助力传统行业数字化转型，挖掘数字经济新增长点，推动澳门经济适度多元化进程。",
+          "在创新生态培育方面，协会积极汇聚数字领域相关人才、科研机构与企业，促进产学研协同创新，加速科技成果转化应用，提升澳门数字创新的整体实力与竞争力。同时，协会着力拓展国际视野，加强与全球数字创新前沿地区的交流合作，引进先进理念与技术，为澳门数字产业迈向国际舞台创造机遇。",
+          "协会重视数字知识普及与人才培养，开展各类培训、讲座及交流活动，提升澳门民众数字素养，培育适应数字时代发展的创新人才队伍，为澳门数字创新发展注入源源不断的动力，在服务国家发展大局及粤港澳大湾区建设中，发挥澳门独特优势，贡献积极力量。"
+        ],
+        "visionTitle": "愿景",
+        "visionText": "成为立足澳门、连接内地与国际的数字创新枢纽，助力澳门建设成为数字经济发展与中国企业出海的战略支点。",
+        "missionTitle": "使命",
+        "missionText": "以创新平台促进数字技术与多元产业深度融合，培育数字人才，拓展国际合作，推动澳门经济适度多元发展，服务国家发展大局与粤港澳大湾区建设。",
+        "objectivesTitle": "战略目标",
+        "objective1": "推动传统行业数字化转型与数字经济发展",
+        "objective2": "搭建企业跨境出海与国际合作平台",
+        "objective3": "促进产学研协同与科技成果转化",
+        "objective4": "普及数字知识与培育创新人才",
+        "areasTitle": "重点领域",
+        "area1": "数字经济",
+        "area2": "企业出海",
+        "area3": "人工智能应用",
+        "area4": "跨境电商与数字贸易",
+        "area5": "品牌全球化",
+        "area6": "数字人才培育"
+      },
+      "members": {
+        "title": "架构成员",
+        "subtitle": "本会领导架构与组织机关",
+        "leadersTitle": "会长及理事长",
+        "orgTitle": "组织机关",
+        "note": "本会理、监事会成员名单将陆续公布。欢迎认同本会宗旨的各界人士及机构申请入会，详情请与我们联系。"
+      },
+      "news": {
+        "title": "新闻动态",
+        "subtitle": "本会最新公开动态与媒体报道",
+        "readMore": "阅读更多",
+        "backToNews": "返回新闻动态",
+        "sourcePrefix": "原文出处"
+      },
+      "policy": {
+        "title": "出海政策",
+        "subtitle": "定期更新中国企业出海相关政策与市场动态，助力企业把握高水平开放机遇",
+        "learnMore": "了解详情",
+        "regions": {
+          "national": "国家政策",
+          "gba": "大湾区与横琴",
+          "macao": "澳门平台",
+          "global": "重点海外市场"
+        }
+      },
+      "partners": {
+        "title": "合作伙伴",
+        "subtitle": "携手各界力量，共建数字创新生态"
+      },
+      "contact": {
+        "title": "联系我们",
+        "subtitle": "欢迎就入会申请、合作洽谈与活动查询与我们联系",
+        "orgName": "澳门数字创新协会",
+        "addressLabel": "会址",
+        "email": "电邮",
+        "followUs": "关注我们",
+        "contactForm": "联络表格",
+        "cooperationForm": "合作洽谈",
+        "name": "姓名",
+        "namePlaceholder": "请输入姓名",
+        "emailLabel": "电邮地址",
+        "emailPlaceholder": "请输入电邮地址",
+        "message": "信息内容",
+        "messagePlaceholder": "请输入信息内容",
+        "submit": "提交",
+        "successMessage": "提交成功！我们会尽快回复。",
+        "errorRequired": "此栏位为必填项",
+        "errorEmail": "请输入有效的电邮地址",
+        "submitting": "提交中…",
+        "organization": "机构名称",
+        "organizationPlaceholder": "请输入机构名称",
+        "inquiryType": "查询类型",
+        "inquiryTypePlaceholder": "请选择查询类型",
+        "inquiryTypes": {
+          "member": "入会申请",
+          "goingGlobal": "企业出海服务",
+          "event": "活动合作",
+          "media": "媒体查询",
+          "other": "其他"
+        }
+      },
+      "footer": {
+        "description": "澳门数字创新协会为非牟利团体，致力推动澳门数字领域全方位发展，搭建创新平台，助力企业出海，服务国家发展大局与粤港澳大湾区建设。",
+        "quickLinks": "快速链接",
+        "updates": "最新资讯",
+        "contactTitle": "联系方式",
+        "allRightsReserved": "版权所有"
+      }
+    },
+    "en": {
+      "nav": {
+        "home": "Home",
+        "about": "About Us",
+        "members": "Leadership",
+        "news": "News",
+        "policy": "Go-Global Policies",
+        "partners": "Partners",
+        "contact": "Contact Us"
+      },
+      "hero": {
+        "headline": "Digital Innovation for Macao, a Gateway to Global Markets",
+        "subtitle": "The Macao Digital Innovation Association promotes deep integration of digital technologies with Macao's diverse industries, builds cross-border platforms for enterprises going global, and supports Macao's appropriate economic diversification.",
+        "cta1": "Learn More",
+        "cta2": "Go-Global Policies",
+        "cta3": "Contact Us"
+      },
+      "home": {
+        "focusTitle": "Our Focus Areas",
+        "focusSub": "Connecting government, enterprises and research institutions through an innovation platform serving Macao's digital economy",
+        "newsTitle": "Latest News",
+        "policyTitle": "Go-Global Policy Updates",
+        "viewAll": "View All",
+        "ctaBandTitle": "Join Us in Shaping the Digital Future",
+        "ctaBandLead": "Whether it's global expansion, digital transformation or international cooperation, DIA is your bridge and partner in Macao."
+      },
+      "about": {
+        "title": "About Us",
+        "subtitle": "A non-profit association advancing the all-round development of Macao's digital sector",
+        "purposeTitle": "Our Mission",
+        "purpose": [
+          "Upholding the spirit of love for the country and for Macao, the Macao Digital Innovation Association is dedicated to advancing the all-round development of Macao's digital sector. Centred on promoting the deep integration of digital technologies with Macao's diverse industries, the Association builds innovation platforms that help traditional industries undergo digital transformation, unlock new growth drivers of the digital economy, and advance Macao's appropriate economic diversification.",
+          "In fostering the innovation ecosystem, the Association actively brings together talent, research institutions and enterprises in the digital field, promotes industry-university-research collaboration, accelerates the application of scientific and technological achievements, and strengthens the overall capability and competitiveness of digital innovation in Macao. At the same time, the Association broadens its international outlook by strengthening exchanges and cooperation with leading digital innovation regions worldwide, introducing advanced ideas and technologies, and creating opportunities for Macao's digital industry on the international stage.",
+          "The Association attaches great importance to digital literacy and talent development. Through training programmes, lectures and exchange activities, it enhances the digital literacy of the Macao public and cultivates innovative talent suited to the digital era — injecting sustained momentum into Macao's digital innovation, bringing Macao's unique strengths into play, and contributing actively to the nation's overall development and the building of the Guangdong-Hong Kong-Macao Greater Bay Area."
+        ],
+        "visionTitle": "Vision",
+        "visionText": "To become a digital innovation hub rooted in Macao and connecting the Chinese mainland with the world, helping Macao grow into a strategic pivot for the digital economy and for Chinese enterprises going global.",
+        "missionTitle": "Mission",
+        "missionText": "Through innovation platforms, we promote the deep integration of digital technologies with diverse industries, cultivate digital talent, expand international cooperation, drive Macao's appropriate economic diversification, and serve the nation's overall development and the building of the Greater Bay Area.",
+        "objectivesTitle": "Strategic Objectives",
+        "objective1": "Drive the digital transformation of traditional industries and the growth of the digital economy",
+        "objective2": "Build cross-border platforms for enterprises going global and for international cooperation",
+        "objective3": "Foster industry-university-research collaboration and the commercialisation of research outcomes",
+        "objective4": "Popularise digital knowledge and cultivate innovative talent",
+        "areasTitle": "Key Areas",
+        "area1": "Digital Economy",
+        "area2": "Enterprises Going Global",
+        "area3": "AI Applications",
+        "area4": "Cross-border E-commerce & Digital Trade",
+        "area5": "Brand Globalisation",
+        "area6": "Digital Talent Development"
+      },
+      "members": {
+        "title": "Leadership & Structure",
+        "subtitle": "The Association's leadership and governing bodies",
+        "leadersTitle": "President & Chairman",
+        "orgTitle": "Governing Bodies",
+        "note": "The full list of the Board of Directors and the Supervisory Committee will be announced in due course. Individuals and organisations who share our mission are welcome to apply for membership — please contact us for details."
+      },
+      "news": {
+        "title": "News",
+        "subtitle": "Latest updates and media coverage of the Association",
+        "readMore": "Read More",
+        "backToNews": "Back to News",
+        "sourcePrefix": "Source"
+      },
+      "policy": {
+        "title": "Go-Global Policies",
+        "subtitle": "Regularly updated policies and market developments for Chinese enterprises going global, helping businesses seize the opportunities of high-standard opening-up",
+        "learnMore": "Learn More",
+        "regions": {
+          "national": "National Policies",
+          "gba": "Greater Bay Area & Hengqin",
+          "macao": "The Macao Platform",
+          "global": "Key Overseas Markets"
+        }
+      },
+      "partners": {
+        "title": "Partners",
+        "subtitle": "Working with partners across sectors to build a digital innovation ecosystem"
+      },
+      "contact": {
+        "title": "Contact Us",
+        "subtitle": "For membership applications, partnership enquiries and event information, please get in touch",
+        "orgName": "Macao Digital Innovation Association",
+        "addressLabel": "Address",
+        "email": "Email",
+        "followUs": "Follow Us",
+        "contactForm": "Contact Form",
+        "cooperationForm": "Partnership Enquiry",
+        "name": "Name",
+        "namePlaceholder": "Your name",
+        "emailLabel": "Email Address",
+        "emailPlaceholder": "Your email address",
+        "message": "Message",
+        "messagePlaceholder": "Your message",
+        "submit": "Submit",
+        "successMessage": "Submitted successfully! We will get back to you soon.",
+        "errorRequired": "This field is required",
+        "errorEmail": "Please enter a valid email address",
+        "submitting": "Submitting…",
+        "organization": "Organisation",
+        "organizationPlaceholder": "Your organisation",
+        "inquiryType": "Enquiry Type",
+        "inquiryTypePlaceholder": "Please select an enquiry type",
+        "inquiryTypes": {
+          "member": "Membership Application",
+          "goingGlobal": "Go-Global Services",
+          "event": "Event Cooperation",
+          "media": "Media Enquiry",
+          "other": "Other"
+        }
+      },
+      "footer": {
+        "description": "The Macao Digital Innovation Association is a non-profit organisation dedicated to the all-round development of Macao's digital sector — building innovation platforms, helping enterprises go global, and serving the nation's overall development and the Guangdong-Hong Kong-Macao Greater Bay Area.",
+        "quickLinks": "Quick Links",
+        "updates": "Updates",
+        "contactTitle": "Contact",
+        "allRightsReserved": "All rights reserved"
+      }
+    },
+    "pt": {
+      "nav": {
+        "home": "Início",
+        "about": "Sobre Nós",
+        "members": "Estrutura",
+        "news": "Notícias",
+        "policy": "Políticas de Internacionalização",
+        "partners": "Parceiros",
+        "contact": "Contactos"
+      },
+      "hero": {
+        "headline": "Inovação Digital para Macau, uma Porta para os Mercados Globais",
+        "subtitle": "A Associação de Inovação Digital de Macau promove a integração profunda das tecnologias digitais com as diversas indústrias de Macau, constrói plataformas transfronteiriças para empresas em internacionalização e apoia a diversificação adequada da economia de Macau.",
+        "cta1": "Saber Mais",
+        "cta2": "Políticas",
+        "cta3": "Contactos"
+      },
+      "home": {
+        "focusTitle": "Áreas de Actuação",
+        "focusSub": "Ligando governo, empresas e instituições de investigação através de uma plataforma de inovação ao serviço da economia digital de Macau",
+        "newsTitle": "Últimas Notícias",
+        "policyTitle": "Actualizações de Políticas",
+        "viewAll": "Ver Tudo",
+        "ctaBandTitle": "Junte-se a Nós na Construção do Futuro Digital",
+        "ctaBandLead": "Quer se trate de internacionalização, transformação digital ou cooperação internacional, a DIA é a sua ponte e parceira em Macau."
+      },
+      "about": {
+        "title": "Sobre Nós",
+        "subtitle": "Uma associação sem fins lucrativos dedicada ao desenvolvimento integral do sector digital de Macau",
+        "purposeTitle": "Os Nossos Objectivos",
+        "purpose": [
+          "No espírito de amor à pátria e a Macau, a Associação de Inovação Digital de Macau dedica-se a promover o desenvolvimento integral do sector digital de Macau. Centrando-se na integração profunda das tecnologias digitais com as diversas indústrias de Macau, a Associação constrói plataformas de inovação que apoiam a transformação digital das indústrias tradicionais, exploram novos motores de crescimento da economia digital e promovem a diversificação adequada da economia de Macau.",
+          "Na promoção do ecossistema de inovação, a Associação reúne activamente talentos, instituições de investigação e empresas do sector digital, fomenta a colaboração entre indústria, universidades e centros de investigação, acelera a aplicação de resultados científicos e tecnológicos, e reforça a capacidade e competitividade global da inovação digital de Macau. Ao mesmo tempo, alarga a sua visão internacional, intensificando os intercâmbios e a cooperação com as regiões de vanguarda da inovação digital mundial, introduzindo conceitos e tecnologias avançados e criando oportunidades para a indústria digital de Macau no palco internacional.",
+          "A Associação atribui grande importância à literacia digital e à formação de talentos, realizando acções de formação, palestras e actividades de intercâmbio que elevam as competências digitais da população de Macau e formam equipas de talentos inovadores adaptados à era digital — injectando um ímpeto contínuo na inovação digital de Macau, aproveitando as vantagens únicas de Macau e contribuindo activamente para o desenvolvimento nacional e para a construção da Grande Baía Guangdong-Hong Kong-Macau."
+        ],
+        "visionTitle": "Visão",
+        "visionText": "Ser um pólo de inovação digital enraizado em Macau, ligando o interior da China ao mundo, e ajudar Macau a tornar-se um ponto de apoio estratégico para a economia digital e para a internacionalização das empresas chinesas.",
+        "missionTitle": "Missão",
+        "missionText": "Através de plataformas de inovação, promover a integração profunda das tecnologias digitais com as diversas indústrias, formar talentos digitais, alargar a cooperação internacional, impulsionar a diversificação adequada da economia de Macau e servir o desenvolvimento nacional e a construção da Grande Baía.",
+        "objectivesTitle": "Objectivos Estratégicos",
+        "objective1": "Impulsionar a transformação digital das indústrias tradicionais e o desenvolvimento da economia digital",
+        "objective2": "Construir plataformas transfronteiriças para a internacionalização das empresas e a cooperação internacional",
+        "objective3": "Promover a colaboração indústria-universidade-investigação e a transferência de tecnologia",
+        "objective4": "Popularizar o conhecimento digital e formar talentos inovadores",
+        "areasTitle": "Áreas Prioritárias",
+        "area1": "Economia Digital",
+        "area2": "Internacionalização de Empresas",
+        "area3": "Aplicações de IA",
+        "area4": "Comércio Electrónico Transfronteiriço e Comércio Digital",
+        "area5": "Globalização de Marcas",
+        "area6": "Formação de Talentos Digitais"
+      },
+      "members": {
+        "title": "Estrutura e Membros",
+        "subtitle": "A direcção e os órgãos sociais da Associação",
+        "leadersTitle": "Presidente e Presidente da Direcção",
+        "orgTitle": "Órgãos Sociais",
+        "note": "A lista completa dos membros da Direcção e do Conselho Fiscal será divulgada oportunamente. Pessoas e instituições que se identifiquem com os nossos objectivos são bem-vindas a candidatar-se a associados — contacte-nos para mais informações."
+      },
+      "news": {
+        "title": "Notícias",
+        "subtitle": "As últimas novidades e cobertura mediática da Associação",
+        "readMore": "Ler Mais",
+        "backToNews": "Voltar às Notícias",
+        "sourcePrefix": "Fonte"
+      },
+      "policy": {
+        "title": "Políticas de Internacionalização",
+        "subtitle": "Políticas e dinâmicas de mercado actualizadas regularmente para empresas chinesas em internacionalização, ajudando-as a aproveitar as oportunidades da abertura de alto nível",
+        "learnMore": "Saber Mais",
+        "regions": {
+          "national": "Políticas Nacionais",
+          "gba": "Grande Baía e Hengqin",
+          "macao": "A Plataforma de Macau",
+          "global": "Mercados Externos Prioritários"
+        }
+      },
+      "partners": {
+        "title": "Parceiros",
+        "subtitle": "Unindo forças de vários sectores para construir um ecossistema de inovação digital"
+      },
+      "contact": {
+        "title": "Contactos",
+        "subtitle": "Para candidaturas de associado, cooperação e informações sobre actividades, contacte-nos",
+        "orgName": "Associação de Inovação Digital de Macau",
+        "addressLabel": "Sede",
+        "email": "E-mail",
+        "followUs": "Siga-nos",
+        "contactForm": "Formulário de Contacto",
+        "cooperationForm": "Pedido de Cooperação",
+        "name": "Nome",
+        "namePlaceholder": "O seu nome",
+        "emailLabel": "Endereço de E-mail",
+        "emailPlaceholder": "O seu endereço de e-mail",
+        "message": "Mensagem",
+        "messagePlaceholder": "A sua mensagem",
+        "submit": "Enviar",
+        "successMessage": "Enviado com sucesso! Responderemos em breve.",
+        "errorRequired": "Campo obrigatório",
+        "errorEmail": "Introduza um endereço de e-mail válido",
+        "submitting": "A enviar…",
+        "organization": "Organização",
+        "organizationPlaceholder": "A sua organização",
+        "inquiryType": "Tipo de Pedido",
+        "inquiryTypePlaceholder": "Seleccione o tipo de pedido",
+        "inquiryTypes": {
+          "member": "Candidatura de Associado",
+          "goingGlobal": "Serviços de Internacionalização",
+          "event": "Cooperação em Eventos",
+          "media": "Pedido de Imprensa",
+          "other": "Outros"
+        }
+      },
+      "footer": {
+        "description": "A Associação de Inovação Digital de Macau é uma organização sem fins lucrativos dedicada ao desenvolvimento integral do sector digital de Macau — construindo plataformas de inovação, apoiando a internacionalização das empresas e servindo o desenvolvimento nacional e a Grande Baía Guangdong-Hong Kong-Macau.",
+        "quickLinks": "Ligações Rápidas",
+        "updates": "Actualizações",
+        "contactTitle": "Contactos",
+        "allRightsReserved": "Todos os direitos reservados"
+      }
+    }
+  },
+  "stats": [
+    {
+      "num": "2026",
+      "label": { "zh-TW": "協會成立年份", "zh-CN": "协会成立年份", "en": "Year Established", "pt": "Ano de Fundação" }
+    },
+    {
+      "num": "20+",
+      "label": { "zh-TW": "首批出海對接企業", "zh-CN": "首批出海对接企业", "en": "First Batch of Go-Global Enterprises", "pt": "Primeiras Empresas em Internacionalização" }
+    },
+    {
+      "num": "3",
+      "label": { "zh-TW": "組織機關（會員大會·理事會·監事會）", "zh-CN": "组织机关（会员大会·理事会·监事会）", "en": "Governing Bodies", "pt": "Órgãos Sociais" }
+    },
+    {
+      "num": "4",
+      "label": { "zh-TW": "服務語言", "zh-CN": "服务语言", "en": "Working Languages", "pt": "Línguas de Trabalho" }
+    }
+  ],
+  "focus_cards": [
+    {
+      "icon": "cpu",
+      "title": { "zh-TW": "數字化轉型", "zh-CN": "数字化转型", "en": "Digital Transformation", "pt": "Transformação Digital" },
+      "description": { "zh-TW": "搭建創新平台，助力傳統行業數字化轉型，挖掘數字經濟新增長點", "zh-CN": "搭建创新平台，助力传统行业数字化转型，挖掘数字经济新增长点", "en": "Building innovation platforms to help traditional industries go digital and unlock new growth drivers of the digital economy", "pt": "Construção de plataformas de inovação para apoiar a digitalização das indústrias tradicionais e explorar novos motores da economia digital" }
+    },
+    {
+      "icon": "plane",
+      "title": { "zh-TW": "企業出海服務", "zh-CN": "企业出海服务", "en": "Go-Global Services", "pt": "Serviços de Internacionalização" },
+      "description": { "zh-TW": "搭建跨境出海平台，助力內地與澳門企業經澳門拓展葡語國家及國際市場", "zh-CN": "搭建跨境出海平台，助力内地与澳门企业经澳门拓展葡语国家及国际市场", "en": "Building cross-border platforms that help mainland and Macao enterprises expand via Macao into Portuguese-speaking and international markets", "pt": "Construção de plataformas transfronteiriças que ajudam empresas do interior da China e de Macau a expandir, via Macau, para os mercados lusófonos e internacionais" }
+    },
+    {
+      "icon": "handshake",
+      "title": { "zh-TW": "產學研協同", "zh-CN": "产学研协同", "en": "Industry-Research Collaboration", "pt": "Colaboração Indústria-Investigação" },
+      "description": { "zh-TW": "匯聚數字領域人才、科研機構與企業，加速科技成果轉化應用", "zh-CN": "汇聚数字领域人才、科研机构与企业，加速科技成果转化应用", "en": "Bringing together talent, research institutions and enterprises to accelerate the application of scientific and technological achievements", "pt": "Reunir talentos, instituições de investigação e empresas para acelerar a aplicação de resultados científicos e tecnológicos" }
+    },
+    {
+      "icon": "users",
+      "title": { "zh-TW": "數字人才培育", "zh-CN": "数字人才培育", "en": "Digital Talent Development", "pt": "Formação de Talentos Digitais" },
+      "description": { "zh-TW": "開展培訓、講座及交流活動，提升全民數字素養，培育數字時代創新人才", "zh-CN": "开展培训、讲座及交流活动，提升全民数字素养，培育数字时代创新人才", "en": "Running training courses, lectures and exchanges to raise digital literacy and cultivate innovative talent for the digital era", "pt": "Realização de formações, palestras e intercâmbios para elevar a literacia digital e formar talentos inovadores para a era digital" }
+    },
+    {
+      "icon": "globe",
+      "title": { "zh-TW": "國際交流合作", "zh-CN": "国际交流合作", "en": "International Exchange", "pt": "Intercâmbio Internacional" },
+      "description": { "zh-TW": "加強與全球數字創新前沿地區交流合作，引進先進理念與技術", "zh-CN": "加强与全球数字创新前沿地区交流合作，引进先进理念与技术", "en": "Strengthening exchange and cooperation with leading digital innovation regions, introducing advanced ideas and technologies to Macao", "pt": "Intensificar intercâmbios e cooperação com regiões de vanguarda da inovação digital, introduzindo conceitos e tecnologias avançados em Macau" }
+    },
+    {
+      "icon": "chart",
+      "title": { "zh-TW": "政策研究建言", "zh-CN": "政策研究建言", "en": "Policy Research", "pt": "Investigação de Políticas" },
+      "description": { "zh-TW": "圍繞數字經濟與企業出海政策開展研究，為企業決策與政府施政提供參考", "zh-CN": "围绕数字经济与企业出海政策开展研究，为企业决策与政府施政提供参考", "en": "Conducting research on the digital economy and go-global policies to inform business decisions and government policymaking", "pt": "Investigação sobre a economia digital e políticas de internacionalização para apoiar decisões empresariais e governamentais" }
+    }
+  ],
+  "members": [
+    {
+      "initial": "黃",
+      "name": { "zh-TW": "黃家倫", "zh-CN": "黄家伦", "en": "Vong Ka Lon (Huang Jialun)", "pt": "Vong Ka Lon (Huang Jialun)" },
+      "role": { "zh-TW": "會長", "zh-CN": "会长", "en": "President", "pt": "Presidente" },
+      "bio": {
+        "zh-TW": "澳門特別行政區立法會議員，澳門數字創新協會會長，澳門直播協會創會會長。長期關注數字經濟、青年創新與中小企數字化轉型，致力推動澳門與內地及國際間的數字產業合作。",
+        "zh-CN": "澳门特别行政区立法会议员，澳门数字创新协会会长，澳门直播协会创会会长。长期关注数字经济、青年创新与中小企业数字化转型，致力推动澳门与内地及国际间的数字产业合作。",
+        "en": "Member of the Legislative Assembly of the Macao SAR, President of the Macao Digital Innovation Association and Founding President of the Macao Live Streaming Association. A long-time advocate of the digital economy, youth innovation and SME digital transformation, he works to advance digital industry cooperation between Macao, the Chinese mainland and international markets.",
+        "pt": "Deputado à Assembleia Legislativa da RAEM, Presidente da Associação de Inovação Digital de Macau e Presidente Fundador da Associação de Live Streaming de Macau. Dedicado há muito à economia digital, à inovação jovem e à transformação digital das PME, promove a cooperação da indústria digital entre Macau, o interior da China e os mercados internacionais."
+      }
+    },
+    {
+      "initial": "楊",
+      "name": { "zh-TW": "楊誠", "zh-CN": "杨诚", "en": "Yang Cheng", "pt": "Yang Cheng" },
+      "role": { "zh-TW": "理事長", "zh-CN": "理事长", "en": "Chairman of the Board", "pt": "Presidente da Direcção" },
+      "bio": {
+        "zh-TW": "澳門數字創新協會理事長，澳門財經科技與教育發展學會會長，國際研學旅遊產業發展協會（澳門）會長，澳門博士智庫副理事長。澳門科技大學畢業，英國市場營銷學碩士，工商管理博士（區塊鏈方向）。長期致力推動澳門經濟適度多元發展、企業出海與中葡平台合作。",
+        "zh-CN": "澳门数字创新协会理事长，澳门财经科技与教育发展学会会长，国际研学旅游产业发展协会（澳门）会长，澳门博士智库副理事长。澳门科技大学毕业，英国市场营销学硕士，工商管理博士（区块链方向）。长期致力推动澳门经济适度多元发展、企业出海与中葡平台合作。",
+        "en": "Chairman of the Macao Digital Innovation Association, President of the Macao Financial Technology and Education Development Association, President of the International Study Tour Industry Development Association (Macao) and Vice-Chairman of the Macao Doctoral Think Tank. A graduate of the Macau University of Science and Technology with a UK master's degree in marketing and a Doctor of Business Administration specialising in blockchain, he has long been committed to Macao's appropriate economic diversification, enterprises going global and Sino-Portuguese platform cooperation.",
+        "pt": "Presidente da Direcção da Associação de Inovação Digital de Macau, Presidente da Associação para o Desenvolvimento da Tecnologia Financeira e Educação de Macau, Presidente da Associação Internacional de Desenvolvimento da Indústria de Viagens de Estudo (Macau) e Vice-Presidente do Think Tank Doutoral de Macau. Licenciado pela Universidade de Ciência e Tecnologia de Macau, mestre em marketing no Reino Unido e doutor em Gestão de Empresas (blockchain), dedica-se há muito à diversificação adequada da economia de Macau, à internacionalização das empresas e à cooperação da plataforma sino-lusófona."
+      }
+    }
+  ],
+  "org": [
+    {
+      "icon": "users",
+      "title": { "zh-TW": "會員大會", "zh-CN": "会员大会", "en": "General Assembly", "pt": "Assembleia Geral" },
+      "desc": {
+        "zh-TW": "本會最高權力機關，負責制定或修改會章，選舉會員大會會長、副會長、秘書長、副秘書長和理事會、監事會成員，決定會務方針，審查和批准理事會工作報告。設會長一名，副會長若干名，秘書長一名及副秘書長若干名，每屆任期三年，可連選連任。",
+        "zh-CN": "本会最高权力机关，负责制定或修改会章，选举会员大会会长、副会长、秘书长、副秘书长和理事会、监事会成员，决定会务方针，审查和批准理事会工作报告。设会长一名，副会长若干名，秘书长一名及副秘书长若干名，每届任期三年，可连选连任。",
+        "en": "The supreme governing body of the Association. It formulates and amends the statutes, elects the President, Vice-Presidents, Secretary-General and Deputy Secretaries-General of the General Assembly as well as members of the Board of Directors and the Supervisory Committee, decides on work policies, and reviews and approves the Board's work reports. It comprises one President, several Vice-Presidents, one Secretary-General and several Deputy Secretaries-General, each serving a renewable three-year term.",
+        "pt": "Órgão supremo da Associação, responsável por elaborar e alterar os estatutos, eleger o Presidente, os Vice-Presidentes, o Secretário-Geral e os Secretários-Gerais Adjuntos da Assembleia Geral, bem como os membros da Direcção e do Conselho Fiscal, definir as orientações gerais e apreciar e aprovar os relatórios da Direcção. É composta por um Presidente, vários Vice-Presidentes, um Secretário-Geral e vários Secretários-Gerais Adjuntos, com mandatos de três anos, renováveis."
+      }
+    },
+    {
+      "icon": "landmark",
+      "title": { "zh-TW": "理事會", "zh-CN": "理事会", "en": "Board of Directors", "pt": "Direcção" },
+      "desc": {
+        "zh-TW": "本會執行機關，負責執行會員大會決議和日常具體會務。由最少三名或以上單數成員組成，設理事長一名，副理事長若干名及理事若干名，每屆任期三年，可連選連任。理事會會議每三個月召開一次。",
+        "zh-CN": "本会执行机关，负责执行会员大会决议和日常具体会务。由最少三名或以上单数成员组成，设理事长一名，副理事长若干名及理事若干名，每届任期三年，可连选连任。理事会会议每三个月召开一次。",
+        "en": "The executive body of the Association, responsible for implementing the resolutions of the General Assembly and managing day-to-day affairs. It comprises no fewer than three members, in odd numbers, with one Chairman, several Vice-Chairmen and Directors, each serving a renewable three-year term. The Board meets once every three months.",
+        "pt": "Órgão executivo da Associação, responsável por executar as deliberações da Assembleia Geral e gerir os assuntos correntes. É composta por um mínimo de três membros, em número ímpar, com um Presidente, vários Vice-Presidentes e Vogais, com mandatos de três anos, renováveis. A Direcção reúne uma vez a cada três meses."
+      }
+    },
+    {
+      "icon": "eye",
+      "title": { "zh-TW": "監事會", "zh-CN": "监事会", "en": "Supervisory Committee", "pt": "Conselho Fiscal" },
+      "desc": {
+        "zh-TW": "本會監察機關，負責監察理事會日常會務運作和財政收支。由最少三名或以上單數成員組成，設監事長一名，副監事長若干名及監事若干名，每屆任期三年，可連選連任。監事會會議每三個月召開一次。",
+        "zh-CN": "本会监察机关，负责监察理事会日常会务运作和财政收支。由最少三名或以上单数成员组成，设监事长一名，副监事长若干名及监事若干名，每届任期三年，可连选连任。监事会会议每三个月召开一次。",
+        "en": "The supervisory body of the Association, overseeing the Board's daily operations and financial affairs. It comprises no fewer than three members, in odd numbers, with one Chairman, several Vice-Chairmen and Supervisors, each serving a renewable three-year term. The Committee meets once every three months.",
+        "pt": "Órgão fiscal da Associação, responsável por fiscalizar o funcionamento quotidiano da Direcção e a movimentação financeira. É composto por um mínimo de três membros, em número ímpar, com um Presidente, vários Vice-Presidentes e Vogais, com mandatos de três anos, renováveis. O Conselho Fiscal reúne uma vez a cada três meses."
+      }
+    }
+  ],
+  "news": [
+    {
+      "date": "2026-05-28",
+      "slug": "paris-bonjour-brand-strategic-agreement",
+      "category": { "zh-TW": "國際合作", "zh-CN": "国际合作", "en": "International Cooperation", "pt": "Cooperação Internacional" },
+      "title": {
+        "zh-TW": "協會於巴黎簽署「中法（澳門）品牌全球化戰略投資合作協議」",
+        "zh-CN": "协会于巴黎签署「中法（澳门）品牌全球化战略投资合作协议」",
+        "en": "DIA Signs China-France (Macao) Brand Globalisation Strategic Investment Cooperation Agreement in Paris",
+        "pt": "DIA Assina em Paris Acordo de Cooperação Estratégica para a Globalização de Marcas China-França (Macau)"
+      },
+      "excerpt": {
+        "zh-TW": "第十二屆中法品牌高峰論壇5月28日在巴黎聯合國教科文組織總部舉行，理事長楊誠代表本會與Bonjour Brand中法品牌美學中心簽署合作協議，開啟內地—澳門—法國三方品牌協同合作。",
+        "zh-CN": "第十二届中法品牌高峰论坛5月28日在巴黎联合国教科文组织总部举行，理事长杨诚代表本会与Bonjour Brand中法品牌美学中心签署合作协议，开启内地—澳门—法国三方品牌协同合作。",
+        "en": "At the 12th China-France Brand Summit held at UNESCO Headquarters in Paris on 28 May, DIA Chairman Yang Cheng signed a cooperation agreement with the Bonjour Brand China-France Brand Aesthetics Centre, launching tripartite brand collaboration between the Chinese mainland, Macao and France.",
+        "pt": "No 12.º Fórum China-França de Marcas, realizado a 28 de Maio na sede da UNESCO em Paris, o Presidente da Direcção da DIA, Yang Cheng, assinou um acordo de cooperação com o Centro de Estética de Marcas China-França Bonjour Brand, inaugurando a colaboração tripartida de marcas entre o interior da China, Macau e França."
+      },
+      "source": {
+        "name": { "zh-TW": "濠江日報", "zh-CN": "濠江日报", "en": "Hou Kong Daily", "pt": "Hou Kong Daily" },
+        "url": "https://www.houkongdailynews.com/instantNews/151152"
+      },
+      "body": {
+        "zh-TW": [
+          "第十二屆中法品牌高峰論壇5月27至29日在巴黎聯合國教科文組織總部舉行，由Bonjour Brand中法品牌美學中心與法國展望與創新基金會主辦，澳門經濟及科技發展局首次出任論壇聯合主辦方，組織澳門品牌代表參與系列活動。",
+          "論壇期間，中法品牌美學中心（楊晶代表）與澳門數字創新協會（理事長楊誠代表）現場簽署「中法（澳門）品牌全球化戰略投資合作協議」，開啟內地—澳門—法國三方品牌協同合作。雙方將通過品牌資源協同、數字傳播能力建設與國際場景對接，推動澳門品牌走向國際市場。",
+          "法國前總理拉法蘭、巴黎大區企業聯盟主席伯納德·科恩-哈達德（Bernard Cohen-Hadad）、中國貿促會駐法國代表處首席代表李文國、澳門經濟及科技發展局對外貿易及經濟合作廳廳長林凱健等嘉賓出席見證。",
+          "是次簽約為本會首次在歐洲達成國際合作，標誌著協會推動澳門品牌全球化與中國品牌出海工作邁出重要一步。未來雙方將在品牌出海、數字營銷及國際會展等領域持續深化合作。"
+        ],
+        "zh-CN": [
+          "第十二届中法品牌高峰论坛5月27至29日在巴黎联合国教科文组织总部举行，由Bonjour Brand中法品牌美学中心与法国展望与创新基金会主办，澳门经济及科技发展局首次出任论坛联合主办方，组织澳门品牌代表参与系列活动。",
+          "论坛期间，中法品牌美学中心（杨晶代表）与澳门数字创新协会（理事长杨诚代表）现场签署「中法（澳门）品牌全球化战略投资合作协议」，开启内地—澳门—法国三方品牌协同合作。双方将通过品牌资源协同、数字传播能力建设与国际场景对接，推动澳门品牌走向国际市场。",
+          "法国前总理拉法兰、巴黎大区企业联盟主席伯纳德·科恩-哈达德（Bernard Cohen-Hadad）、中国贸促会驻法国代表处首席代表李文国、澳门经济及科技发展局对外贸易及经济合作厅厅长林凯健等嘉宾出席见证。",
+          "此次签约为本会首次在欧洲达成国际合作，标志着协会推动澳门品牌全球化与中国品牌出海工作迈出重要一步。未来双方将在品牌出海、数字营销及国际会展等领域持续深化合作。"
+        ],
+        "en": [
+          "The 12th China-France Brand Summit was held at UNESCO Headquarters in Paris from 27 to 29 May, organised by the Bonjour Brand China-France Brand Aesthetics Centre and the French Prospective and Innovation Foundation. For the first time, the Macao Economic and Technological Development Bureau (DSEDT) served as a co-organiser, bringing Macao brand representatives to the series of events.",
+          "During the forum, the China-France Brand Aesthetics Centre (represented by Yang Jing) and the Macao Digital Innovation Association (represented by Chairman Yang Cheng) signed the China-France (Macao) Brand Globalisation Strategic Investment Cooperation Agreement, launching tripartite brand collaboration between the Chinese mainland, Macao and France. The two sides will work together through brand resource synergy, digital communication capacity building and international scenario matchmaking to bring Macao brands to global markets.",
+          "The signing was witnessed by former French Prime Minister Jean-Pierre Raffarin, President of the Paris Region Business Confederation Bernard Cohen-Hadad, Chief Representative of the CCPIT Representative Office in France Li Wenguo, and Director of the Foreign Trade and Economic Cooperation Department of DSEDT Lam Hoi Kin, among other guests.",
+          "This is the Association's first international cooperation agreement reached in Europe, marking an important step in promoting the globalisation of Macao brands and the overseas expansion of Chinese brands. The two sides will continue to deepen cooperation in brand internationalisation, digital marketing and international exhibitions."
+        ],
+        "pt": [
+          "O 12.º Fórum China-França de Marcas decorreu de 27 a 29 de Maio na sede da UNESCO em Paris, organizado pelo Centro de Estética de Marcas China-França Bonjour Brand e pela Fundação Francesa de Prospectiva e Inovação. Pela primeira vez, a Direcção dos Serviços de Economia e Desenvolvimento Tecnológico (DSEDT) actuou como co-organizadora, levando representantes de marcas de Macau às actividades.",
+          "Durante o fórum, o Centro de Estética de Marcas China-França (representado por Yang Jing) e a Associação de Inovação Digital de Macau (representada pelo Presidente da Direcção, Yang Cheng) assinaram o Acordo de Cooperação Estratégica de Investimento para a Globalização de Marcas China-França (Macau), inaugurando a colaboração tripartida de marcas entre o interior da China, Macau e França. As duas partes irão trabalhar através da sinergia de recursos de marcas, do reforço das capacidades de comunicação digital e da ligação a cenários internacionais, levando as marcas de Macau aos mercados globais.",
+          "A assinatura foi testemunhada pelo antigo Primeiro-Ministro francês Jean-Pierre Raffarin, pelo Presidente da Confederação Empresarial da Região de Paris Bernard Cohen-Hadad, pelo Representante-Chefe do CCPIT em França Li Wenguo e pelo Director do Departamento de Comércio Externo e Cooperação Económica da DSEDT, Lam Hoi Kin, entre outros convidados.",
+          "Trata-se do primeiro acordo de cooperação internacional da Associação celebrado na Europa, marcando um passo importante na promoção da globalização das marcas de Macau e da expansão externa das marcas chinesas. As duas partes continuarão a aprofundar a cooperação na internacionalização de marcas, no marketing digital e em exposições internacionais."
+        ]
+      }
+    },
+    {
+      "date": "2026-04-15",
+      "slug": "beijing-haidian-delegation-ipim-visit",
+      "category": { "zh-TW": "京澳合作", "zh-CN": "京澳合作", "en": "Beijing-Macao Cooperation", "pt": "Cooperação Pequim-Macau" },
+      "title": {
+        "zh-TW": "攜手北京海淀區代表團到訪招商投資促進局 共建京澳數字經濟合作機制",
+        "zh-CN": "携手北京海淀区代表团到访招商投资促进局 共建京澳数字经济合作机制",
+        "en": "DIA Accompanies Beijing Haidian Delegation to IPIM, Establishing a Beijing-Macao Digital Economy Cooperation Mechanism",
+        "pt": "DIA Acompanha Delegação de Haidian (Pequim) ao IPIM e Estabelece Mecanismo de Cooperação em Economia Digital Pequim-Macau"
+      },
+      "excerpt": {
+        "zh-TW": "本會4月15日攜手北京市海淀區政府代表團到訪澳門招商投資促進局，三方圍繞數字技術應用、企業出海、人才培養及跨境合作項目落地深入探討，同意建立常態化溝通機制。",
+        "zh-CN": "本会4月15日携手北京市海淀区政府代表团到访澳门招商投资促进局，三方围绕数字技术应用、企业出海、人才培养及跨境合作项目落地深入探讨，同意建立常态化沟通机制。",
+        "en": "On 15 April, DIA accompanied the Beijing Haidian District Government delegation to the Macao Commerce and Investment Promotion Institute (IPIM). The three sides held in-depth discussions on digital technology applications, enterprises going global, talent development and the implementation of cross-border cooperation projects, and agreed to establish a regular communication mechanism.",
+        "pt": "A 15 de Abril, a DIA acompanhou a delegação do Governo do Distrito de Haidian (Pequim) ao Instituto de Promoção do Comércio e do Investimento de Macau (IPIM). As três partes discutiram aplicações de tecnologias digitais, internacionalização de empresas, formação de talentos e implementação de projectos de cooperação transfronteiriça, acordando estabelecer um mecanismo de comunicação regular."
+      },
+      "source": {
+        "name": { "zh-TW": "澳門日報", "zh-CN": "澳门日报", "en": "Macao Daily News", "pt": "Macao Daily News" },
+        "url": "https://www.macaodaily.com/html/2026-04/19/content_1902475.htm"
+      },
+      "body": {
+        "zh-TW": [
+          "為進一步加大京澳合作，深化兩地在數字經濟領域的協同發展，澳門數字創新協會4月15日攜手北京市海淀區港澳辦引領的北京市海淀區政府代表團一行，到訪澳門招商投資促進局，開展交流座談並推進務實合作。",
+          "招商投資促進局行政管理委員李藻森親切接見拜訪團，詳細介紹澳門在推動數字經濟發展方面的政策舉措、平台優勢及最新進展，讚揚本會以深厚的家國情懷牽線京澳兩地合作，並歡迎更多海淀高新技術企業來澳考察、投資與合作，共同挖掘企業技術轉化、數字治理及跨境出海的廣闊空間。",
+          "北京市海淀區政府港澳事務辦公室主任陳鵬高度評價本會搭建的京澳跨境出海平台。她表示，海淀區擁有二萬四千家科創企業及北大、清華等三十七所高校，創新生態強勁，願與澳門攜手深化經貿科技合作，推動更多科創企業借助澳門平台走向國際市場。",
+          "立法議員、本會會長黃家倫表示，是次系列活動有效搭建京澳兩地政府與企業的高效對接平台，充分發揮協會作為橋樑和平台的專業能力，未來將推動更多優質科技項目在澳門落地生根。三方一致同意建立常態化溝通機制，在數字金融、人工智能、生物醫藥等重點領域攜手打造示範合作項目，共同打造京澳數字經濟合作新標桿，為國家數字經濟發展貢獻「京澳智慧」與「京澳力量」。"
+        ],
+        "zh-CN": [
+          "为进一步加大京澳合作，深化两地在数字经济领域的协同发展，澳门数字创新协会4月15日携手北京市海淀区港澳办引领的北京市海淀区政府代表团一行，到访澳门招商投资促进局，开展交流座谈并推进务实合作。",
+          "招商投资促进局行政管理委员李藻森亲切接见拜访团，详细介绍澳门在推动数字经济发展方面的政策举措、平台优势及最新进展，赞扬本会以深厚的家国情怀牵线京澳两地合作，并欢迎更多海淀高新技术企业来澳考察、投资与合作，共同挖掘企业技术转化、数字治理及跨境出海的广阔空间。",
+          "北京市海淀区政府港澳事务办公室主任陈鹏高度评价本会搭建的京澳跨境出海平台。她表示，海淀区拥有二万四千家科创企业及北大、清华等三十七所高校，创新生态强劲，愿与澳门携手深化经贸科技合作，推动更多科创企业借助澳门平台走向国际市场。",
+          "立法议员、本会会长黄家伦表示，此次系列活动有效搭建京澳两地政府与企业的高效对接平台，充分发挥协会作为桥梁和平台的专业能力，未来将推动更多优质科技项目在澳门落地生根。三方一致同意建立常态化沟通机制，在数字金融、人工智能、生物医药等重点领域携手打造示范合作项目，共同打造京澳数字经济合作新标杆，为国家数字经济发展贡献「京澳智慧」与「京澳力量」。"
+        ],
+        "en": [
+          "To further strengthen Beijing-Macao cooperation and deepen synergies in the digital economy, the Macao Digital Innovation Association accompanied a Beijing Haidian District Government delegation — led by the Haidian Hong Kong and Macao Affairs Office — to the Macao Commerce and Investment Promotion Institute (IPIM) on 15 April for exchanges and practical cooperation.",
+          "IPIM Administrative Committee member Lei Chao Sam received the delegation and gave a detailed briefing on Macao's policies, platform advantages and latest progress in developing the digital economy. He praised the Association for connecting Beijing and Macao with a profound sense of national commitment, and welcomed more Haidian high-tech enterprises to visit, invest in and cooperate with Macao, tapping into the vast potential of technology commercialisation, digital governance and cross-border expansion.",
+          "Chen Peng, Director of the Haidian District Government Hong Kong and Macao Affairs Office, spoke highly of the Beijing-Macao cross-border go-global platform built by the Association. She noted that Haidian is home to 24,000 technology enterprises and 37 universities including Peking University and Tsinghua University, with a robust innovation ecosystem, and expressed Haidian's readiness to work with Macao to bring more technology enterprises to international markets via the Macao platform.",
+          "Legislative Assembly member and DIA President Vong Ka Lon said the series of activities effectively built an efficient bridge between the governments and enterprises of Beijing and Macao, and that more quality technology projects will take root in Macao. The three sides agreed to establish a regular communication mechanism and to jointly develop demonstration cooperation projects in digital finance, artificial intelligence, biomedicine and other key areas — creating a new benchmark for Beijing-Macao digital economy cooperation and contributing Beijing-Macao wisdom and strength to the nation's digital economy development."
+        ],
+        "pt": [
+          "Para reforçar a cooperação Pequim-Macau e aprofundar sinergias na economia digital, a Associação de Inovação Digital de Macau acompanhou, a 15 de Abril, uma delegação do Governo do Distrito de Haidian (Pequim) — liderada pelo Gabinete para os Assuntos de Hong Kong e Macau de Haidian — ao Instituto de Promoção do Comércio e do Investimento de Macau (IPIM), para intercâmbios e cooperação prática.",
+          "O membro da Comissão Administrativa do IPIM, Lei Chao Sam, recebeu a delegação e apresentou em detalhe as políticas, as vantagens da plataforma e os progressos mais recentes de Macau no desenvolvimento da economia digital. Elogiou a Associação por ligar Pequim e Macau com um profundo sentido de compromisso nacional e acolheu mais empresas de alta tecnologia de Haidian para visitar, investir e cooperar com Macau, explorando o vasto potencial da comercialização tecnológica, da governação digital e da expansão transfronteiriça.",
+          "Chen Peng, Directora do Gabinete para os Assuntos de Hong Kong e Macau do Governo do Distrito de Haidian, avaliou positivamente a plataforma transfronteiriça Pequim-Macau construída pela Associação. Referiu que Haidian alberga 24 mil empresas tecnológicas e 37 universidades, incluindo as Universidades de Pequim e Tsinghua, com um ecossistema de inovação robusto, manifestando a disponibilidade de Haidian para trabalhar com Macau na internacionalização de mais empresas tecnológicas através da plataforma de Macau.",
+          "O deputado à Assembleia Legislativa e Presidente da DIA, Vong Ka Lon, afirmou que a série de actividades construiu eficazmente uma ponte eficiente entre os governos e as empresas de Pequim e Macau, e que mais projectos tecnológicos de qualidade irão enraizar-se em Macau. As três partes acordaram estabelecer um mecanismo de comunicação regular e desenvolver em conjunto projectos de cooperação de demonstração nas áreas das finanças digitais, inteligência artificial e biomedicina — criando um novo marco de referência da cooperação em economia digital Pequim-Macau e contribuindo com a sabedoria e a força de Pequim e Macau para o desenvolvimento da economia digital nacional."
+        ]
+      }
+    },
+    {
+      "date": "2026-04-15",
+      "slug": "cross-border-going-global-matchmaking",
+      "category": { "zh-TW": "企業出海", "zh-CN": "企业出海", "en": "Enterprises Going Global", "pt": "Internacionalização de Empresas" },
+      "title": {
+        "zh-TW": "為二十餘家北京專精特新企業舉辦「企業跨境出海通洽會」",
+        "zh-CN": "为二十余家北京专精特新企业举办「企业跨境出海通洽会」",
+        "en": "DIA Hosts Cross-Border Go-Global Matchmaking Session for Over 20 Beijing 'Specialised and Sophisticated' Enterprises",
+        "pt": "DIA Organiza Sessão de Contactos de Internacionalização para Mais de 20 Empresas 'Especializadas e Sofisticadas' de Pequim"
+      },
+      "excerpt": {
+        "zh-TW": "本會4月15日在澳門為超過二十家北京「專精特新」企業舉辦企業跨境出海通洽會，涵蓋人工智能、雲計算、網絡安全、生物醫藥等領域，多家企業初步達成合作意向。",
+        "zh-CN": "本会4月15日在澳门为超过二十家北京「专精特新」企业举办企业跨境出海通洽会，涵盖人工智能、云计算、网络安全、生物医药等领域，多家企业初步达成合作意向。",
+        "en": "On 15 April in Macao, DIA hosted a cross-border go-global matchmaking session for over 20 Beijing 'specialised, refined, distinctive and innovative' enterprises spanning AI, cloud computing, cybersecurity and biomedicine, with several companies reaching preliminary cooperation intentions.",
+        "pt": "A 15 de Abril, em Macau, a DIA organizou uma sessão de contactos de internacionalização transfronteiriça para mais de 20 empresas 'especializadas, refinadas, distintas e inovadoras' de Pequim, nas áreas de IA, computação em nuvem, cibersegurança e biomedicina, com várias empresas a chegarem a intenções preliminares de cooperação."
+      },
+      "source": {
+        "name": { "zh-TW": "澳門日報", "zh-CN": "澳门日报", "en": "Macao Daily News", "pt": "Macao Daily News" },
+        "url": "https://www.macaodaily.com/html/2026-04/18/content_1902189.htm"
+      },
+      "body": {
+        "zh-TW": [
+          "為深化京澳數字經濟合作，推動澳門經濟適度多元發展，澳門數字創新協會4月15日在澳門為超過二十家北京「專精特新」企業舉辦「企業跨境出海通洽會」，活動獲北京市海淀區港澳辦支持。",
+          "參與企業涵蓋人工智能、AI分子計算、雲計算、網絡安全、生物醫藥等領域，包括五一視界、火山引擎、中關村科學城城市大腦、廣聯達、科興控股等，多間為國家級或市級「小巨人」企業。",
+          "本會特邀招商投資促進局招商投資促進處人員到場宣講澳門出海優勢，雙方圍繞技術轉移、出海宣展、人才交流、項目落地等議題務實對接，部分企業初步達成技術聯合研發、數字場景應用、算力數據基建等合作意向。",
+          "立法議員、本會會長黃家倫出席並致辭，表示協會將繼續發揮橋樑和平台作用，助力更多內地科創企業經澳門拓展葡語國家及國際市場，為澳門數字經濟發展注入新動能。"
+        ],
+        "zh-CN": [
+          "为深化京澳数字经济合作，推动澳门经济适度多元发展，澳门数字创新协会4月15日在澳门为超过二十家北京「专精特新」企业举办「企业跨境出海通洽会」，活动获北京市海淀区港澳办支持。",
+          "参与企业涵盖人工智能、AI分子计算、云计算、网络安全、生物医药等领域，包括五一视界、火山引擎、中关村科学城城市大脑、广联达、科兴控股等，多间为国家级或市级「小巨人」企业。",
+          "本会特邀招商投资促进局招商投资促进处人员到场宣讲澳门出海优势，双方围绕技术转移、出海宣展、人才交流、项目落地等议题务实对接，部分企业初步达成技术联合研发、数字场景应用、算力数据基建等合作意向。",
+          "立法议员、本会会长黄家伦出席并致辞，表示协会将继续发挥桥梁和平台作用，助力更多内地科创企业经澳门拓展葡语国家及国际市场，为澳门数字经济发展注入新动能。"
+        ],
+        "en": [
+          "To deepen Beijing-Macao digital economy cooperation and promote Macao's appropriate economic diversification, the Macao Digital Innovation Association hosted a 'Cross-Border Go-Global Matchmaking Session' in Macao on 15 April for over 20 Beijing 'specialised, refined, distinctive and innovative' enterprises, with support from the Haidian Hong Kong and Macao Affairs Office.",
+          "Participating companies spanned artificial intelligence, AI molecular computing, cloud computing, cybersecurity and biomedicine — including 51WORLD, Volcano Engine, Zhongguancun Science City City Brain, Glodon and Sinovac Holdings — many of them national or municipal 'Little Giant' enterprises.",
+          "The Association invited officers from IPIM's Investment Promotion Division to present Macao's advantages as a launchpad for overseas expansion. The two sides engaged in practical matchmaking on technology transfer, overseas promotion, talent exchange and project implementation, with several companies reaching preliminary intentions for joint R&D, digital scenario applications and computing-power and data infrastructure cooperation.",
+          "Legislative Assembly member and DIA President Vong Ka Lon attended and delivered remarks, stating that the Association will continue to serve as a bridge and platform, helping more mainland technology enterprises expand through Macao into Portuguese-speaking countries and international markets, injecting new momentum into Macao's digital economy."
+        ],
+        "pt": [
+          "Para aprofundar a cooperação em economia digital Pequim-Macau e promover a diversificação adequada da economia de Macau, a Associação de Inovação Digital de Macau organizou, a 15 de Abril, uma 'Sessão de Contactos de Internacionalização Transfronteiriça' para mais de 20 empresas 'especializadas, refinadas, distintas e inovadoras' de Pequim, com o apoio do Gabinete para os Assuntos de Hong Kong e Macau de Haidian.",
+          "As empresas participantes abrangem inteligência artificial, computação molecular com IA, computação em nuvem, cibersegurança e biomedicina — incluindo 51WORLD, Volcano Engine, Zhongguancun Science City City Brain, Glodon e Sinovac Holdings — muitas delas empresas 'Pequenos Gigantes' de nível nacional ou municipal.",
+          "A Associação convidou responsáveis da Divisão de Promoção de Investimento do IPIM para apresentar as vantagens de Macau como plataforma de expansão externa. As partes realizaram contactos práticos sobre transferência de tecnologia, promoção no exterior, intercâmbio de talentos e implementação de projectos, com várias empresas a chegarem a intenções preliminares de cooperação em I&D conjunta, aplicações de cenários digitais e infra-estruturas de computação e dados.",
+          "O deputado à Assembleia Legislativa e Presidente da DIA, Vong Ka Lon, esteve presente e discursou, afirmando que a Associação continuará a servir de ponte e plataforma, ajudando mais empresas tecnológicas do interior da China a expandir-se, através de Macau, para os países de língua portuguesa e os mercados internacionais, injectando novo ímpeto na economia digital de Macau."
+        ]
+      }
+    },
+    {
+      "date": "2026-02-06",
+      "slug": "association-officially-established",
+      "category": { "zh-TW": "協會動態", "zh-CN": "协会动态", "en": "Association News", "pt": "Notícias da Associação" },
+      "title": {
+        "zh-TW": "澳門數字創新協會正式註冊成立",
+        "zh-CN": "澳门数字创新协会正式注册成立",
+        "en": "Macao Digital Innovation Association Officially Established",
+        "pt": "Associação de Inovação Digital de Macau Oficialmente Constituída"
+      },
+      "excerpt": {
+        "zh-TW": "本會於2026年2月6日經認證文書正式設立，章程刊於2月25日《澳門特別行政區公報》，為澳門數字領域發展注入新力量。",
+        "zh-CN": "本会于2026年2月6日经认证文书正式设立，章程刊于2月25日《澳门特别行政区公报》，为澳门数字领域发展注入新力量。",
+        "en": "The Association was formally established by notarised instrument on 6 February 2026, with its statutes published in the Official Gazette of the Macao SAR on 25 February, bringing new impetus to the development of Macao's digital sector.",
+        "pt": "A Associação foi formalmente constituída por documento autenticado a 6 de Fevereiro de 2026, com os estatutos publicados no Boletim Oficial da RAEM a 25 de Fevereiro, trazendo novo ímpeto ao desenvolvimento do sector digital de Macau."
+      },
+      "source": {
+        "name": { "zh-TW": "澳門特別行政區公報", "zh-CN": "澳门特别行政区公报", "en": "Official Gazette of the Macao SAR", "pt": "Boletim Oficial da RAEM" },
+        "url": "https://bo.dsaj.gov.mo/bo/ii/2026/08/anotariais_cn.asp"
+      },
+      "body": {
+        "zh-TW": [
+          "澳門數字創新協會於2026年2月6日透過經認證文書正式設立，設立文件和章程已存檔於私人公證署，並刊於2026年2月25日《澳門特別行政區公報》第八期第二組。",
+          "本會中文名稱為「澳門數字創新協會」，葡文名稱為「Associação de Inovação Digital de Macau」，英文名稱為「Macao Digital Innovation Association」，屬非牟利團體，會址設於澳門何老桂巷5號。",
+          "本會秉持愛國愛澳精神，致力推動澳門數字領域全方位發展：以促進數字技術與澳門多元產業深度融合為核心，搭建創新平台，助力傳統行業數字化轉型；匯聚數字領域人才、科研機構與企業，促進產學研協同創新；拓展國際視野，加強與全球數字創新前沿地區交流合作；普及數字知識，培育適應數字時代發展的創新人才隊伍。",
+          "協會將在服務國家發展大局及粵港澳大灣區建設中發揮澳門獨特優勢，為澳門經濟適度多元化進程貢獻積極力量。"
+        ],
+        "zh-CN": [
+          "澳门数字创新协会于2026年2月6日透过经认证文书正式设立，设立文件和章程已存档于私人公证署，并刊于2026年2月25日《澳门特别行政区公报》第八期第二组。",
+          "本会中文名称为「澳门数字创新协会」，葡文名称为「Associação de Inovação Digital de Macau」，英文名称为「Macao Digital Innovation Association」，属非牟利团体，会址设于澳门何老桂巷5号。",
+          "本会秉持爱国爱澳精神，致力推动澳门数字领域全方位发展：以促进数字技术与澳门多元产业深度融合为核心，搭建创新平台，助力传统行业数字化转型；汇聚数字领域人才、科研机构与企业，促进产学研协同创新；拓展国际视野，加强与全球数字创新前沿地区交流合作；普及数字知识，培育适应数字时代发展的创新人才队伍。",
+          "协会将在服务国家发展大局及粤港澳大湾区建设中发挥澳门独特优势，为澳门经济适度多元化进程贡献积极力量。"
+        ],
+        "en": [
+          "The Macao Digital Innovation Association was formally established by notarised instrument on 6 February 2026. Its constitutive documents and statutes are archived at the Private Notary Office and were published in Series II, Issue No. 8 of the Official Gazette of the Macao SAR on 25 February 2026.",
+          "The Association's names are 「澳門數字創新協會」 in Chinese, 'Associação de Inovação Digital de Macau' in Portuguese and 'Macao Digital Innovation Association' in English. It is a non-profit organisation headquartered at Rua de Ho Lo Kuai, No. 5, Macao.",
+          "Upholding the spirit of love for the country and Macao, the Association is dedicated to the all-round development of Macao's digital sector: promoting the deep integration of digital technologies with Macao's diverse industries as its core mission; building innovation platforms to support the digital transformation of traditional industries; bringing together talent, research institutions and enterprises to foster industry-university-research collaboration; broadening international horizons through exchange with leading digital innovation regions; and popularising digital knowledge to cultivate innovative talent for the digital era.",
+          "The Association will bring Macao's unique strengths into play in serving the nation's overall development and the building of the Guangdong-Hong Kong-Macao Greater Bay Area, contributing actively to Macao's appropriate economic diversification."
+        ],
+        "pt": [
+          "A Associação de Inovação Digital de Macau foi formalmente constituída por documento autenticado a 6 de Fevereiro de 2026. Os documentos constitutivos e os estatutos encontram-se arquivados no Cartório Privado e foram publicados na II Série do Boletim Oficial da RAEM n.º 8, de 25 de Fevereiro de 2026.",
+          "A denominação da Associação é 「澳門數字創新協會」 em chinês, 'Associação de Inovação Digital de Macau' em português e 'Macao Digital Innovation Association' em inglês. Trata-se de uma organização sem fins lucrativos, com sede na Rua de Ho Lo Kuai, n.º 5, Macau.",
+          "No espírito de amor à pátria e a Macau, a Associação dedica-se ao desenvolvimento integral do sector digital de Macau: promovendo, como missão central, a integração profunda das tecnologias digitais com as diversas indústrias de Macau; construindo plataformas de inovação para apoiar a transformação digital das indústrias tradicionais; reunindo talentos, instituições de investigação e empresas para fomentar a colaboração indústria-universidade-investigação; alargando os horizontes internacionais através do intercâmbio com regiões de vanguarda; e popularizando o conhecimento digital para formar talentos inovadores para a era digital.",
+          "A Associação aproveitará as vantagens únicas de Macau ao serviço do desenvolvimento nacional e da construção da Grande Baía Guangdong-Hong Kong-Macau, contribuindo activamente para a diversificação adequada da economia de Macau."
+        ]
+      }
+    }
+  ],
+  "policies": [
+    {
+      "date": "2026-09-21",
+      "region": "national",
+      "issuer": { "zh-TW": "商務部", "zh-CN": "商务部", "en": "Ministry of Commerce", "pt": "Ministério do Comércio" },
+      "title": {
+        "zh-TW": "第五屆全球數字貿易博覽會在杭州舉辦 國家數字貿易政策加碼",
+        "zh-CN": "第五届全球数字贸易博览会在杭州举办 国家数字贸易政策加码",
+        "en": "5th Global Digital Trade Expo Held in Hangzhou as National Digital Trade Policies Intensify",
+        "pt": "5.ª Exposição Global de Comércio Digital em Hangzhou com Reforço das Políticas Nacionais"
+      },
+      "summary": {
+        "zh-TW": "第五屆全球數字貿易博覽會9月23至27日在杭州舉辦，國務院總理李強出席啟動儀式。商務部明確將建設國家數字貿易示範區、落實國家數字貿易出口基地支持舉措，並支持遠程醫療、在線教育、雲端辦公等數字服務出口。",
+        "zh-CN": "第五届全球数字贸易博览会9月23至27日在杭州举办，国务院总理李强出席启动仪式。商务部明确将建设国家数字贸易示范区、落实国家数字贸易出口基地支持举措，并支持远程医疗、在线教育、云端办公等数字服务出口。",
+        "en": "The 5th Global Digital Trade Expo was held in Hangzhou on 23–27 September, with Premier Li Qiang attending the opening ceremony. The Ministry of Commerce announced plans to build national digital trade demonstration zones, implement support measures for national digital trade export bases, and support exports of digital services such as telemedicine, online education and cloud-based office solutions.",
+        "pt": "A 5.ª Exposição Global de Comércio Digital decorreu em Hangzhou de 23 a 27 de Setembro, com a presença do Primeiro-Ministro Li Qiang. O Ministério do Comércio anunciou a criação de zonas de demonstração nacionais de comércio digital, medidas de apoio às bases nacionais de exportação de comércio digital e o apoio à exportação de serviços digitais como telemedicina, educação online e trabalho em nuvem."
+      },
+      "url": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_c91d7c144ec141c6904104d03d3416e5.html"
+    },
+    {
+      "date": "2026-06-01",
+      "region": "national",
+      "issuer": { "zh-TW": "國務院", "zh-CN": "国务院", "en": "State Council", "pt": "Conselho de Estado" },
+      "title": {
+        "zh-TW": "國務院公布《對外投資的規定》（國令第837號）7月1日起施行",
+        "zh-CN": "国务院公布《对外投资的规定》（国令第837号）7月1日起施行",
+        "en": "State Council Promulgates Regulations on Outbound Investment (Decree No. 837), Effective 1 July",
+        "pt": "Conselho de Estado Promulga Regulamento sobre Investimento no Exterior (Decreto n.º 837), em Vigor desde 1 de Julho"
+      },
+      "summary": {
+        "zh-TW": "我國首部對外投資領域行政法規，明確投資者享有對外投資自主權，國家健全海外綜合服務體系與境外投資安全審查制度，對核準備案、出口管制、數據跨境等設定合規要求，對港澳台投資參照執行，是出海企業必須掌握的基礎性合規框架。",
+        "zh-CN": "我国首部对外投资领域行政法规，明确投资者享有对外投资自主权，国家健全海外综合服务体系与境外投资安全审查制度，对核准备案、出口管制、数据跨境等设定合规要求，对港澳台投资参照执行，是出海企业必须掌握的基础性合规框架。",
+        "en": "China's first administrative regulation on outbound investment affirms investors' autonomy in overseas investment, improves the overseas comprehensive service system and the security review regime for outbound investment, sets compliance requirements for approval and filing, export controls and cross-border data flows, and applies by reference to investments in Hong Kong, Macao and Taiwan — a foundational compliance framework for all enterprises going global.",
+        "pt": "Primeiro regulamento administrativo da China sobre investimento no exterior: afirma a autonomia dos investidores, melhora o sistema de serviços integrados no exterior e o regime de revisão de segurança, define requisitos de conformidade para aprovações e registos, controlos de exportação e fluxos transfronteiriços de dados, aplicando-se por referência aos investimentos em Hong Kong, Macau e Taiwan — um quadro de conformidade fundamental para as empresas em internacionalização."
+      },
+      "url": "https://www.gov.cn/zhengce/content/202606/content_7070755.htm"
+    },
+    {
+      "date": "2025-10-17",
+      "region": "national",
+      "issuer": { "zh-TW": "商務部等五部門", "zh-CN": "商务部等五部门", "en": "Five Departments incl. MOFCOM", "pt": "Cinco Departamentos incl. Min. do Comércio" },
+      "title": {
+        "zh-TW": "《關於進一步完善海外綜合服務體系的指導意見》印發",
+        "zh-CN": "《关于进一步完善海外综合服务体系的指导意见》印发",
+        "en": "Guiding Opinions on Further Improving the Overseas Comprehensive Service System Issued",
+        "pt": "Publicadas Orientações para Aperfeiçoar o Sistema de Serviços Integrados no Exterior"
+      },
+      "summary": {
+        "zh-TW": "我國首個海外綜合服務領域指導文件，提出將「走出去」公共服務平台升級為國家層面海外綜合服務平台，形成「1+N」服務體系，支持地方打造出海綜合服務港，並明確支持粵港澳大灣區整合服務資源、依託港澳優勢增強服務企業出海能力。",
+        "zh-CN": "我国首个海外综合服务领域指导文件，提出将「走出去」公共服务平台升级为国家层面海外综合服务平台，形成「1+N」服务体系，支持地方打造出海综合服务港，并明确支持粤港澳大湾区整合服务资源、依托港澳优势增强服务企业出海能力。",
+        "en": "China's first guiding document on overseas comprehensive services upgrades the 'Going Global' public service platform into a national-level overseas comprehensive service platform with a '1+N' service system, supports localities in building go-global service ports, and explicitly supports the Greater Bay Area in integrating service resources and leveraging the strengths of Hong Kong and Macao to better serve enterprises going global.",
+        "pt": "Primeiro documento orientador da China sobre serviços integrados no exterior: eleva a plataforma pública 'Going Global' a plataforma nacional com um sistema '1+N', apoia a criação de portos de serviços de internacionalização e apoia explicitamente a Grande Baía na integração de recursos e no aproveitamento das vantagens de Hong Kong e Macau para melhor servir as empresas em internacionalização."
+      },
+      "url": "https://fec.mofcom.gov.cn/article/ggfw/zcfg/zcdwtz/202510/20251003603348.html"
+    },
+    {
+      "date": "2026-05-21",
+      "region": "gba",
+      "issuer": { "zh-TW": "海關總署", "zh-CN": "海关总署", "en": "General Administration of Customs", "pt": "Administração-Geral das Alfândegas" },
+      "title": {
+        "zh-TW": "海關出台支持粵港澳大灣區建設若干措施（5方面20項）",
+        "zh-CN": "海关出台支持粤港澳大湾区建设若干措施（5方面20项）",
+        "en": "Customs Unveils 20 Measures in Five Areas to Support the Greater Bay Area",
+        "pt": "Alfândegas Apresentam 20 Medidas em Cinco Áreas de Apoio à Grande Baía"
+      },
+      "summary": {
+        "zh-TW": "從規則銜接、科創要素、新業態、物流樞紐、重大平台5方面提出20項舉措：拓展「一單兩報」、擴大「跨境一鎖」與跨境電商出口「先查驗、後裝運」試點（物流成本可降約30%），支持大灣區優勢產品應對海外技術壁壘「出海」，並對橫琴等四大平台實施「一區一策」。",
+        "zh-CN": "从规则衔接、科创要素、新业态、物流枢纽、重大平台5方面提出20项举措：拓展「一单两报」、扩大「跨境一锁」与跨境电商出口「先查验、后装运」试点（物流成本可降约30%），支持大湾区优势产品应对海外技术壁垒「出海」，并对横琴等四大平台实施「一区一策」。",
+        "en": "Twenty measures across five areas — regulatory alignment, sci-tech factors, new business formats, logistics hubs and major platforms: expanding 'single declaration for two jurisdictions', extending the 'cross-boundary single lock' scheme, piloting 'inspect first, load later' for cross-border e-commerce exports (cutting logistics costs by around 30%), helping the GBA's competitive products overcome overseas technical barriers, and applying tailored 'one zone, one policy' approaches to the four major platforms including Hengqin.",
+        "pt": "Vinte medidas em cinco áreas — harmonização de regras, factores científicos, novos formatos de negócio, plataformas logísticas e grandes plataformas: expansão da 'declaração única para duas jurisdições', alargamento do 'cadeado único transfronteiriço', pilotos de 'inspeccionar primeiro, embarcar depois' nas exportações de comércio electrónico (redução de custos logísticos de cerca de 30%), apoio aos produtos competitivos da Grande Baía face a barreiras técnicas externas e políticas diferenciadas para as quatro grandes plataformas, incluindo Hengqin."
+      },
+      "url": "http://www.customs.gov.cn/customs/xwfb34/302330/hgzsjxxwfbhjszscqhgbh/index.html"
+    },
+    {
+      "date": "2025-12-23",
+      "region": "gba",
+      "issuer": { "zh-TW": "海關總署", "zh-CN": "海关总署", "en": "General Administration of Customs", "pt": "Administração-Geral das Alfândegas" },
+      "title": {
+        "zh-TW": "海關支持橫琴粵澳深度合作區建設新一輪措施（23項）印發",
+        "zh-CN": "海关支持横琴粤澳深度合作区建设新一轮措施（23项）印发",
+        "en": "Customs Issues New Round of 23 Measures Supporting the Hengqin Guangdong-Macao In-Depth Cooperation Zone",
+        "pt": "Alfândegas Publicam Nova Ronda de 23 Medidas de Apoio à Zona de Cooperação Aprofundada Guangdong-Macau em Hengqin"
+      },
+      "summary": {
+        "zh-TW": "涵蓋促進澳門產業多元、便利琴澳居民生活就業、推進規則銜接、以琴澳一體化推進大灣區市場一體化四方面，包括支持橫琴開展跨境電商「網購保稅1210」業務、打通「澳門註冊＋橫琴生產＋海外銷售」鏈路，支持中國—葡語（西語）國家經濟貿易服務中心建設。",
+        "zh-CN": "涵盖促进澳门产业多元、便利琴澳居民生活就业、推进规则衔接、以琴澳一体化推进大湾区市场一体化四方面，包括支持横琴开展跨境电商「网购保税1210」业务、打通「澳门注册＋横琴生产＋海外销售」链路，支持中国—葡语（西语）国家经济贸易服务中心建设。",
+        "en": "Covering four areas — Macao's industrial diversification, facilitating living and employment in Hengqin and Macao, regulatory alignment, and GBA market integration through Hengqin-Macao integration — the measures include supporting the '1210 bonded online shopping' cross-border e-commerce model in Hengqin, connecting the chain of 'registered in Macao + produced in Hengqin + sold overseas', and supporting the building of the China-Portuguese(Spanish)-speaking Countries Economic and Trade Service Centre.",
+        "pt": "Abrangendo quatro áreas — diversificação industrial de Macau, facilitação da vida e do emprego em Hengqin e Macau, harmonização de regras e integração dos mercados da Grande Baía através da integração Hengqin-Macau — as medidas incluem o apoio ao modelo de comércio electrónico '1210 compras online com depósito alfandegado', a ligação da cadeia 'registado em Macau + produzido em Hengqin + vendido no exterior' e o apoio à construção do Centro de Serviços Económicos e Comerciais China-Países de Língua Portuguesa (Espanhola)."
+      },
+      "url": "http://www.customs.gov.cn/customs/302249/zfxxgk/zfxxgkml34/6888243/index.html"
+    },
+    {
+      "date": "2026-08-24",
+      "region": "macao",
+      "issuer": { "zh-TW": "招商投資促進局", "zh-CN": "招商投资促进局", "en": "IPIM", "pt": "IPIM" },
+      "title": {
+        "zh-TW": "「澳門平台優勢推介會」赴深圳廣州舉辦 賦能大灣區企業出海葡西語國家",
+        "zh-CN": "「澳门平台优势推介会」赴深圳广州举办 赋能大湾区企业出海葡西语国家",
+        "en": "Macao Platform Advantage Seminars Held in Shenzhen and Guangzhou, Empowering GBA Enterprises to Expand into Portuguese- and Spanish-speaking Markets",
+        "pt": "Seminários sobre as Vantagens da Plataforma de Macau em Shenzhen e Cantão, Capacitando Empresas da Grande Baía para os Mercados Lusófonos e Hispanófonos"
+      },
+      "summary": {
+        "zh-TW": "招商投資促進局8月19至21日赴深圳、廣州舉辦推介會，吸引近300位科創、外貿、製造、法律及金融領域企業代表出席，安排150多場商務洽談，部分企業明確表達出海意願，計劃將海外業務結算環節佈局澳門。",
+        "zh-CN": "招商投资促进局8月19至21日赴深圳、广州举办推介会，吸引近300位科创、外贸、制造、法律及金融领域企业代表出席，安排150多场商务洽谈，部分企业明确表达出海意愿，计划将海外业务结算环节布局澳门。",
+        "en": "IPIM held promotion seminars in Shenzhen and Guangzhou on 19–21 August, attracting nearly 300 corporate representatives from technology, foreign trade, manufacturing, legal and financial sectors, arranging over 150 business matching sessions. Several enterprises expressed clear intent to go global, planning to base their overseas business settlement operations in Macao.",
+        "pt": "O IPIM realizou seminários de promoção em Shenzhen e Cantão de 19 a 21 de Agosto, atraindo cerca de 300 representantes empresariais dos sectores tecnológico, comércio externo, indústria, jurídico e financeiro, com mais de 150 sessões de contactos de negócio. Várias empresas manifestaram intenção clara de internacionalização, planeando instalar em Macau as operações de liquidação dos seus negócios no exterior."
+      },
+      "url": "https://www.ipim.gov.mo/zh-hant/category/ipim-news-zh-hant/2091830388717834242"
+    },
+    {
+      "date": "2026-07-21",
+      "region": "macao",
+      "issuer": { "zh-TW": "招商投資促進局", "zh-CN": "招商投资促进局", "en": "IPIM", "pt": "IPIM" },
+      "title": {
+        "zh-TW": "第31屆MIF設「澳門本地企業展銷區」 助企業出海拓展內地及葡西市場",
+        "zh-CN": "第31届MIF设「澳门本地企业展销区」 助企业出海拓展内地及葡西市场",
+        "en": "31st MIF Features Macao Local Enterprise Pavilion to Help Businesses Expand into Mainland and Portuguese/Spanish-speaking Markets",
+        "pt": "31.ª MIF com Pavilhão de Empresas Locais de Macau para Apoiar a Expansão para o Interior da China e os Mercados Lusófonos e Hispanófonos"
+      },
+      "summary": {
+        "zh-TW": "第31屆澳門國際貿易投資展覽會10月21至24日舉行，主題「商聚澳門 聯通全球」，設「澳門本地企業展銷區」並提供參展優惠，今屆新增西語國家元素，與PLPEX、MFE三展聯動，以會展平台助力澳門及琴澳企業開拓內地、葡語和西語國家市場。",
+        "zh-CN": "第31届澳门国际贸易投资展览会10月21至24日举行，主题「商聚澳门 联通全球」，设「澳门本地企业展销区」并提供参展优惠，今届新增西语国家元素，与PLPEX、MFE三展联动，以会展平台助力澳门及琴澳企业开拓内地、葡语和西语国家市场。",
+        "en": "The 31st Macao International Trade and Investment Fair (MIF) takes place on 21–24 October under the theme 'Business Gathering in Macao, Connecting the World', featuring a Macao Local Enterprise Pavilion with preferential participation rates. This edition adds Spanish-speaking country elements and runs in synergy with PLPEX and MFE, helping Macao and Hengqin-Macao enterprises explore mainland, Portuguese-speaking and Spanish-speaking markets through the exhibition platform.",
+        "pt": "A 31.ª Feira Internacional de Macau (MIF) realiza-se de 21 a 24 de Outubro sob o tema 'Negócios em Macau, Ligação ao Mundo', com um Pavilhão de Empresas Locais de Macau e tarifas preferenciais de participação. Esta edição acrescenta elementos dos países hispanófonos e decorre em sinergia com a PLPEX e a MFE, ajudando empresas de Macau e de Hengqin-Macau a explorar os mercados do interior da China, lusófonos e hispanófonos."
+      },
+      "url": "https://www.gsef.gov.mo/zh/posts/12022"
+    },
+    {
+      "date": "2026-07-19",
+      "region": "macao",
+      "issuer": { "zh-TW": "招商投資促進局", "zh-CN": "招商投资促进局", "en": "IPIM", "pt": "IPIM" },
+      "title": {
+        "zh-TW": "「拼船出海」組團赴莫桑比克出席中國與葡語國家企業經貿合作洽談會",
+        "zh-CN": "「拼船出海」组团赴莫桑比克出席中国与葡语国家企业经贸合作洽谈会",
+        "en": "IPIM Leads Delegation to Mozambique for China-Portuguese-speaking Countries Business Cooperation Meeting under 'Joint Voyage' Model",
+        "pt": "IPIM Lidera Delegação a Moçambique para o Encontro de Cooperação Empresarial China-Países de Língua Portuguesa"
+      },
+      "summary": {
+        "zh-TW": "招商投資促進局組織29人內地及澳琴企業家代表團7月20至25日赴莫桑比克出席「中國與葡語國家企業經貿合作洽談會—馬普托—2026」，涵蓋中葡貿易、基建、物流供應鏈、跨境電商等領域，是澳門中葡平台「拼船出海」助企業開拓非洲及葡語國家市場的標誌性機制。",
+        "zh-CN": "招商投资促进局组织29人内地及澳琴企业家代表团7月20至25日赴莫桑比克出席「中国与葡语国家企业经贸合作洽谈会—马普托—2026」，涵盖中葡贸易、基建、物流供应链、跨境电商等领域，是澳门中葡平台「拼船出海」助企业开拓非洲及葡语国家市场的标志性机制。",
+        "en": "IPIM organised a 29-member delegation of entrepreneurs from the mainland, Macao and Hengqin to attend the China-Portuguese-speaking Countries Economic and Trade Cooperation Meeting in Maputo on 20–25 July, covering China-Portuguese-speaking trade, infrastructure, logistics and supply chains, and cross-border e-commerce. Originating from the Forum Macao mechanism since 2003, the meeting series is a signature 'joint voyage' model of the Macao platform helping enterprises explore African and Portuguese-speaking markets.",
+        "pt": "O IPIM organizou uma delegação de 29 empresários do interior da China, Macau e Hengqin para participar, de 20 a 25 de Julho, no Encontro de Cooperação Económica e Comercial China-Países de Língua Portuguesa em Maputo, abrangendo comércio sino-lusófono, infra-estruturas, logística e comércio electrónico transfronteiriço. Originário do Fórum Macau em 2003, este encontro é um mecanismo emblemático da plataforma de Macau para apoiar as empresas na exploração dos mercados africanos e lusófonos."
+      },
+      "url": "https://www.gov.mo/zh-hant/news/1253117/"
+    },
+    {
+      "date": "2026-04-29",
+      "region": "global",
+      "issuer": { "zh-TW": "商務部", "zh-CN": "商务部", "en": "Ministry of Commerce", "pt": "Ministério do Comércio" },
+      "title": {
+        "zh-TW": "中國加入《數字經濟夥伴關係協定》（DEPA）工作組舉行第十次首席談判代表會議",
+        "zh-CN": "中国加入《数字经济伙伴关系协定》（DEPA）工作组举行第十次首席谈判代表会议",
+        "en": "Working Group on China's Accession to DEPA Holds Tenth Chief Negotiators Meeting",
+        "pt": "Grupo de Trabalho para a Adesão da China ao DEPA Realiza a Décima Reunião de Negociadores-Chefes"
+      },
+      "summary": {
+        "zh-TW": "4月27至28日，中方同智利、新西蘭、新加坡、韓國等DEPA成員在首爾就加入談判進程深入交換意見。DEPA涵蓋數據跨境流動、數字身份互認、電子發票互通等核心規則，中國加入將直接影響數字平台、雲服務、跨境電商企業在成員市場的准入門檻與合規框架。",
+        "zh-CN": "4月27至28日，中方同智利、新西兰、新加坡、韩国等DEPA成员在首尔就加入谈判进程深入交换意见。DEPA涵盖数据跨境流动、数字身份互认、电子发票互通等核心规则，中国加入将直接影响数字平台、云服务、跨境电商企业在成员市场的准入门槛与合规框架。",
+        "en": "On 27–28 April in Seoul, China held in-depth exchanges with DEPA members including Chile, New Zealand, Singapore and South Korea on the accession process. DEPA covers core rules on cross-border data flows, mutual recognition of digital identities and e-invoicing interoperability; China's accession will directly affect market access thresholds and compliance frameworks for digital platforms, cloud services and cross-border e-commerce enterprises in member markets.",
+        "pt": "Nos dias 27 e 28 de Abril, em Seul, a China manteve intercâmbios aprofundados com os membros do DEPA — Chile, Nova Zelândia, Singapura e Coreia do Sul — sobre o processo de adesão. O DEPA abrange regras centrais sobre fluxos transfronteiriços de dados, reconhecimento mútuo de identidades digitais e interoperabilidade de facturação electrónica; a adesão da China afectará directamente os requisitos de acesso e os quadros de conformidade das plataformas digitais, serviços de nuvem e comércio electrónico transfronteiriço nos mercados membros."
+      },
+      "url": "http://www.mofcom.gov.cn/syxwfb/art/2026/art_c768f3b6555d4c1391ef797547b3dfd0.html"
+    },
+    {
+      "date": "2025-10-28",
+      "region": "global",
+      "issuer": { "zh-TW": "中國·東盟", "zh-CN": "中国·东盟", "en": "China & ASEAN", "pt": "China e ASEAN" },
+      "title": {
+        "zh-TW": "中國—東盟自貿區3.0版升級議定書簽署 首設數字經濟專章",
+        "zh-CN": "中国—东盟自贸区3.0版升级议定书签署 首设数字经济专章",
+        "en": "China-ASEAN Free Trade Area 3.0 Upgrade Protocol Signed, Featuring First-Ever Digital Economy Chapter",
+        "pt": "Assinado Protocolo de Actualização 3.0 da Zona de Comércio Livre China-ASEAN, com Primeiro Capítulo sobre Economia Digital"
+      },
+      "summary": {
+        "zh-TW": "議定書於吉隆坡簽署，涵蓋數字經濟、綠色經濟、供應鏈互聯互通、中小微企業等9個領域，首次將數字經濟納入自貿框架，推動合作從關稅減讓轉向「制度型開放」，目前正處各國國內核准階段，對佈局東盟的中國企業意味著標準互認與數字貿易新規則。",
+        "zh-CN": "议定书于吉隆坡签署，涵盖数字经济、绿色经济、供应链互联互通、中小微企业等9个领域，首次将数字经济纳入自贸框架，推动合作从关税减让转向「制度型开放」，目前正处各国国内核准阶段，对布局东盟的中国企业意味着标准互认与数字贸易新规则。",
+        "en": "Signed in Kuala Lumpur, the protocol covers nine areas including the digital economy, green economy, supply chain connectivity and MSMEs, bringing the digital economy into the free trade framework for the first time and shifting cooperation from tariff concessions towards 'institutional opening'. It is currently undergoing domestic ratification in the signatory countries, and for Chinese enterprises expanding into ASEAN it means mutual recognition of standards and new rules for digital trade.",
+        "pt": "Assinado em Kuala Lumpur, o protocolo abrange nove áreas, incluindo economia digital, economia verde, conectividade das cadeias de abastecimento e MPME, integrando pela primeira vez a economia digital no quadro de comércio livre e transitando a cooperação das concessões pautais para a 'abertura institucional'. Encontra-se em fase de ratificação nacional e, para as empresas chinesas na ASEAN, significa reconhecimento mútuo de normas e novas regras para o comércio digital."
+      },
+      "url": "http://www.news.cn/local/20251028/00cffc77a4bf4befb6cdea5d96e6673e/c.html"
+    }
+  ],
+  "partners": [
+    {
+      "name": { "zh-TW": "澳門萬裡金騰集團有限公司", "zh-CN": "澳门万里金腾集团有限公司", "en": "Macao WLJT Group Co., Ltd.", "pt": "Macao WLJT Group Co., Ltd." },
+      "desc": { "zh-TW": "立足澳門、輻射灣區與全球的多元化投資控股集團，專注大健康與跨境醫療、數字科技與品牌出海、跨境綜合服務", "zh-CN": "立足澳门、辐射湾区与全球的多元化投资控股集团，专注大健康与跨境医疗、数字科技与品牌出海、跨境综合服务", "en": "A diversified investment holding group rooted in Macao and reaching the Greater Bay Area and beyond, focusing on healthcare and cross-border medical services, digital technology and brand internationalisation, and integrated cross-border services", "pt": "Grupo diversificado de participações sediado em Macau, com presença na Grande Baía e no mundo, focado na saúde e serviços médicos transfronteiriços, tecnologia digital e internacionalização de marcas, e serviços integrados transfronteiriços" },
+      "href": "https://www.wljtgroup.com"
+    },
+    {
+      "name": { "zh-TW": "澳門財經科技與教育發展學會", "zh-CN": "澳门财经科技与教育发展学会", "en": "Macao Financial Technology and Education Development Association", "pt": "Associação para o Desenvolvimento da Tecnologia Financeira e Educação de Macau" },
+      "desc": { "zh-TW": "推動澳門多元化發展的非營利智庫，致力金融創新、電子商務、商業出海與中葡平台合作", "zh-CN": "推动澳门多元化发展的非营利智库，致力金融创新、电子商务、商业出海与中葡平台合作", "en": "A non-profit think tank driving Macao's diversified development, focusing on financial innovation, e-commerce, business internationalisation and Sino-Portuguese platform cooperation", "pt": "Think tank sem fins lucrativos que promove o desenvolvimento diversificado de Macau, centrado na inovação financeira, comércio electrónico, internacionalização empresarial e cooperação da plataforma sino-lusófona" },
+      "href": "https://mfteda.org"
+    },
+    {
+      "name": { "zh-TW": "澳門橋霍頓有限公司", "zh-CN": "澳门桥霍顿有限公司", "en": "Macao Bridge Holden Co., Ltd.", "pt": "Macao Bridge Holden Co., Ltd." },
+      "desc": { "zh-TW": "大健康與跨境醫療服務平台，連接國際醫療資源與灣區需求", "zh-CN": "大健康与跨境医疗服务平台，连接国际医疗资源与湾区需求", "en": "A healthcare and cross-border medical services platform connecting international medical resources with Greater Bay Area demand", "pt": "Plataforma de saúde e serviços médicos transfronteiriços, ligando recursos médicos internacionais à procura da Grande Baía" },
+      "href": "https://bridgeholdengroup.com"
+    },
+    {
+      "name": { "zh-TW": "澳門海易通達科技有限公司", "zh-CN": "澳门海易通达科技有限公司", "en": "Macao Haiyi Tongda Technology Co., Ltd.", "pt": "Macao Haiyi Tongda Technology Co., Ltd." },
+      "desc": { "zh-TW": "數字科技與品牌出海服務商，提供AI驅動的數字營銷與跨境解決方案", "zh-CN": "数字科技与品牌出海服务商，提供AI驱动的数字营销与跨境解决方案", "en": "A digital technology and brand go-global service provider offering AI-driven digital marketing and cross-border solutions", "pt": "Prestador de serviços de tecnologia digital e internacionalização de marcas, com soluções de marketing digital e transfronteiriço baseadas em IA" },
+      "href": "#"
+    },
+    {
+      "name": { "zh-TW": "Bonjour Brand 中法品牌美學中心", "zh-CN": "Bonjour Brand 中法品牌美学中心", "en": "Bonjour Brand China-France Brand Aesthetics Centre", "pt": "Centro de Estética de Marcas China-França Bonjour Brand" },
+      "desc": { "zh-TW": "中法品牌合作與全球化平台，主辦中法品牌高峰論壇，推動中國品牌走向歐洲", "zh-CN": "中法品牌合作与全球化平台，主办中法品牌高峰论坛，推动中国品牌走向欧洲", "en": "A China-France brand cooperation and globalisation platform, organiser of the China-France Brand Summit, bringing Chinese brands to Europe", "pt": "Plataforma de cooperação e globalização de marcas China-França, organizadora do Fórum China-França de Marcas, levando marcas chinesas à Europa" },
+      "href": "#"
+    },
+    {
+      "name": { "zh-TW": "澳門直播協會", "zh-CN": "澳门直播协会", "en": "Macao Live Streaming Association", "pt": "Associação de Live Streaming de Macau" },
+      "desc": { "zh-TW": "直播電商與數字營銷行業組織，推動澳門數字經濟與青年創新發展", "zh-CN": "直播电商与数字营销行业组织，推动澳门数字经济与青年创新发展", "en": "An industry organisation for livestream e-commerce and digital marketing, advancing Macao's digital economy and youth innovation", "pt": "Organização sectorial de comércio electrónico em direto e marketing digital, promovendo a economia digital e a inovação jovem de Macau" },
+      "href": "https://www.facebook.com/MacauLiveAssociation/"
+    }
+  ]
+}
