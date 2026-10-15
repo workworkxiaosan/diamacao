@@ -23,7 +23,8 @@
 
 ## 關鍵事實
 
-- 頁面共 7 個（`PAGES`）：index/about/members/news/policy/partners/contact。無 research/projects/publications/insights（與 MFTEDA 不同）；社評類稿件可作 `news` 條目（category 如「社評」）。
+- 頁面共 8 個（`PAGES`）：index/about/members/news/policy/services/partners/contact。無 research/projects/publications/insights（與 MFTEDA 不同）；社評類稿件可作 `news` 條目（category 如「社評」）。
+- `services` 頁（2026-10-15 新增，出海護航）：內容在 content.json 頂層 `escort` 對象（s1 行業數據帶 / s2 澳門前中後台 / s3 出海之難流程鏈+痛點卡 / s4 一站式護航三大服務+六大支撐+海易通達支持信息），全部 4 語言；樣式 `.escort-*` 在 style.css 尾部；首頁有宣傳帶 `.escort-band`（i18n home.escort*）。支持單位聯繫方式（韓女士電話、nexmatrixs.com）寫在 `escort.s4.support`。
 - 協會事實（源自《澳門特區公報》2026-02-25 第8期第二組）：2026-02-06 經認證文書設立（私人公證員周成俊，存檔編號 3/2026）；葡文名 Associação de Inovação Digital de Macau，英文名 Macao Digital Innovation Association；會址澳門何老桂巷5號；非牟利團體；組織機關 = 會員大會/理事會/監事會（任期三年）。**成立日期與註冊/刊憲信息僅存檔於此內部文檔，官網一律不顯示**（用戶 2026-10-15 指示：content.json 不得出現成立日期、公報/公證相關內容，每週 cron 更新也不得收錄此類新聞）。
 - 已核實成員：會長黃家倫（澳門立法會議員、澳門直播協會創會會長）、理事長楊誠（澳門財經科技與教育發展學會會長、國際研學旅遊產業發展協會（澳門）會長、澳門博士智庫副理事長）。其他理監事成員名單待公佈後補入 `members`。
 - 新聞目前 3 條（2026-04-15 京澳通洽會、2026-04-15 海淀區代表團訪招商局、2026-05-28 巴黎簽約），全部附媒體原文鏈接；政策 10 條（國家3/大灣區2/澳門3/海外市場2），URL 均已核實。**2026 年 6–10 月暫無協會公開報道**，有內部通稿時補入。首頁數據帶首格為「6 重點工作領域」（對應 focus_cards 六項，勿改回成立年份）。
@@ -35,4 +36,6 @@
 - 聯繫表單為前端演示，未接後端；如需真正收集留言可接 Formspree 等服務。
 - 繁簡校對規範：繁體用港澳寫法（「平台/了解/群體」的 台/了/群 均為正字，勿改作 臺/瞭/羣）；機構名按語言版本書寫（zh-CN 頁 og:site_name 用簡體「澳门数字创新协会」）。
 - 排序：news 與 policies 均按 date 降序，首頁各取前 3。
-- 關聯站點：萬裡金騰集團（wljtgroup.com，同架構）、MFTEDA（mfteda.org）、橋霍頓（bridgeholdengroup.com）已互列合作夥伴。
+- 關聯站點：MFTEDA（mfteda.org）互列合作夥伴。萬裡金騰集團、澳門橋霍頓原列合作夥伴，2026-10-15 按用戶指示從 DIA 官網移除（僅 DIA 站，MFTEDA 站不動）。
+- 合作夥伴 10 家（2026-10-15 更新）：中西創新學院（即「澳門中西學院」法定名，mmc.edu.mo，校徽 partner1.webp 複用自 MFTEDA partner11）、MFTEDA（partner2.webp）、南航科技（廣東橫琴）（無獨立官網 href=#）、海易通達（nexmatrixs.com）、Bonjour Brand、澳門直播協會、科伊思（杭州）人工智能（用戶原寫「科伊斯」，工商登記為「科伊思」，coios-ai.com）、Beroni Group Limited（貝羅尼集團，beronigroup.com）、中盛國際實業（zhongshengindustry.com；官網稱 1999 年成立但香港註冊處顯示同名公司 2023 年註冊，存疑待對方確認）、中光集團（長春）（教育投資集團，無官網 href=#）。
+- LOGO 摳圖（2026-10-15）：make_assets.py 新增 cutout()（四角洪水填充+亮像素邊緣侵蝕），logo-mark.png/logo.png/favicon 外部白底已透明化（芯片內部白色保留），hero/頁尾不再顯白框；換 LOGO 重跑 make_assets.py 即可。

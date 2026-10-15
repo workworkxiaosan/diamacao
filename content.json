@@ -31,6 +31,7 @@
         "members": "架構成員",
         "news": "新聞動態",
         "policy": "出海政策",
+        "services": "出海護航",
         "partners": "合作夥伴",
         "contact": "聯繫我們"
       },
@@ -48,7 +49,10 @@
         "policyTitle": "出海政策速遞",
         "viewAll": "查看全部",
         "ctaBandTitle": "與我們攜手，共拓數字未來",
-        "ctaBandLead": "無論是企業出海、數字化轉型還是國際合作，澳門數字創新協會都是您的橋樑與夥伴"
+        "ctaBandLead": "無論是企業出海、數字化轉型還是國際合作，澳門數字創新協會都是您的橋樑與夥伴",
+        "escortTitle": "企業出海護航計劃",
+        "escortLead": "找得到 · 信得過 · 問得着——一站式護航，讓出海企業真正被看見",
+        "escortCta": "了解護航計劃"
       },
       "about": {
         "title": "關於我們",
@@ -101,6 +105,10 @@
           "global": "重點海外市場"
         }
       },
+      "services": {
+        "title": "企業出海護航計劃",
+        "subtitle": "立足澳門 · 聯通世界——從澳門出發，與世界共贏"
+      },
       "partners": {
         "title": "合作夥伴",
         "subtitle": "攜手各界力量，共建數字創新生態"
@@ -152,6 +160,7 @@
         "members": "架构成员",
         "news": "新闻动态",
         "policy": "出海政策",
+        "services": "出海护航",
         "partners": "合作伙伴",
         "contact": "联系我们"
       },
@@ -169,7 +178,10 @@
         "policyTitle": "出海政策速递",
         "viewAll": "查看全部",
         "ctaBandTitle": "与我们携手，共拓数字未来",
-        "ctaBandLead": "无论是企业出海、数字化转型还是国际合作，澳门数字创新协会都是您的桥梁与伙伴"
+        "ctaBandLead": "无论是企业出海、数字化转型还是国际合作，澳门数字创新协会都是您的桥梁与伙伴",
+        "escortTitle": "企业出海护航计划",
+        "escortLead": "找得到 · 信得过 · 问得着——一站式护航，让出海企业真正被看见",
+        "escortCta": "了解护航计划"
       },
       "about": {
         "title": "关于我们",
@@ -222,6 +234,10 @@
           "global": "重点海外市场"
         }
       },
+      "services": {
+        "title": "企业出海护航计划",
+        "subtitle": "立足澳门 · 联通世界——从澳门出发，与世界共赢"
+      },
       "partners": {
         "title": "合作伙伴",
         "subtitle": "携手各界力量，共建数字创新生态"
@@ -273,6 +289,7 @@
         "members": "Leadership",
         "news": "News",
         "policy": "Go-Global Policies",
+        "services": "Escort Program",
         "partners": "Partners",
         "contact": "Contact Us"
       },
@@ -290,7 +307,10 @@
         "policyTitle": "Go-Global Policy Updates",
         "viewAll": "View All",
         "ctaBandTitle": "Join Us in Shaping the Digital Future",
-        "ctaBandLead": "Whether it's global expansion, digital transformation or international cooperation, DIA is your bridge and partner in Macao."
+        "ctaBandLead": "Whether it's global expansion, digital transformation or international cooperation, DIA is your bridge and partner in Macao.",
+        "escortTitle": "Enterprise Go-Global Escort Program",
+        "escortLead": "Found, Trusted, Quoted by AI — one-stop escort that makes going global truly visible",
+        "escortCta": "Explore the Program"
       },
       "about": {
         "title": "About Us",
@@ -343,6 +363,10 @@
           "global": "Key Overseas Markets"
         }
       },
+      "services": {
+        "title": "Enterprise Go-Global Escort Program",
+        "subtitle": "Rooted in Macao, Connected to the World — Starting from Macao, Winning with the World"
+      },
       "partners": {
         "title": "Partners",
         "subtitle": "Working with partners across sectors to build a digital innovation ecosystem"
@@ -394,6 +418,7 @@
         "members": "Estrutura",
         "news": "Notícias",
         "policy": "Políticas de Internacionalização",
+        "services": "Programa de Acompanhamento",
         "partners": "Parceiros",
         "contact": "Contactos"
       },
@@ -411,7 +436,10 @@
         "policyTitle": "Actualizações de Políticas",
         "viewAll": "Ver Tudo",
         "ctaBandTitle": "Junte-se a Nós na Construção do Futuro Digital",
-        "ctaBandLead": "Quer se trate de internacionalização, transformação digital ou cooperação internacional, a DIA é a sua ponte e parceira em Macau."
+        "ctaBandLead": "Quer se trate de internacionalização, transformação digital ou cooperação internacional, a DIA é a sua ponte e parceira em Macau.",
+        "escortTitle": "Programa de Acompanhamento à Internacionalização",
+        "escortLead": "Encontrado, Confiável, Citado pela IA — acompanhamento integral para empresas verdadeiramente visíveis",
+        "escortCta": "Conhecer o Programa"
       },
       "about": {
         "title": "Sobre Nós",
@@ -463,6 +491,10 @@
           "macao": "A Plataforma de Macau",
           "global": "Mercados Externos Prioritários"
         }
+      },
+      "services": {
+        "title": "Programa de Acompanhamento à Internacionalização Empresarial",
+        "subtitle": "Base em Macau, Ligação ao Mundo — Partindo de Macau, Vencendo com o Mundo"
       },
       "partners": {
         "title": "Parceiros",
@@ -940,11 +972,99 @@
       "url": "http://www.news.cn/local/20251028/00cffc77a4bf4befb6cdea5d96e6673e/c.html"
     }
   ],
+  "escort": {
+    "s1": {
+      "title": { "zh-TW": "從「產品走出去」到「品牌扎根世界」", "zh-CN": "从「产品走出去」到「品牌扎根世界」", "en": "From \"Products Going Out\" to \"Brands Taking Root Worldwide\"", "pt": "De \"Produtos que Saem\" a \"Marcas que Criam Raízes no Mundo\"" },
+      "lead": { "zh-TW": "數字時代，世界正在以前所未有的方式重新連接。中國企業出海，正邁入品牌全球化的新紀元。", "zh-CN": "数字时代，世界正在以前所未有的方式重新连接。中国企业出海，正迈入品牌全球化的新纪元。", "en": "In the digital era, the world is reconnecting in unprecedented ways. For Chinese enterprises, going global is entering a new era of brand globalisation.", "pt": "Na era digital, o mundo está a religar-se de formas sem precedentes. Para as empresas chinesas, a internacionalização entra numa nova era de globalização das marcas." },
+      "stats": [
+        {
+          "num": { "zh-TW": "約30%", "zh-CN": "约30%", "en": "≈30%", "pt": "≈30%" },
+          "text": { "zh-TW": "中國製造業增加值佔全球製造業比重，連續16年全球第一", "zh-CN": "中国制造业增加值占全球制造业比重，连续16年全球第一", "en": "China's share of global manufacturing value-added — ranked first worldwide for 16 consecutive years", "pt": "A quota da China no valor acrescentado da indústria transformadora mundial — no 1.º lugar há 16 anos consecutivos" }
+        },
+        {
+          "num": { "zh-TW": "45.47萬億元", "zh-CN": "45.47万亿元", "en": "RMB 45.47tn", "pt": "45,47 bi CNY" },
+          "text": { "zh-TW": "2025年中國貨物貿易進出口總額，再創歷史新高，連續9年增長", "zh-CN": "2025年中国货物贸易进出口总额，再创历史新高，连续9年增长", "en": "China's total goods imports and exports in 2025 — a record high, growing for the 9th consecutive year", "pt": "O total das importações e exportações de bens da China em 2025 — um novo recorde, com crescimento pelo 9.º ano consecutivo" }
+        },
+        {
+          "num": { "zh-TW": "2.6億", "zh-CN": "2.6亿", "en": "260M", "pt": "260 M" },
+          "text": { "zh-TW": "葡語國家人口，橫跨四大洲——一片等待中國品牌書寫新篇章的廣闊市場", "zh-CN": "葡语国家人口，横跨四大洲——一片等待中国品牌书写新篇章的广阔市场", "en": "The population of Portuguese-speaking countries spans four continents — a vast market awaiting the next chapter of Chinese brands", "pt": "A população dos países de língua portuguesa estende-se por quatro continentes — um vasto mercado à espera do próximo capítulo das marcas chinesas" }
+        },
+        {
+          "num": { "zh-TW": "56億", "zh-CN": "56亿", "en": "5.6B", "pt": "5,6 mil M" },
+          "text": { "zh-TW": "互聯網用戶共享AI時代數字平權，讓中國企業真正擁有全球化能力", "zh-CN": "互联网用户共享AI时代数字平权，让中国企业真正拥有全球化能力", "en": "Internet users share the digital equality of the AI era, giving Chinese enterprises truly global reach", "pt": "Os utilizadores da Internet partilham a igualdade digital da era da IA, dando às empresas chinesas um alcance verdadeiramente global" }
+        }
+      ],
+      "tagline": { "zh-TW": "中國企業品牌出海加速期，就是現在。", "zh-CN": "中国企业品牌出海加速期，就是现在。", "en": "The acceleration window for Chinese brands going global is now.", "pt": "A fase de aceleração da internacionalização das marcas chinesas é agora." }
+    },
+    "s2": {
+      "title": { "zh-TW": "澳門——中國企業出海的獨特跳板和減震器", "zh-CN": "澳门——中国企业出海的独特跳板和减震器", "en": "Macao — A Unique Springboard and Shock Absorber for Chinese Enterprises Going Global", "pt": "Macau — Plataforma de Lançamento e Amortecedor Únicos para a Internacionalização das Empresas Chinesas" },
+      "lead": { "zh-TW": "作為「一國兩制」成功實踐的窗口之城，澳門以自由港、中葡平台、琴澳腹地之優勢，給中國企業出海提供新思路。", "zh-CN": "作为「一国两制」成功实践的窗口之城，澳门以自由港、中葡平台、琴澳腹地之优势，给中国企业出海提供新思路。", "en": "As a showcase city of the successful \"One Country, Two Systems\" principle, Macao offers new pathways for Chinese enterprises going global through its free-port status, the Sino-Portuguese platform and the Hengqin-Macao hinterland.", "pt": "Enquanto cidade-vitrine do êxito do princípio \"Um País, Dois Sistemas\", Macau oferece novas vias à internacionalização das empresas chinesas através do estatuto de porto franco, da plataforma sino-lusófona e da retaguarda Hengqin-Macau." },
+      "circles": [
+        { "k": { "zh-TW": "一中心", "zh-CN": "一中心", "en": "One Centre", "pt": "Um Centro" }, "v": { "zh-TW": "世界旅遊休閒中心", "zh-CN": "世界旅游休闲中心", "en": "World Centre of Tourism and Leisure", "pt": "Centro Mundial de Turismo e Lazer" } },
+        { "k": { "zh-TW": "一平台", "zh-CN": "一平台", "en": "One Platform", "pt": "Uma Plataforma" }, "v": { "zh-TW": "中國與葡語國家商貿合作服務平台", "zh-CN": "中国与葡语国家商贸合作服务平台", "en": "Service Platform for Commercial and Trade Cooperation between China and Portuguese-speaking Countries", "pt": "Plataforma de Serviços para a Cooperação Comercial entre a China e os Países de Língua Portuguesa" } },
+        { "k": { "zh-TW": "一基地", "zh-CN": "一基地", "en": "One Base", "pt": "Uma Base" }, "v": { "zh-TW": "以中華文化為主流、多元文化共存的交流合作基地", "zh-CN": "以中华文化为主流、多元文化共存的交流合作基地", "en": "Exchange and Cooperation Base with Chinese Culture as the Mainstream and Diverse Cultures Coexisting", "pt": "Base de Intercâmbio e Cooperação com a Cultura Chinesa como Corrente Principal em Coexistência Multicultural" } }
+      ],
+      "tiers": [
+        { "k": { "zh-TW": "澳門 · 前台", "zh-CN": "澳门 · 前台", "en": "Macao · Front Office", "pt": "Macau · Frente" }, "v": { "zh-TW": "制度優勢、自由港、境外主體身份：面向國際市場的信任接口。", "zh-CN": "制度优势、自由港、境外主体身份：面向国际市场的信任接口。", "en": "Institutional strengths, free-port status and offshore identity: a trust interface for international markets.", "pt": "Vantagens institucionais, porto franco e identidade extraterritorial: uma interface de confiança para os mercados internacionais." } },
+        { "k": { "zh-TW": "橫琴 · 中台", "zh-CN": "横琴 · 中台", "en": "Hengqin · Middle Platform", "pt": "Hengqin · Plataforma Intermédia" }, "v": { "zh-TW": "創新熱土與數字底座：雙15%稅收優惠、政策支持，承接業務、資源與算力。", "zh-CN": "创新热土与数字底座：双15%税收优惠、政策支持，承接业务、资源与算力。", "en": "A hotbed of innovation and digital foundation: dual 15% tax incentives and policy support, carrying operations, resources and computing power.", "pt": "Terreno fértil de inovação e base digital: duplos incentivos fiscais de 15% e apoio político, acolhendo operações, recursos e capacidade de computação." } },
+        { "k": { "zh-TW": "內地 · 後台", "zh-CN": "内地 · 后台", "en": "Mainland · Back Office", "pt": "Interior da China · Retaguarda" }, "v": { "zh-TW": "廣闊腹地的產業支撐：研發製造與供應鏈能力，轉化為面向全球的品牌力。", "zh-CN": "广阔腹地的产业支撑：研发制造与供应链能力，转化为面向全球的品牌力。", "en": "Industrial backing from a vast hinterland: R&D, manufacturing and supply-chain capabilities converted into global brand power.", "pt": "Apoio industrial de uma vasta retaguarda: capacidades de I&D, fabrico e cadeia de abastecimento convertidas em força de marca global." } }
+      ],
+      "tagline": { "zh-TW": "信任起跳有推力，落地緩衝有底氣。", "zh-CN": "信任起跳有推力，落地缓冲有底气。", "en": "Trust gives the jump its thrust; the cushion gives the landing its confidence.", "pt": "A confiança dá impulso ao salto; o amortecedor dá segurança à aterragem." }
+    },
+    "s3": {
+      "title": { "zh-TW": "出海之難——看不見的信任就是不存在的實力", "zh-CN": "出海之难——看不见的信任就是不存在的实力", "en": "The Hard Part of Going Global — Invisible Trust Is Non-Existent Strength", "pt": "A Dificuldade da Internacionalização — Confiança Invisível é Força Inexistente" },
+      "lead": { "zh-TW": "如今，海外買家在聯繫一家企業之前，早已獨自完成了搜索、比較、求證與詢問AI——四次決定，都發生在企業看不見的地方。", "zh-CN": "如今，海外买家在联系一家企业之前，早已独自完成了搜索、比较、求证与询问AI——四次决定，都发生在企业看不见的地方。", "en": "Today, before ever contacting a company, overseas buyers have already searched, compared, verified and asked AI on their own — four decisions that all happen where the company cannot see.", "pt": "Hoje, antes de contactar uma empresa, o comprador internacional já pesquisou, comparou, verificou e perguntou à IA por si próprio — quatro decisões que acontecem onde a empresa não vê." },
+      "flow": [
+        { "k": { "zh-TW": "搜索", "zh-CN": "搜索", "en": "Search", "pt": "Pesquisa" }, "present": false },
+        { "k": { "zh-TW": "比較", "zh-CN": "比较", "en": "Compare", "pt": "Comparação" }, "present": false },
+        { "k": { "zh-TW": "求證", "zh-CN": "求证", "en": "Verify", "pt": "Verificação" }, "present": false },
+        { "k": { "zh-TW": "問AI", "zh-CN": "问AI", "en": "Ask AI", "pt": "Pergunta à IA" }, "present": false },
+        { "k": { "zh-TW": "聯繫你", "zh-CN": "联系你", "en": "Contact You", "pt": "Contacto" }, "present": true }
+      ],
+      "absent": { "zh-TW": "企業不在場", "zh-CN": "企业不在场", "en": "Company absent", "pt": "Empresa ausente" },
+      "present": { "zh-TW": "企業在場", "zh-CN": "企业在场", "en": "Company present", "pt": "Empresa presente" },
+      "pains": [
+        { "title": { "zh-TW": "搜不到", "zh-CN": "搜不到", "en": "Nowhere to Be Found", "pt": "Invisível nas Pesquisas" }, "desc": { "zh-TW": "產品參數比國際大廠好30%、價格低40%，但買家搜品類詞，前三頁沒有你。", "zh-CN": "产品参数比国际大厂好30%、价格低40%，但买家搜品类词，前三页没有你。", "en": "Your specifications beat international giants by 30% at 40% lower prices — yet when buyers search category keywords, you are nowhere in the first three pages.", "pt": "Os seus parâmetros superam os gigantes internacionais em 30%, com preços 40% mais baixos — mas quando o comprador pesquisa a categoria, a sua empresa não aparece nas três primeiras páginas." } },
+        { "title": { "zh-TW": "信不過", "zh-CN": "信不过", "en": "Not Trusted", "pt": "Falta de Confiança" }, "desc": { "zh-TW": "銷售跑了兩個月，客戶回一句「沒聽說過你們」。你去問AI，答案全是競品。", "zh-CN": "销售跑了两个月，客户回一句「没听说过你们」。你去问AI，答案全是竞品。", "en": "Two months of sales visits, and the client replies \"never heard of you\". Ask AI, and the answers are all about your competitors.", "pt": "Dois meses de visitas comerciais e o cliente responde \"nunca ouvi falar de vocês\". Pergunte à IA e as respostas são todas sobre concorrentes." } },
+        { "title": { "zh-TW": "不活躍", "zh-CN": "不活跃", "en": "Inactive", "pt": "Sem Actividade" }, "desc": { "zh-TW": "社媒主頁上次更新是幾個月前——在買家眼裡，你像一家停擺的公司。", "zh-CN": "社媒主页上次更新是几个月前——在买家眼里，你像一家停摆的公司。", "en": "Your social media was last updated months ago — in the buyer's eyes, you look like a company on hold.", "pt": "As suas redes sociais não são actualizadas há meses — aos olhos do comprador, parece uma empresa parada." } },
+        { "title": { "zh-TW": "難驗證", "zh-CN": "难验证", "en": "Hard to Verify", "pt": "Difícil de Verificar" }, "desc": { "zh-TW": "官網自述遠銷數十國，站外卻找不到任何交叉驗證——一面之詞，無法成交。", "zh-CN": "官网自述远销数十国，站外却找不到任何交叉验证——一面之词，无法成交。", "en": "Your website claims exports to dozens of countries, yet no cross-verification exists anywhere else — one-sided claims cannot close deals.", "pt": "O site afirma exportar para dezenas de países, mas fora dele não há qualquer verificação cruzada — declarações unilaterais não fecham negócios." } }
+      ],
+      "tagline": { "zh-TW": "斷一環，都不是慢一步，而是徹底出局。", "zh-CN": "断一环，都不是慢一步，而是彻底出局。", "en": "A broken link in the chain is not one step slower — it is complete elimination.", "pt": "Um elo quebrado não é um passo atrasado — é a eliminação total." }
+    },
+    "s4": {
+      "title": { "zh-TW": "一站式護航——讓出海企業真正被看見", "zh-CN": "一站式护航——让出海企业真正被看见", "en": "One-Stop Escort — Making Go-Global Enterprises Truly Visible", "pt": "Acompanhamento Integral — Tornar as Empresas em Internacionalização Verdadeiramente Visíveis" },
+      "lead": { "zh-TW": "在他聯繫你之前，先讓他搜得到你；在他懷疑你之前，先讓他驗證得到你；在他開口之前，讓AI願意引用你。", "zh-CN": "在他联系你之前，先让他搜得到你；在他怀疑你之前，先让他验证得到你；在他开口之前，让AI愿意引用你。", "en": "Before they contact you, make sure they can find you; before they doubt you, make sure they can verify you; before they even ask, make AI willing to cite you.", "pt": "Antes que o contactem, faça-se encontrar; antes que duvidem, faça-se verificar; antes que perguntem, faça com que a IA o cite." },
+      "services": [
+        { "title": { "zh-TW": "找得到", "zh-CN": "找得到", "en": "Be Found", "pt": "Ser Encontrado" }, "sub": { "zh-TW": "WEB 獨立站 + SEO", "zh-CN": "WEB 独立站 + SEO", "en": "Independent Website + SEO", "pt": "Site Independente + SEO" }, "desc": { "zh-TW": "把產品、規格、認證與案例，做成買家搜得到、看得懂、可長期收錄的數字資產，由AI 24小時運營。", "zh-CN": "把产品、规格、认证与案例，做成买家搜得到、看得懂、可长期收录的数字资产，由AI 24小时运营。", "en": "Turn products, specifications, certifications and case studies into digital assets that buyers can find, understand and index for the long term — operated by AI around the clock.", "pt": "Transformar produtos, especificações, certificações e casos em activos digitais pesquisáveis, compreensíveis e indexáveis a longo prazo — operados por IA 24 horas por dia." } },
+        { "title": { "zh-TW": "信得過", "zh-CN": "信得过", "en": "Be Trusted", "pt": "Ser Confiável" }, "sub": { "zh-TW": "AI 社媒矩陣", "zh-CN": "AI 社媒矩阵", "en": "AI Social Media Matrix", "pt": "Matriz de Redes Sociais com IA" }, "desc": { "zh-TW": "24小時AI託管官方賬號＋真實員工IP號＋第三方報道，賬號常新、多點交叉印證，讓信任有跡可循。", "zh-CN": "24小时AI托管官方账号＋真实员工IP号＋第三方报道，账号常新、多点交叉印证，让信任有迹可循。", "en": "24/7 AI-managed official accounts, authentic employee IP accounts and third-party coverage keep channels fresh and cross-validated — making trust traceable.", "pt": "Gestão de contas oficiais por IA 24/7, contas autênticas de colaboradores e cobertura de terceiros mantêm os canais actualizados e com validação cruzada — tornando a confiança rastreável." } },
+        { "title": { "zh-TW": "問得着", "zh-CN": "问得着", "en": "Be Quoted by AI", "pt": "Ser Citado pela IA" }, "sub": { "zh-TW": "GEO 生成式引擎優化", "zh-CN": "GEO 生成式引擎优化", "en": "GEO — Generative Engine Optimization", "pt": "GEO — Optimização de Motores Generativos" }, "desc": { "zh-TW": "面向ChatGPT、Perplexity、Gemini逐月實測，讓買家問AI一句，答案裏總有你。", "zh-CN": "面向ChatGPT、Perplexity、Gemini逐月实测，让买家问AI一句，答案里总有你。", "en": "Monthly hands-on testing across ChatGPT, Perplexity and Gemini ensures that when a buyer asks AI, the answer always includes you.", "pt": "Testes práticos mensais no ChatGPT, Perplexity e Gemini garantem que, quando o comprador pergunta à IA, a resposta inclui sempre a sua empresa." } }
+      ],
+      "supportsTitle": { "zh-TW": "六大服務支撐", "zh-CN": "六大服务支撑", "en": "Six Supporting Services", "pt": "Seis Serviços de Apoio" },
+      "supports": [
+        { "zh-TW": "出海落地服務", "zh-CN": "出海落地服务", "en": "Go-Global Landing Services", "pt": "Serviços de Implementação no Exterior" },
+        { "zh-TW": "數字IP打造", "zh-CN": "数字IP打造", "en": "Digital IP Building", "pt": "Criação de IP Digital" },
+        { "zh-TW": "AI矩陣搭建", "zh-CN": "AI矩阵搭建", "en": "AI Matrix Setup", "pt": "Configuração de Matriz de IA" },
+        { "zh-TW": "定制AI部署", "zh-CN": "定制AI部署", "en": "Custom AI Deployment", "pt": "Implementação de IA à Medida" },
+        { "zh-TW": "品牌出海培訓", "zh-CN": "品牌出海培训", "en": "Brand Go-Global Training", "pt": "Formação em Internacionalização de Marcas" },
+        { "zh-TW": "獨立站增長", "zh-CN": "独立站增长", "en": "Independent Site Growth", "pt": "Crescimento de Sites Independentes" }
+      ],
+      "support": {
+        "note": { "zh-TW": "出海護航計劃由澳門數字創新協會會員單位——澳門海易通達科技有限公司全程提供支持", "zh-CN": "出海护航计划由澳门数字创新协会会员单位——澳门海易通达科技有限公司全程提供支持", "en": "The Go-Global Escort Program is fully supported by DIA member Macao Haiyi Tongda Technology Co., Ltd.", "pt": "O Programa de Acompanhamento conta com o apoio integral de Macao Haiyi Tongda Technology Co., Ltd., membro da DIA" },
+        "contactLabel": { "zh-TW": "業務聯繫", "zh-CN": "业务联系", "en": "Business Contact", "pt": "Contacto Comercial" },
+        "person": { "zh-TW": "韓女士", "zh-CN": "韩女士", "en": "Ms. Han", "pt": "Sra. Han" },
+        "phones": ["+853 6521 7951", "+86 130 8688 5869"],
+        "siteLabel": { "zh-TW": "官網", "zh-CN": "官网", "en": "Website", "pt": "Site" },
+        "site": "www.nexmatrixs.com",
+        "siteUrl": "https://www.nexmatrixs.com"
+      },
+      "tagline": { "zh-TW": "助企業成功出海，讓世界為品牌喝彩", "zh-CN": "助企业成功出海，让世界为品牌喝彩", "en": "Helping enterprises succeed overseas, letting the world applaud the brand", "pt": "Ajudar as empresas a ter sucesso no exterior, fazendo o mundo aplaudir a marca" }
+    }
+  },
   "partners": [
     {
-      "name": { "zh-TW": "澳門萬裡金騰集團有限公司", "zh-CN": "澳门万里金腾集团有限公司", "en": "Macao WLJT Group Co., Ltd.", "pt": "Macao WLJT Group Co., Ltd." },
-      "desc": { "zh-TW": "立足澳門、輻射灣區與全球的多元化投資控股集團，專注大健康與跨境醫療、數字科技與品牌出海、跨境綜合服務", "zh-CN": "立足澳门、辐射湾区与全球的多元化投资控股集团，专注大健康与跨境医疗、数字科技与品牌出海、跨境综合服务", "en": "A diversified investment holding group rooted in Macao and reaching the Greater Bay Area and beyond, focusing on healthcare and cross-border medical services, digital technology and brand internationalisation, and integrated cross-border services", "pt": "Grupo diversificado de participações sediado em Macau, com presença na Grande Baía e no mundo, focado na saúde e serviços médicos transfronteiriços, tecnologia digital e internacionalização de marcas, e serviços integrados transfronteiriços" },
-      "href": "https://www.wljtgroup.com"
+      "name": { "zh-TW": "中西創新學院", "zh-CN": "中西创新学院", "en": "Macau Millennium College", "pt": "Instituto Milénio de Macau" },
+      "desc": { "zh-TW": "澳門私立高等院校，設數字科技、教育等應用型學科，培育數字經濟與管理人才", "zh-CN": "澳门私立高等院校，设数字科技、教育等应用型学科，培育数字经济与管理人才", "en": "A private higher education institution in Macao offering applied programmes in digital technology, education and management", "pt": "Instituição privada de ensino superior de Macau, com cursos aplicados em tecnologia digital, educação e gestão" },
+      "href": "https://www.mmc.edu.mo"
     },
     {
       "name": { "zh-TW": "澳門財經科技與教育發展學會", "zh-CN": "澳门财经科技与教育发展学会", "en": "Macao Financial Technology and Education Development Association", "pt": "Associação para o Desenvolvimento da Tecnologia Financeira e Educação de Macau" },
@@ -952,14 +1072,14 @@
       "href": "https://mfteda.org"
     },
     {
-      "name": { "zh-TW": "澳門橋霍頓有限公司", "zh-CN": "澳门桥霍顿有限公司", "en": "Macao Bridge Holden Co., Ltd.", "pt": "Macao Bridge Holden Co., Ltd." },
-      "desc": { "zh-TW": "大健康與跨境醫療服務平台，連接國際醫療資源與灣區需求", "zh-CN": "大健康与跨境医疗服务平台，连接国际医疗资源与湾区需求", "en": "A healthcare and cross-border medical services platform connecting international medical resources with Greater Bay Area demand", "pt": "Plataforma de saúde e serviços médicos transfronteiriços, ligando recursos médicos internacionais à procura da Grande Baía" },
-      "href": "https://bridgeholdengroup.com"
+      "name": { "zh-TW": "南航科技（廣東橫琴）有限公司", "zh-CN": "南航科技（广东横琴）有限公司", "en": "CSAir Technology (Guangdong Hengqin) Co., Ltd.", "pt": "CSAir Technology (Guangdong Hengqin) Co., Ltd." },
+      "desc": { "zh-TW": "中國南方航空集團成員企業，扎根橫琴粵澳深度合作區，主營飛行訓練設備、飛行安全與數據分析、低空經濟平台", "zh-CN": "中国南方航空集团成员企业，扎根横琴粤澳深度合作区，主营飞行训练设备、飞行安全与数据分析、低空经济平台", "en": "A member of China Southern Airlines Group based in the Hengqin Cooperation Zone, focusing on flight training equipment, flight safety and data analytics, and low-altitude economy platforms", "pt": "Membro do grupo China Southern Airlines sediada na Zona de Cooperação de Hengqin, focada em equipamentos de treino de voo, segurança e análise de dados de voo e plataformas de economia de baixa altitude" },
+      "href": "#"
     },
     {
       "name": { "zh-TW": "澳門海易通達科技有限公司", "zh-CN": "澳门海易通达科技有限公司", "en": "Macao Haiyi Tongda Technology Co., Ltd.", "pt": "Macao Haiyi Tongda Technology Co., Ltd." },
-      "desc": { "zh-TW": "數字科技與品牌出海服務商，提供AI驅動的數字營銷與跨境解決方案", "zh-CN": "数字科技与品牌出海服务商，提供AI驱动的数字营销与跨境解决方案", "en": "A digital technology and brand go-global service provider offering AI-driven digital marketing and cross-border solutions", "pt": "Prestador de serviços de tecnologia digital e internacionalização de marcas, com soluções de marketing digital e transfronteiriço baseadas em IA" },
-      "href": "#"
+      "desc": { "zh-TW": "數字科技與品牌出海服務商，提供AI驅動的數字營銷與跨境解決方案，為協會「企業出海護航計劃」全程提供支持", "zh-CN": "数字科技与品牌出海服务商，提供AI驱动的数字营销与跨境解决方案，为协会「企业出海护航计划」全程提供支持", "en": "A digital technology and brand go-global service provider offering AI-driven digital marketing and cross-border solutions, and the full-support partner of DIA's Go-Global Escort Program", "pt": "Prestador de serviços de tecnologia digital e internacionalização de marcas, com soluções de marketing digital e transfronteiriço baseadas em IA, e parceiro de apoio integral do Programa de Acompanhamento da DIA" },
+      "href": "https://www.nexmatrixs.com"
     },
     {
       "name": { "zh-TW": "Bonjour Brand 中法品牌美學中心", "zh-CN": "Bonjour Brand 中法品牌美学中心", "en": "Bonjour Brand China-France Brand Aesthetics Centre", "pt": "Centro de Estética de Marcas China-França Bonjour Brand" },
@@ -970,6 +1090,26 @@
       "name": { "zh-TW": "澳門直播協會", "zh-CN": "澳门直播协会", "en": "Macao Live Streaming Association", "pt": "Associação de Live Streaming de Macau" },
       "desc": { "zh-TW": "直播電商與數字營銷行業組織，推動澳門數字經濟與青年創新發展", "zh-CN": "直播电商与数字营销行业组织，推动澳门数字经济与青年创新发展", "en": "An industry organisation for livestream e-commerce and digital marketing, advancing Macao's digital economy and youth innovation", "pt": "Organização sectorial de comércio electrónico em direto e marketing digital, promovendo a economia digital e a inovação jovem de Macau" },
       "href": "https://www.facebook.com/MacauLiveAssociation/"
+    },
+    {
+      "name": { "zh-TW": "科伊思（杭州）人工智能科技有限公司", "zh-CN": "科伊思（杭州）人工智能科技有限公司", "en": "COIOS (Hangzhou) Artificial Intelligence Technology Co., Ltd.", "pt": "COIOS (Hangzhou) Artificial Intelligence Technology Co., Ltd." },
+      "desc": { "zh-TW": "新一代人工智能公司，研發第三代人工智能「認知智能協作系統 COIOS」，應用於生物醫學與健康管理等領域", "zh-CN": "新一代人工智能公司，研发第三代人工智能「认知智能协作系统 COIOS」，应用于生物医学与健康管理等领域", "en": "A next-generation AI company developing COIOS, a third-generation cognitive intelligent co-operating system applied in biomedicine and health management", "pt": "Empresa de nova geração de IA, criadora do COIOS, sistema cognitivo inteligente de terceira geração aplicado à biomedicina e gestão de saúde" },
+      "href": "http://coios-ai.com"
+    },
+    {
+      "name": { "zh-TW": "Beroni Group Limited 貝羅尼集團", "zh-CN": "Beroni Group Limited 贝罗尼集团", "en": "Beroni Group Limited", "pt": "Beroni Group Limited" },
+      "desc": { "zh-TW": "總部悉尼的國際生物科技集團（澳交所NSX:BTG、美國OTCQX上市），業務涵蓋保健品、細胞療法與新藥研發", "zh-CN": "总部悉尼的国际生物科技集团（澳交所NSX:BTG、美国OTCQX上市），业务涵盖保健品、细胞疗法与新药研发", "en": "An international biotechnology group headquartered in Sydney (listed on NSX: BTG and OTCQX), spanning health products, cell therapies and new drug R&D", "pt": "Grupo internacional de biotecnologia sediado em Sydney (cotado na NSX: BTG e OTCQX), com actividades em produtos de saúde, terapias celulares e I&D de novos medicamentos" },
+      "href": "https://www.beronigroup.com"
+    },
+    {
+      "name": { "zh-TW": "中盛國際實業有限公司", "zh-CN": "中盛国际实业有限公司", "en": "Zhongsheng International Industry Limited", "pt": "Zhongsheng International Industry Limited" },
+      "desc": { "zh-TW": "總部香港的國際貿易公司，主營國際貿易、海外工程承包、大宗商品交易與現代物流", "zh-CN": "总部香港的国际贸易公司，主营国际贸易、海外工程承包、大宗商品交易与现代物流", "en": "A Hong Kong-based international trading company engaged in international trade, overseas engineering contracting, bulk commodities and modern logistics", "pt": "Empresa de comércio internacional sediada em Hong Kong, dedicada ao comércio internacional, empreitadas no exterior, commodities e logística moderna" },
+      "href": "http://www.zhongshengindustry.com"
+    },
+    {
+      "name": { "zh-TW": "中光集團（長春）有限責任公司", "zh-CN": "中光集团（长春）有限责任公司", "en": "Zhongguang Group (Changchun) Co., Ltd.", "pt": "Zhongguang Group (Changchun) Co., Ltd." },
+      "desc": { "zh-TW": "長春民辦教育投資控股集團，核心資產為長春電子科技學院，布局教育、科創園區與商貿市場多業態", "zh-CN": "长春民办教育投资控股集团，核心资产为长春电子科技学院，布局教育、科创园区与商贸市场多业态", "en": "A Changchun-based private education investment holding group whose core asset is Changchun College of Electronic Technology, with operations spanning education, innovation parks and trading markets", "pt": "Grupo holding de investimento em educação privada sediado em Changchun, cujo principal activo é o Changchun College of Electronic Technology, com operações em educação, parques de inovação e mercados comerciais" },
+      "href": "#"
     }
   ]
 }

@@ -16,7 +16,7 @@ C = json.load(open(os.path.join(ROOT, 'content.json'), encoding='utf-8'))
 I18N = C['i18n']
 LANGS = [l['code'] for l in C['languages']]
 DEFAULT = C['default_lang']
-PAGES = ['index', 'about', 'members', 'news', 'policy', 'partners', 'contact']
+PAGES = ['index', 'about', 'members', 'news', 'policy', 'services', 'partners', 'contact']
 
 def esc(s): return html.escape(str(s), quote=True)
 
@@ -75,6 +75,10 @@ def icon(name, cls=''):
         'award': '<circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/>',
         'building': '<rect x="4" y="2" width="16" height="20" rx="2"/><line x1="9" y1="22" x2="9" y2="18"/><line x1="15" y1="22" x2="15" y2="18"/><line x1="8" y1="6" x2="10" y2="6"/><line x1="14" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="10" y2="10"/><line x1="14" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="10" y2="14"/><line x1="14" y1="14" x2="16" y2="14"/>',
         'pin': '<path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/>',
+        'search': '<circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>',
+        'shield': '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>',
+        'pause': '<rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/>',
+        'link': '<path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>',
         'facebook': '<path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>',
         'linkedin': '<path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/>',
         'instagram': '<rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>',
@@ -135,7 +139,7 @@ def footer(lang, pre=''):
   <div class="container-institutional section-spacing">
     <div class="footer-grid">
       <div class="footer-col">
-        <img src="{logo}" alt="DIA Logo" style="height:3.5rem;width:auto;margin-bottom:1rem;border-radius:.5rem;">
+        <img src="{logo}" alt="DIA Logo" style="height:3.5rem;width:auto;margin-bottom:1rem;">
         <p class="desc">{esc(ft['description'])}</p>
         <div class="social-row">{social}</div>
       </div>
@@ -153,6 +157,7 @@ def footer(lang, pre=''):
         <ul>
           <li><a href="{hp('news')}">{esc(nav['news'])}</a></li>
           <li><a href="{hp('policy')}">{esc(nav['policy'])}</a></li>
+          <li><a href="{hp('services')}">{esc(nav['services'])}</a></li>
         </ul>
       </div>
       <div class="footer-col">
@@ -305,6 +310,13 @@ def render_index(lang):
       <p class="text-lg text-muted-foreground max-w-2 mx-auto" style="font-size:1.125rem;">{esc(home['focusSub'])}</p>
     </div>
     <div class="grid grid-3">{cards}</div>
+  </div>
+</section>
+<section class="section-spacing escort-band">
+  <div class="container-institutional text-center reveal">
+    <h2 class="institutional-subheading mb-4">{esc(home['escortTitle'])}</h2>
+    <p class="lead">{esc(home['escortLead'])}</p>
+    <a class="btn btn-white" href="{page_href('services', lang, lang)}">{esc(home['escortCta'])}{icon('arrow')}</a>
   </div>
 </section>
 <section class="section-spacing bg-muted-50">
@@ -494,6 +506,75 @@ def render_policy(lang):
     body = page_hero(lang, 'policy') + sections_html
     return page_shell('policy', lang, pl['title'], pl['subtitle'], body)
 
+# ---------------- 出海護航 ----------------
+def render_services(lang):
+    sv = I18N[lang]['services']
+    E = C['escort']
+    stats = ''.join(f'''
+      <div class="escort-stat reveal">
+        <div class="escort-stat-num">{esc(s['num'][lang])}</div>
+        <p>{esc(s['text'][lang])}</p>
+      </div>''' for s in E['s1']['stats'])
+    circles = ''.join(f'''
+      <div class="escort-circle reveal"><b>{esc(c['k'][lang])}</b><span>{esc(c['v'][lang])}</span></div>''' for c in E['s2']['circles'])
+    tiers = ''.join(f'''
+      <div class="escort-tier reveal">
+        <span class="escort-tier-k">{esc(tr['k'][lang])}</span>
+        <p>{esc(tr['v'][lang])}</p>
+      </div>''' for tr in E['s2']['tiers'])
+    steps = ''
+    for i, st in enumerate(E['s3']['flow']):
+        if i:
+            steps += f'<div class="escort-flow-arrow">{icon("arrow")}</div>'
+        state = esc(E['s3']['present' if st['present'] else 'absent'][lang])
+        steps += f'''
+      <div class="escort-flow-step{' on' if st['present'] else ''} reveal">
+        <b>{esc(st['k'][lang])}</b><span>{state}</span>
+      </div>'''
+    pain_icons = ['search', 'shield', 'pause', 'link']
+    pains = ''.join(f'''
+      <div class="institutional-card escort-pain reveal">
+        <div class="icon-badge xs">{icon(pain_icons[i])}</div>
+        <div>
+          <h3>{esc(p['title'][lang])}</h3>
+          <p>{esc(p['desc'][lang])}</p>
+        </div>
+      </div>''' for i, p in enumerate(E['s3']['pains']))
+    svc_icons = ['globe', 'users', 'sparkles']
+    svcs = ''.join(f'''
+      <div class="institutional-card escort-svc reveal">
+        <div class="icon-badge">{icon(svc_icons[i])}</div>
+        <h3>{esc(s['title'][lang])}</h3>
+        <div class="escort-svc-sub">{esc(s['sub'][lang])}</div>
+        <p class="text-muted-foreground">{esc(s['desc'][lang])}</p>
+      </div>''' for i, s in enumerate(E['s4']['services']))
+    chips = ''.join(f'<span class="escort-chip reveal">{esc(s[lang])}</span>' for s in E['s4']['supports'])
+    sup = E['s4']['support']
+    phones = ' / '.join(sup['phones'])
+    def section(sec, muted):
+        return f'''
+<section class="section-spacing{' bg-muted-50' if muted else ''}">
+  <div class="container-institutional">
+    <h2 class="institutional-subheading text-center mb-6 reveal">{esc(sec['title'][lang])}</h2>
+    <p class="escort-lead reveal">{esc(sec['lead'][lang])}</p>
+    {{BODY}}
+    <div class="escort-tagline reveal">{esc(sec['tagline'][lang])}</div>
+  </div>
+</section>'''
+    s1 = section(E['s1'], False).replace('{BODY}', f'<div class="escort-stats max-w-5 mx-auto">{stats}</div>')
+    s2 = section(E['s2'], True).replace('{BODY}', f'<div class="escort-circles">{circles}</div><div class="escort-tiers max-w-5 mx-auto">{tiers}</div>')
+    s3 = section(E['s3'], False).replace('{BODY}', f'<div class="escort-flow">{steps}</div><div class="grid grid-2 max-w-5 mx-auto">{pains}</div>')
+    s4_body = (f'<div class="grid grid-3">{svcs}</div>'
+               f'<h3 class="escort-supports-title reveal">{esc(E["s4"]["supportsTitle"][lang])}</h3>'
+               f'<div class="escort-chips">{chips}</div>'
+               f'''<div class="escort-support-note reveal">
+      <p>{esc(sup['note'][lang])}</p>
+      <p class="escort-support-contact">{esc(sup['contactLabel'][lang])}：{esc(sup['person'][lang])} {phones} · {esc(sup['siteLabel'][lang])}: <a href="{sup['siteUrl']}" target="_blank" rel="noopener">{sup['site']}</a></p>
+    </div>''')
+    s4 = section(E['s4'], True).replace('{BODY}', s4_body)
+    body = page_hero(lang, 'services') + s1 + s2 + s3 + s4
+    return page_shell('services', lang, sv['title'], sv['subtitle'], body)
+
 # ---------------- 合作夥伴 ----------------
 def render_partners(lang):
     pt = I18N[lang]['partners']
@@ -605,8 +686,8 @@ def render_contact(lang):
 
 # ---------------- 構建 ----------------
 RENDERERS = {'index': render_index, 'about': render_about, 'members': render_members,
-             'news': render_news, 'policy': render_policy, 'partners': render_partners,
-             'contact': render_contact}
+             'news': render_news, 'policy': render_policy, 'services': render_services,
+             'partners': render_partners, 'contact': render_contact}
 
 def build():
     if os.path.exists(DIST): shutil.rmtree(DIST)
