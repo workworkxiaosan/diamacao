@@ -293,7 +293,7 @@ def render_index(lang):
     <div class="reveal">
       <img class="hero-logo" src="{asset('img/logo-mark.png', lang)}" alt="{esc(C['site_name'])}">
       <h1>{esc(hero['headline'])}</h1>
-      <p class="sub">{esc(hero['subtitle'])}</p>
+      <p class="sub">{esc(hero['subtitle']).replace(chr(10), '<br>')}</p>
       <div class="cta-row">
         <a class="btn btn-primary" href="{page_href('about', lang, lang)}">{esc(hero['cta1'])}{icon('arrow')}</a>
         <a class="btn btn-secondary" href="{page_href('policy', lang, lang)}">{esc(hero['cta2'])}</a>
@@ -350,7 +350,7 @@ def render_index(lang):
     </div>
   </div>
 </section>'''
-    return page_shell('index', lang, t(lang, 'nav', 'home'), hero['subtitle'], body)
+    return page_shell('index', lang, t(lang, 'nav', 'home'), hero['subtitle'].replace('\n', ''), body)
 
 # ---------------- 關於我們 ----------------
 def render_about(lang):

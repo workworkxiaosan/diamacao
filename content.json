@@ -13,10 +13,10 @@
   "email": "info@diamacao.com",
   "year": 2026,
   "address": {
-    "zh-TW": "澳門何老桂巷5號",
-    "zh-CN": "澳门何老桂巷5号",
-    "en": "Rua de Ho Lo Kuai, No. 5, Macao",
-    "pt": "Rua de Ho Lo Kuai, n.º 5, Macau"
+    "zh-TW": "澳門湖畔南街中國與葡語國家商貿合作服務平台綜合體辦公樓B1 1-1",
+    "zh-CN": "澳门湖畔南街中国与葡语国家商贸合作服务平台综合体办公楼B1 1-1",
+    "en": "Unit 1-1, B1, Office Building of the Complex of Commerce and Trade Co-operation Platform for China and Portuguese-speaking Countries, Rua Sul de Entre Lagos, Macao",
+    "pt": "Unidade 1-1, B1, Edifício de Escritórios do Complexo da Plataforma de Serviços para a Cooperação Comercial entre a China e os Países de Língua Portuguesa, Rua Sul de Entre Lagos, Macau"
   },
   "social": {
     "facebook": "#",
@@ -37,7 +37,7 @@
       },
       "hero": {
         "headline": "數字驅動創新，鏈接全球未來",
-        "subtitle": "澳門數字創新協會致力推動數字技術與多元產業深度融合，搭建企業跨境出海平台，助力澳門經濟適度多元發展",
+        "subtitle": "澳門數字創新協會致力推動數字技術與多元產業深度融合，搭建企業跨境出海平台，\n助力澳門經濟適度多元發展。",
         "cta1": "了解我們",
         "cta2": "出海政策",
         "cta3": "聯繫我們"
@@ -83,7 +83,7 @@
       "members": {
         "title": "架構成員",
         "subtitle": "本會領導架構與組織機關",
-        "leadersTitle": "會長及理事長",
+        "leadersTitle": "領導架構",
         "orgTitle": "組織機關"
       },
       "news": {
@@ -165,7 +165,7 @@
       },
       "hero": {
         "headline": "数字驱动创新，链接全球未来",
-        "subtitle": "澳门数字创新协会致力推动数字技术与多元产业深度融合，搭建企业跨境出海平台，助力澳门经济适度多元发展",
+        "subtitle": "澳门数字创新协会致力推动数字技术与多元产业深度融合，搭建企业跨境出海平台，\n助力澳门经济适度多元发展。",
         "cta1": "了解我们",
         "cta2": "出海政策",
         "cta3": "联系我们"
@@ -211,7 +211,7 @@
       "members": {
         "title": "架构成员",
         "subtitle": "本会领导架构与组织机关",
-        "leadersTitle": "会长及理事长",
+        "leadersTitle": "领导架构",
         "orgTitle": "组织机关"
       },
       "news": {
@@ -293,7 +293,7 @@
       },
       "hero": {
         "headline": "Digital Innovation for Macao, a Gateway to Global Markets",
-        "subtitle": "The Macao Digital Innovation Association promotes deep integration of digital technologies with Macao's diverse industries, builds cross-border platforms for enterprises going global, and supports Macao's appropriate economic diversification.",
+        "subtitle": "The Macao Digital Innovation Association promotes deep integration of digital technologies with Macao's diverse industries, builds cross-border platforms for enterprises going global,\nand supports Macao's appropriate economic diversification.",
         "cta1": "Learn More",
         "cta2": "Go-Global Policies",
         "cta3": "Contact Us"
@@ -338,7 +338,7 @@
       "members": {
         "title": "Leadership & Structure",
         "subtitle": "The Association's leadership and governing bodies",
-        "leadersTitle": "President & Chairman",
+        "leadersTitle": "Leadership",
         "orgTitle": "Governing Bodies"
       },
       "news": {
@@ -420,7 +420,7 @@
       },
       "hero": {
         "headline": "Inovação Digital para Macau, uma Porta para os Mercados Globais",
-        "subtitle": "A Associação de Inovação Digital de Macau promove a integração profunda das tecnologias digitais com as diversas indústrias de Macau, constrói plataformas transfronteiriças para empresas em internacionalização e apoia a diversificação adequada da economia de Macau.",
+        "subtitle": "A Associação de Inovação Digital de Macau promove a integração profunda das tecnologias digitais com as diversas indústrias de Macau, constrói plataformas transfronteiriças para empresas em internacionalização\ne apoia a diversificação adequada da economia de Macau.",
         "cta1": "Saber Mais",
         "cta2": "Políticas",
         "cta3": "Contactos"
@@ -465,7 +465,7 @@
       "members": {
         "title": "Estrutura e Membros",
         "subtitle": "A direcção e os órgãos sociais da Associação",
-        "leadersTitle": "Presidente e Presidente da Direcção",
+        "leadersTitle": "Liderança",
         "orgTitle": "Órgãos Sociais"
       },
       "news": {
@@ -604,10 +604,34 @@
       "name": { "zh-TW": "楊誠", "zh-CN": "杨诚", "en": "Yang Cheng", "pt": "Yang Cheng" },
       "role": { "zh-TW": "理事長", "zh-CN": "理事长", "en": "Chairman of the Board", "pt": "Presidente da Direcção" },
       "bio": {
-        "zh-TW": "澳門數字創新協會理事長，澳門財經科技與教育發展學會會長，廣州大學統計學博士後，澳門科技大學工商管理博士。金融從業人員，長期致力人民幣國際化、跨境金融和跨境信任傳遞成本研究，擁有豐富的理論與實務經驗。",
-        "zh-CN": "澳门数字创新协会理事长，澳门财经科技与教育发展学会会长，广州大学统计学博士后，澳门科技大学工商管理博士。金融从业人员，长期致力人民币国际化、跨境金融和跨境信任传递成本研究，拥有丰富的理论与实务经验。",
-        "en": "Chairman of the Board of the Macao Digital Innovation Association and President of the Macao Financial Technology and Education Development Association. Postdoctoral researcher in Statistics at Guangzhou University and Doctor of Business Administration from the Macau University of Science and Technology. A finance professional long dedicated to research on RMB internationalisation, cross-border finance and cross-border trust transmission costs, with extensive theoretical and practical experience.",
-        "pt": "Presidente da Direcção da Associação de Inovação Digital de Macau e Presidente da Associação para o Desenvolvimento da Tecnologia Financeira e Educação de Macau. Pós-doutor em Estatística pela Universidade de Guangzhou e Doutor em Gestão de Empresas pela Universidade de Ciência e Tecnologia de Macau. Profissional do sector financeiro, dedica-se há muito à investigação sobre a internacionalização do renminbi, as finanças transfronteiriças e os custos de transmissão de confiança transfronteiriça, acumulando vasta experiência teórica e prática."
+        "zh-TW": "澳門數字創新協會理事長，澳門財經科技與教育發展學會會長，廣州大學統計學博士後，澳門科技大學工商管理博士。專業財富管理師CFMP，長期致力人民幣國際化、跨境金融和跨境信任傳遞成本研究，擁有豐富的理論與實務經驗。",
+        "zh-CN": "澳门数字创新协会理事长，澳门财经科技与教育发展学会会长，广州大学统计学博士后，澳门科技大学工商管理博士。专业财富管理师CFMP，长期致力人民币国际化、跨境金融和跨境信任传递成本研究，拥有丰富的理论与实务经验。",
+        "en": "Chairman of the Board of the Macao Digital Innovation Association and President of the Macao Financial Technology and Education Development Association. Postdoctoral researcher in Statistics at Guangzhou University and Doctor of Business Administration from the Macau University of Science and Technology. A Certified Financial Management Professional (CFMP), he has long been dedicated to research on RMB internationalisation, cross-border finance and cross-border trust transmission costs, with extensive theoretical and practical experience.",
+        "pt": "Presidente da Direcção da Associação de Inovação Digital de Macau e Presidente da Associação para o Desenvolvimento da Tecnologia Financeira e Educação de Macau. Pós-doutor em Estatística pela Universidade de Guangzhou e Doutor em Gestão de Empresas pela Universidade de Ciência e Tecnologia de Macau. Gestor de património profissional certificado (CFMP), dedica-se há muito à investigação sobre a internacionalização do renminbi, as finanças transfronteiriças e os custos de transmissão de confiança transfronteiriça, acumulando vasta experiência teórica e prática."
+      }
+    },
+    {
+      "initial": "高",
+      "photo": "img/members/supervisor.webp",
+      "name": { "zh-TW": "高明", "zh-CN": "高明", "en": "Gao Ming", "pt": "Gao Ming" },
+      "role": { "zh-TW": "監事長", "zh-CN": "监事长", "en": "Chairperson of the Supervisory Committee", "pt": "Presidente do Conselho Fiscal" },
+      "bio": {
+        "zh-TW": "澳門數字創新協會監事長，領導監事會監察理事會日常會務運作和財政收支，保障協會規範運作。",
+        "zh-CN": "澳门数字创新协会监事长，领导监事会监察理事会日常会务运作和财政收支，保障协会规范运作。",
+        "en": "Chairperson of the Supervisory Committee of the Macao Digital Innovation Association, leading the Committee in overseeing the Board's daily operations and finances to ensure sound governance of the Association.",
+        "pt": "Presidente do Conselho Fiscal da Associação de Inovação Digital de Macau, liderando o Conselho na supervisão da gestão diária e das finanças da Direcção, garantindo o funcionamento regular da Associação."
+      }
+    },
+    {
+      "initial": "宋",
+      "photo": "img/members/secretary.webp",
+      "name": { "zh-TW": "宋薇", "zh-CN": "宋薇", "en": "Song Wei", "pt": "Song Wei" },
+      "role": { "zh-TW": "秘書長", "zh-CN": "秘书长", "en": "Secretary-General", "pt": "Secretária-Geral" },
+      "bio": {
+        "zh-TW": "澳門數字創新協會秘書長，負責秘書處日常行政、會員服務與會務統籌，協助理事會推進各項工作。",
+        "zh-CN": "澳门数字创新协会秘书长，负责秘书处日常行政、会员服务与会务统筹，协助理事会推进各项工作。",
+        "en": "Secretary-General of the Macao Digital Innovation Association, responsible for the Secretariat's daily administration, member services and coordination of the Association's affairs, supporting the Board's work.",
+        "pt": "Secretária-Geral da Associação de Inovação Digital de Macau, responsável pela administração diária do Secretariado, pelos serviços aos associados e pela coordenação das actividades, apoiando o trabalho da Direcção."
       }
     }
   ],
@@ -1058,6 +1082,11 @@
   },
   "partners": [
     {
+      "name": { "zh-TW": "澳門直播協會", "zh-CN": "澳门直播协会", "en": "Macao Live Streaming Association", "pt": "Associação de Live Streaming de Macau" },
+      "desc": { "zh-TW": "直播電商與數字營銷行業組織，推動澳門數字經濟與青年創新發展", "zh-CN": "直播电商与数字营销行业组织，推动澳门数字经济与青年创新发展", "en": "An industry organisation for livestream e-commerce and digital marketing, advancing Macao's digital economy and youth innovation", "pt": "Organização sectorial de comércio electrónico em direto e marketing digital, promovendo a economia digital e a inovação jovem de Macau" },
+      "href": "https://www.facebook.com/MacauLiveAssociation/"
+    },
+    {
       "name": { "zh-TW": "中西創新學院", "zh-CN": "中西创新学院", "en": "Macau Millennium College", "pt": "Instituto Milénio de Macau" },
       "desc": { "zh-TW": "澳門私立高等院校，設數字科技、教育等應用型學科，培育數字經濟與管理人才", "zh-CN": "澳门私立高等院校，设数字科技、教育等应用型学科，培育数字经济与管理人才", "en": "A private higher education institution in Macao offering applied programmes in digital technology, education and management", "pt": "Instituição privada de ensino superior de Macau, com cursos aplicados em tecnologia digital, educação e gestão" },
       "href": "https://www.mmc.edu.mo"
@@ -1081,11 +1110,6 @@
       "name": { "zh-TW": "Bonjour Brand 中法品牌美學中心", "zh-CN": "Bonjour Brand 中法品牌美学中心", "en": "Bonjour Brand China-France Brand Aesthetics Centre", "pt": "Centro de Estética de Marcas China-França Bonjour Brand" },
       "desc": { "zh-TW": "中法品牌合作與全球化平台，主辦中法品牌高峰論壇，推動中國品牌走向歐洲", "zh-CN": "中法品牌合作与全球化平台，主办中法品牌高峰论坛，推动中国品牌走向欧洲", "en": "A China-France brand cooperation and globalisation platform, organiser of the China-France Brand Summit, bringing Chinese brands to Europe", "pt": "Plataforma de cooperação e globalização de marcas China-França, organizadora do Fórum China-França de Marcas, levando marcas chinesas à Europa" },
       "href": "#"
-    },
-    {
-      "name": { "zh-TW": "澳門直播協會", "zh-CN": "澳门直播协会", "en": "Macao Live Streaming Association", "pt": "Associação de Live Streaming de Macau" },
-      "desc": { "zh-TW": "直播電商與數字營銷行業組織，推動澳門數字經濟與青年創新發展", "zh-CN": "直播电商与数字营销行业组织，推动澳门数字经济与青年创新发展", "en": "An industry organisation for livestream e-commerce and digital marketing, advancing Macao's digital economy and youth innovation", "pt": "Organização sectorial de comércio electrónico em direto e marketing digital, promovendo a economia digital e a inovação jovem de Macau" },
-      "href": "https://www.facebook.com/MacauLiveAssociation/"
     },
     {
       "name": { "zh-TW": "科伊思（杭州）人工智能科技有限公司", "zh-CN": "科伊思（杭州）人工智能科技有限公司", "en": "COIOS (Hangzhou) Artificial Intelligence Technology Co., Ltd.", "pt": "COIOS (Hangzhou) Artificial Intelligence Technology Co., Ltd." },
