@@ -24,9 +24,9 @@
 ## 關鍵事實
 
 - 頁面共 7 個（`PAGES`）：index/about/members/news/policy/partners/contact。無 research/projects/publications/insights（與 MFTEDA 不同）；社評類稿件可作 `news` 條目（category 如「社評」）。
-- 協會事實（源自《澳門特區公報》2026-02-25 第8期第二組，勿改）：2026-02-06 經認證文書設立（私人公證員周成俊，存檔編號 3/2026）；葡文名 Associação de Inovação Digital de Macau，英文名 Macao Digital Innovation Association；會址澳門何老桂巷5號；非牟利團體；組織機關 = 會員大會/理事會/監事會（任期三年）。
+- 協會事實（源自《澳門特區公報》2026-02-25 第8期第二組）：2026-02-06 經認證文書設立（私人公證員周成俊，存檔編號 3/2026）；葡文名 Associação de Inovação Digital de Macau，英文名 Macao Digital Innovation Association；會址澳門何老桂巷5號；非牟利團體；組織機關 = 會員大會/理事會/監事會（任期三年）。**成立日期與註冊/刊憲信息僅存檔於此內部文檔，官網一律不顯示**（用戶 2026-10-15 指示：content.json 不得出現成立日期、公報/公證相關內容，每週 cron 更新也不得收錄此類新聞）。
 - 已核實成員：會長黃家倫（澳門立法會議員、澳門直播協會創會會長）、理事長楊誠（澳門財經科技與教育發展學會會長、國際研學旅遊產業發展協會（澳門）會長、澳門博士智庫副理事長）。其他理監事成員名單待公佈後補入 `members`。
-- 新聞目前 4 條（2026-02 成立、2026-04-15 京澳通洽會、2026-04-15 海淀區代表團訪招商局、2026-05-28 巴黎簽約），全部附媒體原文鏈接；政策 10 條（國家3/大灣區2/澳門3/海外市場2），URL 均已核實。**2026 年 6–10 月暫無協會公開報道**，有內部通稿時補入。
+- 新聞目前 3 條（2026-04-15 京澳通洽會、2026-04-15 海淀區代表團訪招商局、2026-05-28 巴黎簽約），全部附媒體原文鏈接；政策 10 條（國家3/大灣區2/澳門3/海外市場2），URL 均已核實。**2026 年 6–10 月暫無協會公開報道**，有內部通稿時補入。首頁數據帶首格為「6 重點工作領域」（對應 focus_cards 六項，勿改回成立年份）。
 - 每頁自動帶 canonical / Open Graph / Twitter Card 標籤，首頁帶 Organization JSON-LD。`site_url` = https://www.diamacao.com（換域名時改它 + build.py 的 CNAME/robots）。
 - 域名 `diamacao.com`：A 記錄指向 GitHub Pages（185.199.108.153/109.153/110.153/111.153），`www` CNAME → workworkxiaosan.github.io；DNS 在 Hostinger（API 管理，域名 2029-10-14 到期）。
 - GitHub 倉庫：`workworkxiaosan/diamacao`。

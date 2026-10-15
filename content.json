@@ -511,8 +511,8 @@
   },
   "stats": [
     {
-      "num": "2026",
-      "label": { "zh-TW": "協會成立年份", "zh-CN": "协会成立年份", "en": "Year Established", "pt": "Ano de Fundação" }
+      "num": "6",
+      "label": { "zh-TW": "重點工作領域", "zh-CN": "重点工作领域", "en": "Focus Areas", "pt": "Áreas de Actuação" }
     },
     {
       "num": "20+",
@@ -754,53 +754,6 @@
           "As empresas participantes abrangem inteligência artificial, computação molecular com IA, computação em nuvem, cibersegurança e biomedicina — incluindo 51WORLD, Volcano Engine, Zhongguancun Science City City Brain, Glodon e Sinovac Holdings — muitas delas empresas 'Pequenos Gigantes' de nível nacional ou municipal.",
           "A Associação convidou responsáveis da Divisão de Promoção de Investimento do IPIM para apresentar as vantagens de Macau como plataforma de expansão externa. As partes realizaram contactos práticos sobre transferência de tecnologia, promoção no exterior, intercâmbio de talentos e implementação de projectos, com várias empresas a chegarem a intenções preliminares de cooperação em I&D conjunta, aplicações de cenários digitais e infra-estruturas de computação e dados.",
           "O deputado à Assembleia Legislativa e Presidente da DIA, Vong Ka Lon, esteve presente e discursou, afirmando que a Associação continuará a servir de ponte e plataforma, ajudando mais empresas tecnológicas do interior da China a expandir-se, através de Macau, para os países de língua portuguesa e os mercados internacionais, injectando novo ímpeto na economia digital de Macau."
-        ]
-      }
-    },
-    {
-      "date": "2026-02-06",
-      "slug": "association-officially-established",
-      "category": { "zh-TW": "協會動態", "zh-CN": "协会动态", "en": "Association News", "pt": "Notícias da Associação" },
-      "title": {
-        "zh-TW": "澳門數字創新協會正式註冊成立",
-        "zh-CN": "澳门数字创新协会正式注册成立",
-        "en": "Macao Digital Innovation Association Officially Established",
-        "pt": "Associação de Inovação Digital de Macau Oficialmente Constituída"
-      },
-      "excerpt": {
-        "zh-TW": "本會於2026年2月6日經認證文書正式設立，章程刊於2月25日《澳門特別行政區公報》，為澳門數字領域發展注入新力量。",
-        "zh-CN": "本会于2026年2月6日经认证文书正式设立，章程刊于2月25日《澳门特别行政区公报》，为澳门数字领域发展注入新力量。",
-        "en": "The Association was formally established by notarised instrument on 6 February 2026, with its statutes published in the Official Gazette of the Macao SAR on 25 February, bringing new impetus to the development of Macao's digital sector.",
-        "pt": "A Associação foi formalmente constituída por documento autenticado a 6 de Fevereiro de 2026, com os estatutos publicados no Boletim Oficial da RAEM a 25 de Fevereiro, trazendo novo ímpeto ao desenvolvimento do sector digital de Macau."
-      },
-      "source": {
-        "name": { "zh-TW": "澳門特別行政區公報", "zh-CN": "澳门特别行政区公报", "en": "Official Gazette of the Macao SAR", "pt": "Boletim Oficial da RAEM" },
-        "url": "https://bo.dsaj.gov.mo/bo/ii/2026/08/anotariais_cn.asp"
-      },
-      "body": {
-        "zh-TW": [
-          "澳門數字創新協會於2026年2月6日透過經認證文書正式設立，設立文件和章程已存檔於私人公證署，並刊於2026年2月25日《澳門特別行政區公報》第八期第二組。",
-          "本會中文名稱為「澳門數字創新協會」，葡文名稱為「Associação de Inovação Digital de Macau」，英文名稱為「Macao Digital Innovation Association」，屬非牟利團體，會址設於澳門何老桂巷5號。",
-          "本會秉持愛國愛澳精神，致力推動澳門數字領域全方位發展：以促進數字技術與澳門多元產業深度融合為核心，搭建創新平台，助力傳統行業數字化轉型；匯聚數字領域人才、科研機構與企業，促進產學研協同創新；拓展國際視野，加強與全球數字創新前沿地區交流合作；普及數字知識，培育適應數字時代發展的創新人才隊伍。",
-          "協會將在服務國家發展大局及粵港澳大灣區建設中發揮澳門獨特優勢，為澳門經濟適度多元化進程貢獻積極力量。"
-        ],
-        "zh-CN": [
-          "澳门数字创新协会于2026年2月6日透过经认证文书正式设立，设立文件和章程已存档于私人公证署，并刊于2026年2月25日《澳门特别行政区公报》第八期第二组。",
-          "本会中文名称为「澳门数字创新协会」，葡文名称为「Associação de Inovação Digital de Macau」，英文名称为「Macao Digital Innovation Association」，属非牟利团体，会址设于澳门何老桂巷5号。",
-          "本会秉持爱国爱澳精神，致力推动澳门数字领域全方位发展：以促进数字技术与澳门多元产业深度融合为核心，搭建创新平台，助力传统行业数字化转型；汇聚数字领域人才、科研机构与企业，促进产学研协同创新；拓展国际视野，加强与全球数字创新前沿地区交流合作；普及数字知识，培育适应数字时代发展的创新人才队伍。",
-          "协会将在服务国家发展大局及粤港澳大湾区建设中发挥澳门独特优势，为澳门经济适度多元化进程贡献积极力量。"
-        ],
-        "en": [
-          "The Macao Digital Innovation Association was formally established by notarised instrument on 6 February 2026. Its constitutive documents and statutes are archived at the Private Notary Office and were published in Series II, Issue No. 8 of the Official Gazette of the Macao SAR on 25 February 2026.",
-          "The Association's names are 「澳門數字創新協會」 in Chinese, 'Associação de Inovação Digital de Macau' in Portuguese and 'Macao Digital Innovation Association' in English. It is a non-profit organisation headquartered at Rua de Ho Lo Kuai, No. 5, Macao.",
-          "Upholding the spirit of love for the country and Macao, the Association is dedicated to the all-round development of Macao's digital sector: promoting the deep integration of digital technologies with Macao's diverse industries as its core mission; building innovation platforms to support the digital transformation of traditional industries; bringing together talent, research institutions and enterprises to foster industry-university-research collaboration; broadening international horizons through exchange with leading digital innovation regions; and popularising digital knowledge to cultivate innovative talent for the digital era.",
-          "The Association will bring Macao's unique strengths into play in serving the nation's overall development and the building of the Guangdong-Hong Kong-Macao Greater Bay Area, contributing actively to Macao's appropriate economic diversification."
-        ],
-        "pt": [
-          "A Associação de Inovação Digital de Macau foi formalmente constituída por documento autenticado a 6 de Fevereiro de 2026. Os documentos constitutivos e os estatutos encontram-se arquivados no Cartório Privado e foram publicados na II Série do Boletim Oficial da RAEM n.º 8, de 25 de Fevereiro de 2026.",
-          "A denominação da Associação é 「澳門數字創新協會」 em chinês, 'Associação de Inovação Digital de Macau' em português e 'Macao Digital Innovation Association' em inglês. Trata-se de uma organização sem fins lucrativos, com sede na Rua de Ho Lo Kuai, n.º 5, Macau.",
-          "No espírito de amor à pátria e a Macau, a Associação dedica-se ao desenvolvimento integral do sector digital de Macau: promovendo, como missão central, a integração profunda das tecnologias digitais com as diversas indústrias de Macau; construindo plataformas de inovação para apoiar a transformação digital das indústrias tradicionais; reunindo talentos, instituições de investigação e empresas para fomentar a colaboração indústria-universidade-investigação; alargando os horizontes internacionais através do intercâmbio com regiões de vanguarda; e popularizando o conhecimento digital para formar talentos inovadores para a era digital.",
-          "A Associação aproveitará as vantagens únicas de Macau ao serviço do desenvolvimento nacional e da construção da Grande Baía Guangdong-Hong Kong-Macau, contribuindo activamente para a diversificação adequada da economia de Macau."
         ]
       }
     }
