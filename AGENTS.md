@@ -6,8 +6,9 @@
 
 - `content.json` — 全部網站內容的唯一母本（4 語言、新聞、出海政策、架構成員、夥伴鏈接）。**更新內容只改這裡**。
 - `build.py` — 讀 `content.json` 生成靜態頁面到 `dist/`（含 `dist/CNAME` = www.diamacao.com）。語言目錄：繁中在根目錄，其他在 `zh-CN/`、`en/`、`pt/`。
-- `make_assets.py` — 由原始 LOGO 生成 logo 變體/favicon/hero-bg/og-cover（一次性，換 LOGO 才需重跑；LOGO 源圖路徑寫在腳本頂部 SRC）。
-- `assets/` — 源頭樣式/腳本/圖片，`build.py` 會拷貝進 `dist/`。`logo-mark.png` 為芯片圖標（頁頭/hero），`logo.png` 為含中英文名全版，`hero-bg.webp` 為深藍電路紋背景，`og-cover.jpg` 為社交分享圖（1200×630）。
+- `make_assets.py` — 由 `assets/img/src-logo.png`（新版純藍線稿透明底 LOGO）生成 logo 變體/favicon/hero-bg/og-cover（一次性，換 LOGO 才需重跑）。
+- `make_hero_video.py` — 生成首頁 hero 10s 無縫循環動態背景（白底淺色版科幻電路：走線+流動光脈衝+漂移粒子+掃描帶，T=10s 周期化保證首尾銜接）：輸出 `hero-loop.mp4`（H.264）/`hero-loop.webm`（VP9），並把首幀覆蓋 `hero-bg.webp` 作 poster/降級圖。**注意執行順序：先 make_assets.py 後 make_hero_video.py**（後者覆蓋 hero-bg.webp）；依賴 ffmpeg。hero 為白底黑字（`.hero` color 深藍黑，`.hero-video` z-index 0，`::before` 白紗罩 z-index 1，內容 z-index 2；`.hero .btn-glass` 已適配淺底；main.js 尊重 prefers-reduced-motion 暫停播放）。
+- `assets/` — 源頭樣式/腳本/圖片，`build.py` 會拷貝進 `dist/`。`logo-mark.png` 為芯片圖標（頁頭/hero），`logo.png` 為含中英文名全版，`og-cover.jpg` 為社交分享圖（1200×630，深藍底，由 make_assets.py 生成）；成員頭像在 `assets/img/members/{president,chair}.webp`（480×480 正方形，圓形裁切顯示 `.member-photo`）。
 - `dist/` — 生成物，**不要手改**，已被 .gitignore 忽略。自動生成 `robots.txt`、`sitemap.xml`（含 4 語言 hreflang）、`404.html`。
 
 ## 更新流程
@@ -15,7 +16,7 @@
 1. 改 `content.json`：
    - 加新聞 = 在 `news` 數組加一條（`date/slug/category/title/excerpt/source/body` 4 語言，`source.url` 為原文媒體鏈接），詳情頁 `news/{slug}.html` 自動生成，列表與首頁「最新動態」按 date 降序自動更新。
    - 加出海政策 = 在 `policies` 數組加一條（`date/region/issuer/title/summary/url` 4 語言），region 四選一：`national`（國家政策）、`gba`（大灣區與橫琴）、`macao`（澳門平台）、`global`（重點海外市場）。
-   - 架構成員 = `members` 數組（`initial/name/role/bio` 4 語言，`initial` 為頭像單字）；組織機關三會描述在 `org` 數組（源自律章程，勿隨意改動）。
+   - 架構成員 = `members` 數組（`initial/name/role/bio` 4 語言，`initial` 為頭像單字；可選 `photo` 指向 `assets/img/members/*.webp`，有照片則顯示圓形真人頭像）；組織機關三會描述在 `org` 數組（源自律章程，勿隨意改動）。成員頁無「名單陸續公佈」備註（2026-10-16 按用戶指示刪除，勿加回）。協會宗旨（about.purpose，2026-10-16 更新）：「秉持愛國愛澳精神，推動數字經濟發展與多元產業融合；『聚人才、促轉化、育新智、聯世界』；主動服務國家『國際循環』發展大局，助力中華民族偉大復興。」
    - 合作夥伴 = `partners` 數組；LOGO 放 `assets/img/partners/partner{N}.webp`（N=順序號，無 LOGO 自動只顯示文字卡）。
 2. `python3 build.py`。
 3. `git add -A && git commit -m "..." && git push`。
