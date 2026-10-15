@@ -56,6 +56,13 @@
     revealEls.forEach(function (el) { el.classList.add('in'); });
   }
 
+  /* ---------- Hero 視頻：尊重「減少動態效果」偏好 ---------- */
+  var heroVideo = document.querySelector('.hero-video');
+  if (heroVideo && window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    heroVideo.removeAttribute('autoplay');
+    heroVideo.pause();
+  }
+
   /* ---------- 聯繫頁 Tabs ---------- */
   document.querySelectorAll('[data-tabs]').forEach(function (tabsRoot) {
     var btns = tabsRoot.querySelectorAll('.tabs button');

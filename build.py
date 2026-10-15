@@ -285,6 +285,10 @@ def render_index(lang):
     latest_policies = ''.join(policy_card(lang, p) for p in sorted(C['policies'], key=lambda x: x['date'], reverse=True)[:3])
     body = f'''
 <section class="hero" style="background-image:url('{asset('img/hero-bg.webp', lang)}')">
+  <video class="hero-video" autoplay muted loop playsinline preload="auto" poster="{asset('img/hero-bg.webp', lang)}" aria-hidden="true" tabindex="-1">
+    <source src="{asset('img/hero-loop.webm', lang)}" type="video/webm">
+    <source src="{asset('img/hero-loop.mp4', lang)}" type="video/mp4">
+  </video>
   <div class="container-institutional">
     <div class="reveal">
       <img class="hero-logo" src="{asset('img/logo-mark.png', lang)}" alt="{esc(C['site_name'])}">
@@ -407,9 +411,13 @@ def render_members(lang):
     mb = I18N[lang]['members']
     leaders = ''
     for m in C['members']:
+        if m.get('photo'):
+            avatar = f'<img class="member-photo" src="{asset(m["photo"], lang)}" alt="{esc(m["name"][lang])}" loading="lazy">'
+        else:
+            avatar = f'<div class="member-avatar">{esc(m["initial"])}</div>'
         leaders += f'''
       <div class="institutional-card member-card reveal">
-        <div class="member-avatar">{esc(m['initial'])}</div>
+        {avatar}
         <h3>{esc(m['name'][lang])}</h3>
         <div class="member-role">{esc(m['role'][lang])}</div>
         <p class="member-bio">{esc(m['bio'][lang])}</p>
@@ -429,7 +437,6 @@ def render_members(lang):
   <div class="container-institutional">
     <h2 class="institutional-subheading text-center mb-12 reveal">{esc(mb['leadersTitle'])}</h2>
     <div class="grid grid-2 max-w-5 mx-auto">{leaders}</div>
-    <p class="text-center text-muted-foreground mt-8 reveal" style="max-width:44rem;margin-left:auto;margin-right:auto;">{esc(mb['note'])}</p>
   </div>
 </section>
 <section class="section-spacing bg-muted-50">
