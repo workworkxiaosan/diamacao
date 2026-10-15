@@ -4,6 +4,13 @@
   document.documentElement.classList.add('js');
 
   /* ---------- 語言切換下拉 ---------- */
+  function syncLangAria() {
+    document.querySelectorAll('.lang-switch').forEach(function (sw) {
+      if (sw.closest('#mobile-panel')) return; // 抽屜內語言列表恆展開
+      var b = sw.querySelector('button');
+      if (b) b.setAttribute('aria-expanded', sw.classList.contains('open') ? 'true' : 'false');
+    });
+  }
   document.querySelectorAll('.lang-switch').forEach(function (sw) {
     var btn = sw.querySelector('button');
     btn.addEventListener('click', function (e) {
@@ -12,12 +19,14 @@
         if (o !== sw) o.classList.remove('open');
       });
       sw.classList.toggle('open');
+      syncLangAria();
     });
   });
   document.addEventListener('click', function () {
     document.querySelectorAll('.lang-switch.open').forEach(function (o) {
       o.classList.remove('open');
     });
+    syncLangAria();
   });
 
   /* ---------- 手機選單 ---------- */
@@ -26,11 +35,13 @@
   var toggle = document.getElementById('menu-toggle');
   function closePanel() {
     if (panel) { panel.classList.remove('open'); overlay.classList.remove('open'); }
+    if (toggle) toggle.setAttribute('aria-expanded', 'false');
   }
   if (toggle && panel) {
     toggle.addEventListener('click', function () {
       panel.classList.add('open');
       overlay.classList.add('open');
+      toggle.setAttribute('aria-expanded', 'true');
     });
     overlay.addEventListener('click', closePanel);
     panel.querySelectorAll('a').forEach(function (a) { a.addEventListener('click', closePanel); });

@@ -110,21 +110,21 @@ def header(page, lang, pre=''):
     <nav class="main-nav">{links}</nav>
     <div class="header-actions">
       <div class="lang-switch">
-        <button type="button" aria-haspopup="true">{icon('globe')}{esc(lang_btn_label)}</button>
+        <button type="button" aria-haspopup="true" aria-expanded="false">{icon('globe')}{esc(lang_btn_label)}</button>
         <div class="dropdown">{lang_items}</div>
       </div>
-      <button class="menu-toggle" id="menu-toggle" aria-label="Menu">{icon('menu')}</button>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Menu" aria-expanded="false" aria-controls="mobile-panel">{icon('menu')}</button>
     </div>
   </div>
 </header>
 <div class="panel-overlay" id="panel-overlay"></div>
 <aside class="mobile-panel" id="mobile-panel">
   <div style="display:flex;justify-content:flex-end;margin-bottom:1rem;">
-    <button class="menu-toggle" onclick="document.getElementById('mobile-panel').classList.remove('open');document.getElementById('panel-overlay').classList.remove('open');" aria-label="Close">{icon('close')}</button>
+    <button class="menu-toggle" onclick="document.getElementById('mobile-panel').classList.remove('open');document.getElementById('panel-overlay').classList.remove('open');document.getElementById('menu-toggle').setAttribute('aria-expanded','false');" aria-label="Close">{icon('close')}</button>
   </div>
   {mlinks}
   <div class="lang-switch" style="margin-top:1rem;">
-    <button type="button" aria-haspopup="true">{icon('globe')}{esc(lang_btn_label)}</button>
+    <button type="button" aria-haspopup="true" aria-expanded="true">{icon('globe')}{esc(lang_btn_label)}</button>
     <div class="dropdown" style="position:static;box-shadow:none;border:none;display:block;">{lang_items}</div>
   </div>
 </aside>'''
@@ -293,7 +293,7 @@ def render_index(lang):
     <div class="reveal">
       <img class="hero-logo" src="{asset('img/logo-mark.png', lang)}" alt="{esc(C['site_name'])}">
       <h1>{esc(hero['headline'])}</h1>
-      <p class="sub">{esc(hero['subtitle']).replace(chr(10), '<br>')}</p>
+      <p class="sub">{esc(hero['subtitle']).replace(chr(10), '<br class="desktop-br">')}</p>
       <div class="cta-row">
         <a class="btn btn-primary" href="{page_href('about', lang, lang)}">{esc(hero['cta1'])}{icon('arrow')}</a>
         <a class="btn btn-secondary" href="{page_href('policy', lang, lang)}">{esc(hero['cta2'])}</a>
@@ -407,6 +407,14 @@ def render_about(lang):
     return page_shell('about', lang, ab['title'], ab['subtitle'], body)
 
 # ---------------- 架構成員 ----------------
+def member_name_html(name):
+    if name.endswith('博士'):
+        return f'{esc(name[:-2])} <span class="name-title">博士</span>'
+    for pre in ('Dr. ', 'Dra. '):
+        if name.startswith(pre):
+            return f'<span class="name-title">{esc(pre.strip())}</span> {esc(name[len(pre):])}'
+    return esc(name)
+
 def render_members(lang):
     mb = I18N[lang]['members']
     leaders = ''
@@ -418,7 +426,7 @@ def render_members(lang):
         leaders += f'''
       <div class="institutional-card member-card reveal">
         {avatar}
-        <h3>{esc(m['name'][lang])}</h3>
+        <h3>{member_name_html(m['name'][lang])}</h3>
         <div class="member-role">{esc(m['role'][lang])}</div>
         <p class="member-bio">{esc(m['bio'][lang])}</p>
       </div>'''
