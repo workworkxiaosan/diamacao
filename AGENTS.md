@@ -38,4 +38,4 @@
 - 排序：news 與 policies 均按 date 降序，首頁各取前 3。
 - 關聯站點：MFTEDA（mfteda.org）互列合作夥伴。萬裡金騰集團、澳門橋霍頓原列合作夥伴，2026-10-15 按用戶指示從 DIA 官網移除（僅 DIA 站，MFTEDA 站不動）。
 - 合作夥伴 10 家（2026-10-15 更新）：中西創新學院（即「澳門中西學院」法定名，mmc.edu.mo，校徽 partner1.webp 複用自 MFTEDA partner11）、MFTEDA（partner2.webp）、南航科技（廣東橫琴）（無獨立官網 href=#）、海易通達（nexmatrixs.com）、Bonjour Brand、澳門直播協會、科伊思（杭州）人工智能（用戶原寫「科伊斯」，工商登記為「科伊思」，coios-ai.com）、Beroni Group Limited（貝羅尼集團，beronigroup.com）、中盛國際實業（zhongshengindustry.com；官網稱 1999 年成立但香港註冊處顯示同名公司 2023 年註冊，存疑待對方確認）、中光集團（長春）（教育投資集團，無官網 href=#）。
-- LOGO 摳圖（2026-10-15）：make_assets.py 新增 cutout()（四角洪水填充+亮像素邊緣侵蝕），logo-mark.png/logo.png/favicon 外部白底已透明化（芯片內部白色保留），hero/頁尾不再顯白框；換 LOGO 重跑 make_assets.py 即可。
+- LOGO（2026-10-15 換新版）：純藍線稿透明底（白色全部不保留），源圖固化於 `assets/img/src-logo.png`；make_assets.py 的 trim/拆分掃描均按 alpha 通道，cutout() 僅適用舊版白底圖（新圖勿調用，會侵蝕半透明線稿）；換 LOGO 時替換 src-logo.png 重跑 make_assets.py 即可（生成 logo.png/logo-mark.png/favicon/hero-bg/og-cover）。
