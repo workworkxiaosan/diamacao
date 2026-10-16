@@ -1709,6 +1709,21 @@
   "partners": [
     {
       "name": {
+        "zh-TW": "澳門愛國教育青年協會",
+        "zh-CN": "澳门爱国教育青年协会",
+        "en": "Macao Youth Association of Patriotic Education",
+        "pt": "Associação de Juventude de Educação Patriótica de Macau"
+      },
+      "desc": {
+        "zh-TW": "以愛國愛澳教育為宗旨的青年社團，推動國情研學、兩會精神傳達與兩地青年交流，培育青年家國情懷",
+        "zh-CN": "以爱国爱澳教育为宗旨的青年社团，推动国情研学、两会精神传达与两地青年交流，培育青年家国情怀",
+        "en": "A youth association dedicated to patriotic education in Macao, promoting national-affairs study tours, youth exchanges and a strong sense of national identity among young people",
+        "pt": "Associação juvenil dedicada à educação patriótica em Macau, promovendo visitas de estudo sobre os assuntos nacionais, intercâmbios de jovens e o sentimento de identidade nacional entre os jovens"
+      },
+      "href": "https://www.bo.dsaj.gov.mo/cn/entities/priv/rec/7792"
+    },
+    {
+      "name": {
         "zh-TW": "澳門直播協會",
         "zh-CN": "澳门直播协会",
         "en": "Macao Live Streaming Association",
@@ -1721,6 +1736,36 @@
         "pt": "Organização sectorial de comércio electrónico em direto e marketing digital, promovendo a economia digital e a inovação jovem de Macau"
       },
       "href": "https://www.facebook.com/MacauLiveAssociation/"
+    },
+    {
+      "name": {
+        "zh-TW": "澳門財經科技與教育發展學會",
+        "zh-CN": "澳门财经科技与教育发展学会",
+        "en": "Macao Financial Technology and Education Development Association",
+        "pt": "Associação para o Desenvolvimento da Tecnologia Financeira e Educação de Macau"
+      },
+      "desc": {
+        "zh-TW": "推動澳門多元化發展的非營利智庫，致力金融創新、電子商務、商業出海與中葡平台合作",
+        "zh-CN": "推动澳门多元化发展的非营利智库，致力金融创新、电子商务、商业出海与中葡平台合作",
+        "en": "A non-profit think tank driving Macao's diversified development, focusing on financial innovation, e-commerce, business internationalisation and Sino-Portuguese platform cooperation",
+        "pt": "Think tank sem fins lucrativos que promove o desenvolvimento diversificado de Macau, centrado na inovação financeira, comércio electrónico, internacionalização empresarial e cooperação da plataforma sino-lusófona"
+      },
+      "href": "https://mfteda.org"
+    },
+    {
+      "name": {
+        "zh-TW": "澳門博士智庫",
+        "zh-CN": "澳门博士智库",
+        "en": "Doctoral Think Tank (Macao)",
+        "pt": "Doctoral Think Tank (Macau)"
+      },
+      "desc": {
+        "zh-TW": "由百餘位澳門及海內外博士、博士後組成的跨學科綜合性高端智庫，以高端智慧服務澳門與國家發展",
+        "zh-CN": "由百余位澳门及海内外博士、博士后组成的跨学科综合性高端智库，以高端智慧服务澳门与国家发展",
+        "en": "A cross-disciplinary think tank uniting over a hundred doctoral and postdoctoral scholars from Macao and beyond, serving Macao and the nation with high-level expertise",
+        "pt": "Um think tank interdisciplinar que reúne mais de uma centena de doutores e pós-doutorados de Macau e do exterior, servindo Macau e o país com conhecimento de alto nível"
+      },
+      "href": "https://www.facebook.com/phdmacau/"
     },
     {
       "name": {
@@ -1739,18 +1784,18 @@
     },
     {
       "name": {
-        "zh-TW": "澳門財經科技與教育發展學會",
-        "zh-CN": "澳门财经科技与教育发展学会",
-        "en": "Macao Financial Technology and Education Development Association",
-        "pt": "Associação para o Desenvolvimento da Tecnologia Financeira e Educação de Macau"
+        "zh-TW": "Bonjour Brand 中法品牌美學中心",
+        "zh-CN": "Bonjour Brand 中法品牌美学中心",
+        "en": "Bonjour Brand China-France Brand Aesthetics Centre",
+        "pt": "Centro de Estética de Marcas China-França Bonjour Brand"
       },
       "desc": {
-        "zh-TW": "推動澳門多元化發展的非營利智庫，致力金融創新、電子商務、商業出海與中葡平台合作",
-        "zh-CN": "推动澳门多元化发展的非营利智库，致力金融创新、电子商务、商业出海与中葡平台合作",
-        "en": "A non-profit think tank driving Macao's diversified development, focusing on financial innovation, e-commerce, business internationalisation and Sino-Portuguese platform cooperation",
-        "pt": "Think tank sem fins lucrativos que promove o desenvolvimento diversificado de Macau, centrado na inovação financeira, comércio electrónico, internacionalização empresarial e cooperação da plataforma sino-lusófona"
+        "zh-TW": "中法品牌合作與全球化平台，主辦中法品牌高峰論壇，推動中國品牌走向歐洲",
+        "zh-CN": "中法品牌合作与全球化平台，主办中法品牌高峰论坛，推动中国品牌走向欧洲",
+        "en": "A China-France brand cooperation and globalisation platform, organiser of the China-France Brand Summit, bringing Chinese brands to Europe",
+        "pt": "Plataforma de cooperação e globalização de marcas China-França, organizadora do Fórum China-França de Marcas, levando marcas chinesas à Europa"
       },
-      "href": "https://mfteda.org"
+      "href": "#"
     },
     {
       "name": {
@@ -1781,21 +1826,6 @@
         "pt": "Prestador de serviços de tecnologia digital e internacionalização de marcas, com soluções de marketing digital e transfronteiriço baseadas em IA, e parceiro de apoio integral do Programa de Acompanhamento da DIA"
       },
       "href": "https://www.nexmatrixs.com"
-    },
-    {
-      "name": {
-        "zh-TW": "Bonjour Brand 中法品牌美學中心",
-        "zh-CN": "Bonjour Brand 中法品牌美学中心",
-        "en": "Bonjour Brand China-France Brand Aesthetics Centre",
-        "pt": "Centro de Estética de Marcas China-França Bonjour Brand"
-      },
-      "desc": {
-        "zh-TW": "中法品牌合作與全球化平台，主辦中法品牌高峰論壇，推動中國品牌走向歐洲",
-        "zh-CN": "中法品牌合作与全球化平台，主办中法品牌高峰论坛，推动中国品牌走向欧洲",
-        "en": "A China-France brand cooperation and globalisation platform, organiser of the China-France Brand Summit, bringing Chinese brands to Europe",
-        "pt": "Plataforma de cooperação e globalização de marcas China-França, organizadora do Fórum China-França de Marcas, levando marcas chinesas à Europa"
-      },
-      "href": "#"
     },
     {
       "name": {
@@ -1856,36 +1886,6 @@
         "pt": "Grupo holding de investimento em educação privada sediado em Changchun, cujo principal activo é o Changchun College of Electronic Technology, com operações em educação, parques de inovação e mercados comerciais"
       },
       "href": "#"
-    },
-    {
-      "name": {
-        "zh-TW": "澳門博士智庫",
-        "zh-CN": "澳门博士智库",
-        "en": "Doctoral Think Tank (Macao)",
-        "pt": "Doctoral Think Tank (Macau)"
-      },
-      "desc": {
-        "zh-TW": "由百餘位澳門及海內外博士、博士後組成的跨學科綜合性高端智庫，以高端智慧服務澳門與國家發展",
-        "zh-CN": "由百余位澳门及海内外博士、博士后组成的跨学科综合性高端智库，以高端智慧服务澳门与国家发展",
-        "en": "A cross-disciplinary think tank uniting over a hundred doctoral and postdoctoral scholars from Macao and beyond, serving Macao and the nation with high-level expertise",
-        "pt": "Um think tank interdisciplinar que reúne mais de uma centena de doutores e pós-doutorados de Macau e do exterior, servindo Macau e o país com conhecimento de alto nível"
-      },
-      "href": "https://www.facebook.com/phdmacau/"
-    },
-    {
-      "name": {
-        "zh-TW": "澳門愛國教育青年協會",
-        "zh-CN": "澳门爱国教育青年协会",
-        "en": "Macao Patriotic Education Youth Association",
-        "pt": "Associação de Juventude de Educação Patriótica de Macau"
-      },
-      "desc": {
-        "zh-TW": "以愛國愛澳教育為宗旨的青年社團，推動國情研學、兩會精神傳達與兩地青年交流，培育青年家國情懷",
-        "zh-CN": "以爱国爱澳教育为宗旨的青年社团，推动国情研学、两会精神传达与两地青年交流，培育青年家国情怀",
-        "en": "A youth association dedicated to patriotic education in Macao, promoting national-affairs study tours, youth exchanges and a strong sense of national identity among young people",
-        "pt": "Associação juvenil dedicada à educação patriótica em Macau, promovendo visitas de estudo sobre os assuntos nacionais, intercâmbios de jovens e o sentimento de identidade nacional entre os jovens"
-      },
-      "href": "https://www.bo.dsaj.gov.mo/cn/entities/priv/rec/7792"
     }
   ]
 }
