@@ -52,7 +52,7 @@
         "contact": "聯繫我們"
       },
       "hero": {
-        "headline": "數字驅動創新，鏈接全球未來",
+        "headline": "數字引領-拼船出海-澳門啟航",
         "subtitle": "澳門數字創新協會致力推動數字技術與多元產業深度融合，搭建企業跨境出海平台，\n助力澳門經濟適度多元發展。",
         "cta1": "了解我們",
         "cta2": "出海政策",
@@ -180,7 +180,7 @@
         "contact": "联系我们"
       },
       "hero": {
-        "headline": "数字驱动创新，链接全球未来",
+        "headline": "数字引领-拼船出海-澳门启航",
         "subtitle": "澳门数字创新协会致力推动数字技术与多元产业深度融合，搭建企业跨境出海平台，\n助力澳门经济适度多元发展。",
         "cta1": "了解我们",
         "cta2": "出海政策",
@@ -308,7 +308,7 @@
         "contact": "Contact Us"
       },
       "hero": {
-        "headline": "Digital Innovation for Macao, a Gateway to Global Markets",
+        "headline": "Digital Leadership · Going Global Together · Setting Sail from Macao",
         "subtitle": "The Macao Digital Innovation Association promotes deep integration of digital technologies with Macao's diverse industries, builds cross-border platforms for enterprises going global,\nand supports Macao's appropriate economic diversification.",
         "cta1": "Learn More",
         "cta2": "Go-Global Policies",
@@ -435,7 +435,7 @@
         "contact": "Contactos"
       },
       "hero": {
-        "headline": "Inovação Digital para Macau, uma Porta para os Mercados Globais",
+        "headline": "Liderança Digital · Expansão Global Conjunta · Partida de Macau",
         "subtitle": "A Associação de Inovação Digital de Macau promove a integração profunda das tecnologias digitais com as diversas indústrias de Macau, constrói plataformas transfronteiriças para empresas em internacionalização\ne apoia a diversificação adequada da economia de Macau.",
         "cta1": "Saber Mais",
         "cta2": "Políticas",
@@ -1856,6 +1856,36 @@
         "pt": "Grupo holding de investimento em educação privada sediado em Changchun, cujo principal activo é o Changchun College of Electronic Technology, com operações em educação, parques de inovação e mercados comerciais"
       },
       "href": "#"
+    },
+    {
+      "name": {
+        "zh-TW": "澳門博士智庫",
+        "zh-CN": "澳门博士智库",
+        "en": "Doctoral Think Tank (Macao)",
+        "pt": "Doctoral Think Tank (Macau)"
+      },
+      "desc": {
+        "zh-TW": "由百餘位澳門及海內外博士、博士後組成的跨學科綜合性高端智庫，以高端智慧服務澳門與國家發展",
+        "zh-CN": "由百余位澳门及海内外博士、博士后组成的跨学科综合性高端智库，以高端智慧服务澳门与国家发展",
+        "en": "A cross-disciplinary think tank uniting over a hundred doctoral and postdoctoral scholars from Macao and beyond, serving Macao and the nation with high-level expertise",
+        "pt": "Um think tank interdisciplinar que reúne mais de uma centena de doutores e pós-doutorados de Macau e do exterior, servindo Macau e o país com conhecimento de alto nível"
+      },
+      "href": "https://www.facebook.com/phdmacau/"
+    },
+    {
+      "name": {
+        "zh-TW": "澳門愛國教育青年協會",
+        "zh-CN": "澳门爱国教育青年协会",
+        "en": "Macao Patriotic Education Youth Association",
+        "pt": "Associação de Juventude de Educação Patriótica de Macau"
+      },
+      "desc": {
+        "zh-TW": "以愛國愛澳教育為宗旨的青年社團，推動國情研學、兩會精神傳達與兩地青年交流，培育青年家國情懷",
+        "zh-CN": "以爱国爱澳教育为宗旨的青年社团，推动国情研学、两会精神传达与两地青年交流，培育青年家国情怀",
+        "en": "A youth association dedicated to patriotic education in Macao, promoting national-affairs study tours, youth exchanges and a strong sense of national identity among young people",
+        "pt": "Associação juvenil dedicada à educação patriótica em Macau, promovendo visitas de estudo sobre os assuntos nacionais, intercâmbios de jovens e o sentimento de identidade nacional entre os jovens"
+      },
+      "href": "https://www.bo.dsaj.gov.mo/cn/entities/priv/rec/7792"
     }
   ]
 }
