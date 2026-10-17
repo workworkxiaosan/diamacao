@@ -1886,6 +1886,21 @@
         "pt": "Grupo holding de investimento em educação privada sediado em Changchun, cujo principal activo é o Changchun College of Electronic Technology, com operações em educação, parques de inovação e mercados comerciais"
       },
       "href": "#"
+    },
+    {
+      "name": {
+        "zh-TW": "澳門博士翻譯有限公司",
+        "zh-CN": "澳门博士翻译有限公司",
+        "en": "BOSS Translation Company Limited (Macao)",
+        "pt": "BOSS Translation Company Limited (Macau)"
+      },
+      "desc": {
+        "zh-TW": "澳門專業翻譯機構，ISO9001 認證，提供中、英、葡等多語種筆譯、傳譯及公證文件翻譯服務",
+        "zh-CN": "澳门专业翻译机构，ISO9001 认证，提供中、英、葡等多语种笔译、传译及公证文件翻译服务",
+        "en": "An ISO 9001-certified professional translation company in Macao, providing translation, interpretation and notarised document translation in Chinese, English, Portuguese and other languages",
+        "pt": "Empresa profissional de tradução de Macau com certificação ISO 9001, prestando serviços de tradução, interpretação e tradução de documentos notariais em chinês, inglês, português e outras línguas"
+      },
+      "href": "https://www.boss.mo/tc/"
     }
   ]
 }
