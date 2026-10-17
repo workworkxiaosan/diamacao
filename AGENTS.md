@@ -16,7 +16,7 @@
 1. 改 `content.json`：
    - 加新聞 = 在 `news` 數組加一條（`date/slug/category/title/excerpt/source/body` 4 語言，`source.url` 為原文媒體鏈接），詳情頁 `news/{slug}.html` 自動生成，列表與首頁「最新動態」按 date 降序自動更新。
    - 加出海政策 = 在 `policies` 數組加一條（`date/region/issuer/title/summary/url` 4 語言），region 四選一：`national`（國家政策）、`gba`（大灣區與橫琴）、`macao`（澳門平台）、`global`（重點海外市場）。
-   - 架構成員 = `members` 數組（`initial/name/role/bio` 4 語言，`initial` 為頭像單字；可選 `photo` 指向 `assets/img/members/*.webp`，有照片則顯示圓形真人頭像）；組織機關三會描述在 `org` 數組（源自律章程，勿隨意改動）。成員頁無「名單陸續公佈」備註（2026-10-16 按用戶指示刪除，勿加回）。現任 4 人全部配真人頭像：president.webp（黃家倫）、chair.webp（楊誠）、supervisor.webp（高明監事長）、secretary.webp（宋薇秘書長）；高明（澳大工商管理博士、澳門博士翻譯 BOSS Translation 董事總經理）與宋薇（澳城大應用心理學博士、鳳凰衛視澳門站/羊城晚報澳門站/鏡海僑報總編輯、前中央人民廣播電台主持人）簡介均為用戶確認正式版（2026-10-16）。協會宗旨（about.purpose，2026-10-16 更新）：「秉持愛國愛澳精神，推動數字經濟發展與多元產業融合；『聚人才、促轉化、育新智、聯世界』；主動服務國家『國際循環』發展大局，助力中華民族偉大復興。」
+   - 架構成員 = `members` 數組（`initial/name/role/bio` 4 語言，`initial` 為頭像單字；可選 `photo` 指向 `assets/img/members/*.webp`，有照片則顯示圓形真人頭像）；組織機關三會描述在 `org` 數組（源自律章程，勿隨意改動）。成員頁無「名單陸續公佈」備註（2026-10-16 按用戶指示刪除，勿加回）。現任 4 人全部配真人頭像：president.webp（黃家倫）、chair.webp（楊誠）、supervisor.webp（高明監事長）、secretary.webp（宋薇秘書長）；高明（澳大工商管理哲學博士、澳門博士翻譯 BOSS Translation 董事總經理、第七屆「粵港澳大灣區傑出青年企業家」，2026-10-17 用戶更新）與宋薇（澳城大應用心理學博士、鳳凰衛視澳門站/羊城晚報澳門站/鏡海僑報總編輯、前中央人民廣播電台主持人）簡介均為用戶確認正式版（2026-10-16）。協會宗旨（about.purpose，2026-10-16 更新）：「秉持愛國愛澳精神，推動數字經濟發展與多元產業融合；『聚人才、促轉化、育新智、聯世界』；主動服務國家『國際循環』發展大局，助力中華民族偉大復興。」
    - 合作夥伴 = `partners` 數組；LOGO 放 `assets/img/partners/partner{N}.webp`（N=順序號，無 LOGO 自動只顯示文字卡）。
 2. `python3 build.py`。
 3. `git add -A && git commit -m "..." && git push`。
