@@ -26,7 +26,7 @@ def t(lang, *keys):
     return d
 
 # ---------------- URL 規則 ----------------
-# 默認語言 zh-TW 放根目錄，其他語言在 /zh-CN/ /en/ /pt/ 子目錄
+# 默認語言 zh-TW 放根目錄，其他語言在 /zh-CN/ /en/ /pt/ /fr/ 子目錄
 def page_href(page, target_lang, current_lang):
     if target_lang == DEFAULT:
         target = 'index.html' if page == 'index' else f'{page}.html'
@@ -185,8 +185,8 @@ def page_shell(page, lang, title, description, body, depth=0, url_path=None, og_
     canonical = abs_url(url_path or page, lang)
     site_url = C.get('site_url', 'https://www.diamacao.com').rstrip('/')
     og_image = og_image or (site_url + '/assets/img/og-cover.jpg')
-    og_locale = {'zh-TW': 'zh_TW', 'zh-CN': 'zh_CN', 'en': 'en_US', 'pt': 'pt_PT'}[lang]
-    site_name = {'zh-TW': C['site_name'], 'zh-CN': '澳门数字创新协会', 'en': C['site_name_en'], 'pt': C['site_name_pt']}[lang]
+    og_locale = {'zh-TW': 'zh_TW', 'zh-CN': 'zh_CN', 'en': 'en_US', 'pt': 'pt_PT', 'fr': 'fr_FR'}[lang]
+    site_name = {'zh-TW': C['site_name'], 'zh-CN': '澳门数字创新协会', 'en': C['site_name_en'], 'pt': C['site_name_pt'], 'fr': C['site_name_fr']}[lang]
     jsonld = ''
     if page == 'index':
         jsonld = f'''<script type="application/ld+json">
@@ -350,7 +350,8 @@ def render_index(lang):
     </div>
   </div>
 </section>'''
-    return page_shell('index', lang, t(lang, 'nav', 'home'), hero['subtitle'].replace('\n', ''), body)
+    desc_joiner = '' if lang.startswith('zh') else ' '
+    return page_shell('index', lang, t(lang, 'nav', 'home'), hero['subtitle'].replace('\n', desc_joiner), body)
 
 # ---------------- 關於我們 ----------------
 def render_about(lang):
@@ -410,7 +411,7 @@ def render_about(lang):
 def member_name_html(name):
     if name.endswith('博士'):
         return f'{esc(name[:-2])} <span class="name-title">博士</span>'
-    for pre in ('Dr. ', 'Dra. '):
+    for pre in ('Dr. ', 'Dra. ', 'Dr ', 'Dre '):
         if name.startswith(pre):
             return f'<span class="name-title">{esc(pre.strip())}</span> {esc(name[len(pre):])}'
     return esc(name)
@@ -719,9 +720,9 @@ def build():
   <div class="container-institutional">
     <div class="reveal">
       <h1 class="institutional-heading">404</h1>
-      <p class="sub text-muted-foreground">{esc({'zh-TW': '頁面不存在或已被移動', 'zh-CN': '页面不存在或已被移动', 'en': 'The page you are looking for does not exist or has been moved.', 'pt': 'A página que procura não existe ou foi movida.'}[DEFAULT])}</p>
+      <p class="sub text-muted-foreground">{esc({'zh-TW': '頁面不存在或已被移動', 'zh-CN': '页面不存在或已被移动', 'en': 'The page you are looking for does not exist or has been moved.', 'pt': 'A página que procura não existe ou foi movida.', 'fr': "La page que vous recherchez n'existe pas ou a été déplacée."}[DEFAULT])}</p>
       <div class="cta-row" style="margin-top:2rem;display:flex;justify-content:center;">
-        <a class="btn btn-primary" href="index.html">{esc({'zh-TW': '返回首頁', 'zh-CN': '返回首页', 'en': 'Back to Home', 'pt': 'Voltar ao Início'}[DEFAULT])}{icon('arrow')}</a>
+        <a class="btn btn-primary" href="index.html">{esc({'zh-TW': '返回首頁', 'zh-CN': '返回首页', 'en': 'Back to Home', 'pt': 'Voltar ao Início', 'fr': "Retour à l'accueil"}[DEFAULT])}{icon('arrow')}</a>
       </div>
     </div>
   </div>

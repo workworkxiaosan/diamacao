@@ -19,12 +19,18 @@
       "code": "pt",
       "label": "Português",
       "flag": "🇵🇹"
+    },
+    {
+      "code": "fr",
+      "label": "Français",
+      "flag": "🇫🇷"
     }
   ],
   "default_lang": "zh-TW",
   "site_name": "澳門數字創新協會",
   "site_name_en": "Macao Digital Innovation Association",
   "site_name_pt": "Associação de Inovação Digital de Macau",
+  "site_name_fr": "Association d'Innovation Numérique de Macao",
   "site_url": "https://www.diamacao.com",
   "email": "info@diamacao.com",
   "year": 2026,
@@ -32,7 +38,8 @@
     "zh-TW": "澳門湖畔南街中國與葡語國家商貿合作服務平台綜合體辦公樓B1 1-1",
     "zh-CN": "澳门湖畔南街中国与葡语国家商贸合作服务平台综合体办公楼B1 1-1",
     "en": "Unit 1-1, B1, Office Building of the Complex of Commerce and Trade Co-operation Platform for China and Portuguese-speaking Countries, Rua Sul de Entre Lagos, Macao",
-    "pt": "Unidade 1-1, B1, Edifício de Escritórios do Complexo da Plataforma de Serviços para a Cooperação Comercial entre a China e os Países de Língua Portuguesa, Rua Sul de Entre Lagos, Macau"
+    "pt": "Unidade 1-1, B1, Edifício de Escritórios do Complexo da Plataforma de Serviços para a Cooperação Comercial entre a China e os Países de Língua Portuguesa, Rua Sul de Entre Lagos, Macau",
+    "fr": "Unité 1-1, B1, Immeuble de bureaux du Complexe de la Plateforme de services pour la coopération commerciale entre la Chine et les pays de langue portugaise, Rua Sul de Entre Lagos, Macao"
   },
   "social": {
     "facebook": "#",
@@ -303,7 +310,7 @@
         "members": "Leadership",
         "news": "News",
         "policy": "Go-Global Policies",
-        "services": "Escort Program",
+        "services": "Go-Global Support",
         "partners": "Partners",
         "contact": "Contact Us"
       },
@@ -322,14 +329,14 @@
         "viewAll": "View All",
         "ctaBandTitle": "Join Us in Shaping the Digital Future",
         "ctaBandLead": "Whether it's global expansion, digital transformation or international cooperation, DIA is your bridge and partner in Macao.",
-        "escortTitle": "Enterprise Go-Global Escort Program",
-        "escortLead": "Found, Trusted, Quoted by AI — one-stop escort that makes going global truly visible",
+        "escortTitle": "Enterprise Go-Global Support Program",
+        "escortLead": "Be Found · Be Trusted · Be Quoted by AI — one-stop support that keeps go-global enterprises truly visible",
         "escortCta": "Explore the Program"
       },
       "about": {
         "title": "About Us",
         "subtitle": "A non-profit association advancing the all-round development of Macao's digital sector",
-        "purposeTitle": "Our Mission",
+        "purposeTitle": "Our Purpose",
         "purpose": [
           "Upholding the spirit of love for the country and for Macao, the Association promotes the development of the digital economy and its deep integration with diverse industries.",
           "Guided by our motto — \"Gather Talent, Drive Commercialisation, Foster New Intelligence, Connect the World\" — we proactively serve the nation's \"international circulation\" development strategy and contribute to the great rejuvenation of the Chinese nation."
@@ -376,8 +383,8 @@
         }
       },
       "services": {
-        "title": "Enterprise Go-Global Escort Program",
-        "subtitle": "Rooted in Macao, Connected to the World — Starting from Macao, Winning with the World"
+        "title": "Enterprise Go-Global Support Program",
+        "subtitle": "Rooted in Macao, Connected to the World — From Macao to Shared Success Worldwide"
       },
       "partners": {
         "title": "Partners",
@@ -450,7 +457,7 @@
         "ctaBandTitle": "Junte-se a Nós na Construção do Futuro Digital",
         "ctaBandLead": "Quer se trate de internacionalização, transformação digital ou cooperação internacional, a DIA é a sua ponte e parceira em Macau.",
         "escortTitle": "Programa de Acompanhamento à Internacionalização",
-        "escortLead": "Encontrado, Confiável, Citado pela IA — acompanhamento integral para empresas verdadeiramente visíveis",
+        "escortLead": "Ser encontrada · Ser confiável · Ser citada pela IA — acompanhamento integral para tornar a sua empresa verdadeiramente visível",
         "escortCta": "Conhecer o Programa"
       },
       "about": {
@@ -459,7 +466,7 @@
         "purposeTitle": "Os Nossos Objectivos",
         "purpose": [
           "No espírito de amor à Pátria e a Macau, a Associação promove o desenvolvimento da economia digital e a sua integração profunda com indústrias diversificadas.",
-          "Guiada pelo lema «Reunir Talentos, Promover a Transformação, Cultivar Nova Inteligência, Ligar o Mundo», a Associação serve ativamente a estratégia nacional de «circulação internacional» e contribui para o grande rejuvenescimento da nação chinesa."
+          "Guiada pelo lema «Reunir Talentos, Promover a Transformação, Cultivar Nova Inteligência, Ligar o Mundo», a Associação serve activamente a estratégia nacional de «circulação internacional» e contribui para o grande rejuvenescimento da nação chinesa."
         ],
         "visionTitle": "Visão",
         "visionText": "Ser um pólo de inovação digital enraizado em Macau, ligando o interior da China ao mundo, e ajudar Macau a tornar-se um ponto de apoio estratégico para a economia digital e para a internacionalização das empresas chinesas.",
@@ -504,7 +511,7 @@
       },
       "services": {
         "title": "Programa de Acompanhamento à Internacionalização Empresarial",
-        "subtitle": "Base em Macau, Ligação ao Mundo — Partindo de Macau, Vencendo com o Mundo"
+        "subtitle": "Com base em Macau, ligados ao mundo — de Macau, rumo a um sucesso partilhado com o mundo"
       },
       "partners": {
         "title": "Parceiros",
@@ -549,6 +556,134 @@
         "contactTitle": "Contactos",
         "allRightsReserved": "Todos os direitos reservados"
       }
+    },
+    "fr": {
+      "nav": {
+        "home": "Accueil",
+        "about": "Qui sommes-nous",
+        "members": "Gouvernance",
+        "news": "Actualités",
+        "policy": "Politiques d'internationalisation",
+        "services": "Accompagnement",
+        "partners": "Partenaires",
+        "contact": "Contact"
+      },
+      "hero": {
+        "headline": "Leadership numérique · S'internationaliser ensemble · Cap sur le monde depuis Macao",
+        "subtitle": "L'Association d'Innovation Numérique de Macao œuvre à l'intégration profonde des technologies numériques dans les industries diversifiées et bâtit une plateforme transfrontalière d'internationalisation des entreprises,\ncontribuant ainsi à la diversification adéquate de l'économie de Macao.",
+        "cta1": "En savoir plus",
+        "cta2": "Politiques d'internationalisation",
+        "cta3": "Contact"
+      },
+      "home": {
+        "focusTitle": "Nos domaines d'action",
+        "focusSub": "Relier les pouvoirs publics, les entreprises et la recherche grâce à une plateforme d'innovation au service de l'économie numérique de Macao",
+        "newsTitle": "Dernières actualités",
+        "policyTitle": "Politiques d'internationalisation : l'essentiel",
+        "viewAll": "Tout voir",
+        "ctaBandTitle": "Ensemble, ouvrons l'avenir du numérique",
+        "ctaBandLead": "Internationalisation des entreprises, transformation numérique ou coopération internationale : l'Association d'Innovation Numérique de Macao est votre passerelle et votre partenaire.",
+        "escortTitle": "Programme d'accompagnement à l'internationalisation des entreprises",
+        "escortLead": "Être trouvé · Inspirer confiance · Être cité par l'IA — un accompagnement intégral pour une visibilité réelle à l'international.",
+        "escortCta": "Découvrir le programme"
+      },
+      "about": {
+        "title": "Qui sommes-nous",
+        "subtitle": "Une association à but non lucratif œuvrant au développement global du secteur numérique de Macao",
+        "purposeTitle": "Notre vocation",
+        "purpose": [
+          "Fidèle à l'esprit d'amour de la patrie et de Macao, l'Association œuvre au développement de l'économie numérique et à son intégration dans les industries diversifiées ;",
+          "« Rassembler les talents, favoriser la valorisation, cultiver une intelligence nouvelle, relier le monde » ;",
+          "au service actif de la stratégie nationale de « circulation internationale » et du grand renouveau de la nation chinoise."
+        ],
+        "visionTitle": "Vision",
+        "visionText": "Devenir un pôle d'innovation numérique ancré à Macao et reliant la Chine continentale au reste du monde, et faire de Macao un point d'appui stratégique pour l'économie numérique et l'internationalisation des entreprises chinoises.",
+        "missionTitle": "Mission",
+        "missionText": "Par des plateformes d'innovation, promouvoir l'intégration profonde des technologies numériques dans les industries diversifiées, former des talents du numérique, élargir la coopération internationale et favoriser la diversification adéquate de l'économie de Macao, au service du développement national et de la construction de la Grande Baie.",
+        "objectivesTitle": "Objectifs stratégiques",
+        "objective1": "Promouvoir la transformation numérique des industries traditionnelles et le développement de l'économie numérique",
+        "objective2": "Bâtir des plateformes transfrontalières pour l'internationalisation des entreprises et la coopération internationale",
+        "objective3": "Favoriser la synergie industrie-enseignement-recherche et la valorisation des résultats scientifiques et technologiques",
+        "objective4": "Diffuser la culture numérique et former des talents innovants",
+        "areasTitle": "Domaines prioritaires",
+        "area1": "Économie numérique",
+        "area2": "Internationalisation des entreprises",
+        "area3": "Applications de l'IA",
+        "area4": "Commerce électronique transfrontalier et commerce numérique",
+        "area5": "Mondialisation des marques",
+        "area6": "Formation des talents du numérique"
+      },
+      "members": {
+        "title": "Gouvernance",
+        "subtitle": "La direction et les organes statutaires de l'Association",
+        "leadersTitle": "Direction",
+        "orgTitle": "Organes statutaires"
+      },
+      "news": {
+        "title": "Actualités",
+        "subtitle": "Les dernières nouvelles publiques de l'Association et sa couverture médiatique",
+        "readMore": "Lire la suite",
+        "backToNews": "Retour aux actualités",
+        "sourcePrefix": "Source"
+      },
+      "policy": {
+        "title": "Politiques d'internationalisation",
+        "subtitle": "Mises à jour régulières des politiques et des dynamiques de marché relatives à l'internationalisation des entreprises chinoises, pour saisir les opportunités de l'ouverture de haut niveau",
+        "learnMore": "En savoir plus",
+        "regions": {
+          "national": "Politiques nationales",
+          "gba": "Grande Baie et Hengqin",
+          "macao": "La plateforme de Macao",
+          "global": "Marchés étrangers prioritaires"
+        }
+      },
+      "services": {
+        "title": "Programme d'accompagnement à l'internationalisation des entreprises",
+        "subtitle": "Ancrés à Macao, connectés au monde — de Macao vers un succès partagé avec le monde"
+      },
+      "partners": {
+        "title": "Partenaires",
+        "subtitle": "Unir les forces de tous les horizons pour bâtir un écosystème d'innovation numérique"
+      },
+      "contact": {
+        "title": "Contact",
+        "subtitle": "Pour les demandes d'adhésion, les propositions de coopération ou les questions sur nos événements, contactez-nous",
+        "orgName": "Association d'Innovation Numérique de Macao",
+        "addressLabel": "Siège",
+        "email": "Courriel",
+        "followUs": "Suivez-nous",
+        "contactForm": "Formulaire de contact",
+        "cooperationForm": "Demande de coopération",
+        "name": "Nom",
+        "namePlaceholder": "Votre nom",
+        "emailLabel": "Adresse électronique",
+        "emailPlaceholder": "Votre adresse électronique",
+        "message": "Message",
+        "messagePlaceholder": "Votre message",
+        "submit": "Envoyer",
+        "successMessage": "Envoi réussi ! Nous vous répondrons dans les plus brefs délais.",
+        "errorRequired": "Ce champ est obligatoire",
+        "errorEmail": "Veuillez saisir une adresse électronique valide",
+        "submitting": "Envoi en cours…",
+        "organization": "Organisation",
+        "organizationPlaceholder": "Votre organisation",
+        "inquiryType": "Type de demande",
+        "inquiryTypePlaceholder": "Veuillez choisir un type de demande",
+        "inquiryTypes": {
+          "member": "Demande d'adhésion",
+          "goingGlobal": "Services d'internationalisation",
+          "event": "Coopération événementielle",
+          "media": "Demande des médias",
+          "other": "Autre"
+        }
+      },
+      "footer": {
+        "description": "L'Association d'Innovation Numérique de Macao est une organisation à but non lucratif dédiée au développement global du secteur numérique de Macao : elle bâtit des plateformes d'innovation, accompagne l'internationalisation des entreprises et sert le développement national ainsi que la Grande Baie Guangdong-Hong Kong-Macao.",
+        "quickLinks": "Liens rapides",
+        "updates": "Dernières informations",
+        "contactTitle": "Coordonnées",
+        "allRightsReserved": "Tous droits réservés"
+      }
     }
   },
   "stats": [
@@ -558,7 +693,8 @@
         "zh-TW": "重點工作領域",
         "zh-CN": "重点工作领域",
         "en": "Focus Areas",
-        "pt": "Áreas de Actuação"
+        "pt": "Áreas de Actuação",
+        "fr": "Domaines d'action"
       }
     },
     {
@@ -567,7 +703,8 @@
         "zh-TW": "首批經澳門出海對接企業",
         "zh-CN": "首批经澳门出海对接企业",
         "en": "First Batch of Go-Global Enterprises via Macao",
-        "pt": "Primeiras Empresas em Internacionalização via Macau"
+        "pt": "Primeiras Empresas em Internacionalização via Macau",
+        "fr": "Premières entreprises internationalisées via Macao"
       }
     },
     {
@@ -576,7 +713,8 @@
         "zh-TW": "組織機關（會員大會·理事會·監事會）",
         "zh-CN": "组织机关（会员大会·理事会·监事会）",
         "en": "Governing Bodies",
-        "pt": "Órgãos Sociais"
+        "pt": "Órgãos Sociais",
+        "fr": "Organes statutaires"
       }
     },
     {
@@ -585,7 +723,8 @@
         "zh-TW": "服務語言",
         "zh-CN": "服务语言",
         "en": "Working Languages",
-        "pt": "Línguas de Trabalho"
+        "pt": "Línguas de Trabalho",
+        "fr": "Langues de travail"
       }
     }
   ],
@@ -596,13 +735,15 @@
         "zh-TW": "數字化轉型",
         "zh-CN": "数字化转型",
         "en": "Digital Transformation",
-        "pt": "Transformação Digital"
+        "pt": "Transformação Digital",
+        "fr": "Transformation numérique"
       },
       "description": {
         "zh-TW": "搭建創新平台，助力傳統行業數字化轉型，挖掘數字經濟新增長點",
         "zh-CN": "搭建创新平台，助力传统行业数字化转型，挖掘数字经济新增长点",
         "en": "Building innovation platforms to help traditional industries go digital and unlock new growth drivers of the digital economy",
-        "pt": "Construção de plataformas de inovação para apoiar a digitalização das indústrias tradicionais e explorar novos motores da economia digital"
+        "pt": "Construção de plataformas de inovação para apoiar a digitalização das indústrias tradicionais e explorar novos motores da economia digital",
+        "fr": "Construire des plateformes d'innovation pour accompagner la transformation numérique des industries traditionnelles et dégager de nouveaux relais de croissance de l'économie numérique"
       }
     },
     {
@@ -611,13 +752,15 @@
         "zh-TW": "企業出海服務",
         "zh-CN": "企业出海服务",
         "en": "Go-Global Services",
-        "pt": "Serviços de Internacionalização"
+        "pt": "Serviços de Internacionalização",
+        "fr": "Services d'internationalisation des entreprises"
       },
       "description": {
         "zh-TW": "搭建跨境出海平台，助力內地與澳門企業經澳門拓展葡語國家及國際市場",
         "zh-CN": "搭建跨境出海平台，助力内地与澳门企业经澳门拓展葡语国家及国际市场",
         "en": "Building cross-border platforms that help mainland and Macao enterprises expand via Macao into Portuguese-speaking and international markets",
-        "pt": "Construção de plataformas transfronteiriças que ajudam empresas do interior da China e de Macau a expandir, via Macau, para os mercados lusófonos e internacionais"
+        "pt": "Construção de plataformas transfronteiriças que ajudam empresas do interior da China e de Macau a expandir, via Macau, para os mercados lusófonos e internacionais",
+        "fr": "Bâtir des plateformes transfrontalières d'internationalisation pour aider les entreprises de la Chine continentale et de Macao à conquérir, via Macao, les marchés lusophones et internationaux"
       }
     },
     {
@@ -626,13 +769,15 @@
         "zh-TW": "產學研協同",
         "zh-CN": "产学研协同",
         "en": "Industry-Research Collaboration",
-        "pt": "Colaboração Indústria-Investigação"
+        "pt": "Colaboração Indústria-Investigação",
+        "fr": "Synergie industrie-recherche"
       },
       "description": {
         "zh-TW": "匯聚數字領域人才、科研機構與企業，加速科技成果轉化應用",
         "zh-CN": "汇聚数字领域人才、科研机构与企业，加速科技成果转化应用",
         "en": "Bringing together talent, research institutions and enterprises to accelerate the application of scientific and technological achievements",
-        "pt": "Reunir talentos, instituições de investigação e empresas para acelerar a aplicação de resultados científicos e tecnológicos"
+        "pt": "Reunir talentos, instituições de investigação e empresas para acelerar a aplicação de resultados científicos e tecnológicos",
+        "fr": "Réunir les talents, les institutions de recherche et les entreprises du numérique pour accélérer la valorisation et l'application des résultats scientifiques et technologiques"
       }
     },
     {
@@ -641,13 +786,15 @@
         "zh-TW": "數字人才培育",
         "zh-CN": "数字人才培育",
         "en": "Digital Talent Development",
-        "pt": "Formação de Talentos Digitais"
+        "pt": "Formação de Talentos Digitais",
+        "fr": "Formation des talents du numérique"
       },
       "description": {
         "zh-TW": "開展培訓、講座及交流活動，提升全民數字素養，培育數字時代創新人才",
         "zh-CN": "开展培训、讲座及交流活动，提升全民数字素养，培育数字时代创新人才",
         "en": "Running training courses, lectures and exchanges to raise digital literacy and cultivate innovative talent for the digital era",
-        "pt": "Realização de formações, palestras e intercâmbios para elevar a literacia digital e formar talentos inovadores para a era digital"
+        "pt": "Realização de formações, palestras e intercâmbios para elevar a literacia digital e formar talentos inovadores para a era digital",
+        "fr": "Organiser formations, conférences et échanges pour renforcer la culture numérique de tous et former les talents innovants de l'ère numérique"
       }
     },
     {
@@ -656,13 +803,15 @@
         "zh-TW": "國際交流合作",
         "zh-CN": "国际交流合作",
         "en": "International Exchange",
-        "pt": "Intercâmbio Internacional"
+        "pt": "Intercâmbio Internacional",
+        "fr": "Coopération internationale"
       },
       "description": {
         "zh-TW": "加強與全球數字創新前沿地區交流合作，引進先進理念與技術",
         "zh-CN": "加强与全球数字创新前沿地区交流合作，引进先进理念与技术",
         "en": "Strengthening exchange and cooperation with leading digital innovation regions, introducing advanced ideas and technologies to Macao",
-        "pt": "Intensificar intercâmbios e cooperação com regiões de vanguarda da inovação digital, introduzindo conceitos e tecnologias avançados em Macau"
+        "pt": "Intensificar intercâmbios e cooperação com regiões de vanguarda da inovação digital, introduzindo conceitos e tecnologias avançados em Macau",
+        "fr": "Renforcer les échanges et la coopération avec les régions à la pointe de l'innovation numérique mondiale, afin d'introduire à Macao concepts et technologies avancés"
       }
     },
     {
@@ -671,13 +820,15 @@
         "zh-TW": "政策研究建言",
         "zh-CN": "政策研究建言",
         "en": "Policy Research",
-        "pt": "Investigação de Políticas"
+        "pt": "Investigação de Políticas",
+        "fr": "Études et conseils en politiques publiques"
       },
       "description": {
         "zh-TW": "圍繞數字經濟與企業出海政策開展研究，為企業決策與政府施政提供參考",
         "zh-CN": "围绕数字经济与企业出海政策开展研究，为企业决策与政府施政提供参考",
         "en": "Conducting research on the digital economy and go-global policies to inform business decisions and government policymaking",
-        "pt": "Investigação sobre a economia digital e políticas de internacionalização para apoiar decisões empresariais e governamentais"
+        "pt": "Investigação sobre a economia digital e políticas de internacionalização para apoiar decisões empresariais e governamentais",
+        "fr": "Mener des recherches sur l'économie numérique et les politiques d'internationalisation, au service de la décision des entreprises comme de l'action des pouvoirs publics"
       }
     }
   ],
@@ -689,19 +840,22 @@
         "zh-TW": "黃家倫",
         "zh-CN": "黄家伦",
         "en": "Vong Ka Lon (Huang Jialun)",
-        "pt": "Vong Ka Lon (Huang Jialun)"
+        "pt": "Vong Ka Lon (Huang Jialun)",
+        "fr": "Vong Ka Lon (Huang Jialun)"
       },
       "role": {
         "zh-TW": "會長",
         "zh-CN": "会长",
         "en": "President",
-        "pt": "Presidente"
+        "pt": "Presidente",
+        "fr": "Président"
       },
       "bio": {
         "zh-TW": "澳門特別行政區立法會議員，廣東省政協委員，澳門數字創新協會會長，澳門直播協會創會會長。長期關注數字經濟、科技成果轉化服務，青年創新與中小企數字化轉型，致力推動澳門與內地及國際間的數字產業合作。",
         "zh-CN": "澳门特别行政区立法会议员，广东省政协委员，澳门数字创新协会会长，澳门直播协会创会会长。长期关注数字经济、科技成果转化服务，青年创新与中小企业数字化转型，致力推动澳门与内地及国际间的数字产业合作。",
-        "en": "Member of the Legislative Assembly of the Macao SAR, Member of the Guangdong Provincial Committee of the CPPCC, President of the Macao Digital Innovation Association and Founding President of the Macao Live Streaming Association. A long-time advocate of the digital economy, technology transfer and commercialization services, youth innovation and SME digital transformation, he works to advance digital industry cooperation between Macao, the Chinese mainland and international markets.",
-        "pt": "Deputado à Assembleia Legislativa da RAEM, Membro do Comité Provincial de Guangdong da CCPPC, Presidente da Associação de Inovação Digital de Macau e Presidente Fundador da Associação de Live Streaming de Macau. Dedicado há muito à economia digital, aos serviços de transferência e comercialização de resultados científicos e tecnológicos, à inovação jovem e à transformação digital das PME, promove a cooperação da indústria digital entre Macau, o interior da China e os mercados internacionais."
+        "en": "Member of the Legislative Assembly of the Macao SAR, Member of the Guangdong Provincial Committee of the CPPCC, President of the Macao Digital Innovation Association and Founding President of the Macao Live Streaming Association. A long-time advocate of the digital economy, technology transfer and commercialisation services, youth innovation and SME digital transformation, he works to advance digital industry cooperation between Macao, the Chinese mainland and international markets.",
+        "pt": "Deputado à Assembleia Legislativa da RAEM, Membro do Comité Provincial de Guangdong da CCPPC, Presidente da Associação de Inovação Digital de Macau e Presidente Fundador da Associação de Live Streaming de Macau. Dedicado há muito à economia digital, aos serviços de transferência e comercialização de resultados científicos e tecnológicos, à inovação jovem e à transformação digital das PME, promove a cooperação da indústria digital entre Macau, o interior da China e os mercados internacionais.",
+        "fr": "Député à l'Assemblée législative de la RAS de Macao, Membre du Comité provincial du Guangdong de la CCPPC, Président de l'Association d'Innovation Numérique de Macao et Président fondateur de l'Association de Live Streaming de Macao. Attentif de longue date à l'économie numérique, aux services de valorisation des résultats scientifiques et technologiques, à l'innovation des jeunes et à la transformation numérique des PME, il s'attache à promouvoir la coopération de la filière numérique entre Macao, la Chine continentale et les marchés internationaux."
       }
     },
     {
@@ -711,19 +865,22 @@
         "zh-TW": "楊誠博士",
         "zh-CN": "杨诚博士",
         "en": "Dr. Yang Cheng",
-        "pt": "Dr. Yang Cheng"
+        "pt": "Dr. Yang Cheng",
+        "fr": "Dr Yang Cheng"
       },
       "role": {
         "zh-TW": "理事長",
         "zh-CN": "理事长",
         "en": "Chairman of the Board",
-        "pt": "Presidente da Direcção"
+        "pt": "Presidente da Direcção",
+        "fr": "Président du Conseil d'administration"
       },
       "bio": {
         "zh-TW": "澳門國際科技產業中心顧問、澳門數字創新協會理事長，澳門財經科技與教育發展學會會長，廣州大學統計學博士後，澳門科技大學工商管理博士。專業財富管理師CFMP，長期致力人民幣國際化、跨境金融和跨境信任傳遞成本研究，擁有豐富的理論與實務經驗。負責協會的會務工作和會員的招募。",
         "zh-CN": "澳门国际科技产业中心顾问、澳门数字创新协会理事长，澳门财经科技与教育发展学会会长，广州大学统计学博士后，澳门科技大学工商管理博士。专业财富管理师CFMP，长期致力人民币国际化、跨境金融和跨境信任传递成本研究，拥有丰富的理论与实务经验。负责协会的会务工作和会员的招募。",
         "en": "Advisor to the Macao International Technology Industry Centre, Chairman of the Board of the Macao Digital Innovation Association and President of the Macao Financial Technology and Education Development Association. Postdoctoral researcher in Statistics at Guangzhou University and Doctor of Business Administration from the Macau University of Science and Technology. A Certified Financial Management Professional (CFMP), he has long been dedicated to research on RMB internationalisation, cross-border finance and cross-border trust transmission costs, with extensive theoretical and practical experience. He is responsible for the Association's day-to-day affairs and member recruitment.",
-        "pt": "Consultor do Centro Internacional da Indústria Tecnológica de Macau, Presidente da Direcção da Associação de Inovação Digital de Macau e Presidente da Associação para o Desenvolvimento da Tecnologia Financeira e Educação de Macau. Pós-doutor em Estatística pela Universidade de Guangzhou e Doutor em Gestão de Empresas pela Universidade de Ciência e Tecnologia de Macau. Gestor de património profissional certificado (CFMP), dedica-se há muito à investigação sobre a internacionalização do renminbi, as finanças transfronteiriças e os custos de transmissão de confiança transfronteiriça, acumulando vasta experiência teórica e prática. É responsável pelos assuntos associativos e pelo recrutamento de membros da Associação."
+        "pt": "Consultor do Centro Internacional da Indústria Tecnológica de Macau, Presidente da Direcção da Associação de Inovação Digital de Macau e Presidente da Associação para o Desenvolvimento da Tecnologia Financeira e Educação de Macau. Pós-doutor em Estatística pela Universidade de Guangzhou e Doutor em Gestão de Empresas pela Universidade de Ciência e Tecnologia de Macau. Gestor de património profissional certificado (CFMP), dedica-se há muito à investigação sobre a internacionalização do renminbi, as finanças transfronteiriças e os custos de transmissão de confiança transfronteiriça, acumulando vasta experiência teórica e prática. É responsável pelos assuntos associativos e pelo recrutamento de membros da Associação.",
+        "fr": "Conseiller du Centre international de l'industrie technologique de Macao, Président du Conseil d'administration de l'Association d'Innovation Numérique de Macao et Président de l'Association pour le développement des technologies financières et de l'éducation de Macao. Chercheur postdoctoral en statistique de l'Université de Guangzhou et docteur en administration des affaires de l'Université des sciences et technologies de Macao. Gestionnaire de patrimoine professionnel certifié (CFMP), il se consacre de longue date à la recherche sur l'internationalisation du renminbi, la finance transfrontalière et les coûts de transmission de la confiance transfrontalière, fort d'une solide expérience théorique et pratique. Il assure la gestion des affaires courantes de l'Association et le recrutement des membres."
       }
     },
     {
@@ -733,19 +890,22 @@
         "zh-TW": "高明博士",
         "zh-CN": "高明博士",
         "en": "Dr. Gao Ming",
-        "pt": "Dr. Gao Ming"
+        "pt": "Dr. Gao Ming",
+        "fr": "Dr Gao Ming"
       },
       "role": {
         "zh-TW": "監事長",
         "zh-CN": "监事长",
-        "en": "Chairperson of the Supervisory Committee",
-        "pt": "Presidente do Conselho Fiscal"
+        "en": "Chairman of the Supervisory Committee",
+        "pt": "Presidente do Conselho Fiscal",
+        "fr": "Président du Conseil de surveillance"
       },
       "bio": {
         "zh-TW": "澳門數字創新協會監事長，澳門大學工商管理哲學博士，澳門博士翻譯董事總經理，第七屆「粵港澳大灣區傑出青年企業家」。領導監事會監察理事會日常會務運作和財政收支，保障協會規範運作。",
         "zh-CN": "澳门数字创新协会监事长，澳门大学工商管理哲学博士，澳门博士翻译董事总经理，第七届“粤港澳大湾区杰出青年企业家”。领导监事会监察理事会日常会务运作和财政收支，保障协会规范运作。",
         "en": "Chairperson of the Supervisory Committee of the Macao Digital Innovation Association. PhD in Business Administration from the University of Macau, Managing Director of BOSS Translation Company Limited (Macao), and recipient of the 7th \"Guangdong-Hong Kong-Macao Greater Bay Area Outstanding Young Entrepreneur\" award. He leads the Supervisory Committee in overseeing the Board's daily operations and finances to ensure sound governance of the Association.",
-        "pt": "Presidente do Conselho Fiscal da Associação de Inovação Digital de Macau. Doutor (PhD) em Gestão de Empresas pela Universidade de Macau, Director-Geral da BOSS Translation Company Limited (Macau) e laureado na 7.ª edição do prémio \"Jovem Empresário de Destaque da Grande Baía Guangdong-Hong Kong-Macau\". Lidera o Conselho Fiscal na supervisão da gestão diária e das finanças da Direcção, garantindo o funcionamento regular da Associação."
+        "pt": "Presidente do Conselho Fiscal da Associação de Inovação Digital de Macau. Doutor (PhD) em Gestão de Empresas pela Universidade de Macau, Director-Geral da BOSS Translation Company Limited (Macau) e laureado na 7.ª edição do prémio \"Jovem Empresário de Destaque da Grande Baía Guangdong-Hong Kong-Macau\". Lidera o Conselho Fiscal na supervisão da gestão diária e das finanças da Direcção, garantindo o funcionamento regular da Associação.",
+        "fr": "Président du Conseil de surveillance de l'Association d'Innovation Numérique de Macao. Docteur (PhD) en administration des affaires de l'Université de Macao, directeur général de BOSS Translation Company Limited (Macao) et lauréat du 7e prix « Jeune entrepreneur d'excellence de la Grande Baie Guangdong-Hong Kong-Macao ». Il dirige le Conseil de surveillance dans le contrôle de la gestion quotidienne et des finances du Conseil d'administration, garantissant le fonctionnement régulier de l'Association."
       }
     },
     {
@@ -755,19 +915,22 @@
         "zh-TW": "宋薇博士",
         "zh-CN": "宋薇博士",
         "en": "Dr. Song Wei",
-        "pt": "Dra. Song Wei"
+        "pt": "Dra. Song Wei",
+        "fr": "Dre Song Wei"
       },
       "role": {
         "zh-TW": "秘書長",
         "zh-CN": "秘书长",
         "en": "Secretary-General",
-        "pt": "Secretária-Geral"
+        "pt": "Secretária-Geral",
+        "fr": "Secrétaire générale"
       },
       "bio": {
         "zh-TW": "澳門數字創新協會秘書長，澳門城市大學應用心理學博士，現鳳凰衛視（澳門站）、羊城晚報（澳門站）、鏡海僑報總編輯，前中央人民廣播電台主持人。負責秘書處日常行政、會員服務與會務統籌，協助理事會推進各項工作。",
         "zh-CN": "澳门数字创新协会秘书长，澳门城市大学应用心理学博士，现凤凰卫视（澳门站）、羊城晚报（澳门站）、镜海侨报总编辑，前中央人民广播电台主持人。负责秘书处日常行政、会员服务与会务统筹，协助理事会推进各项工作。",
         "en": "Secretary-General of the Macao Digital Innovation Association. Doctor of Applied Psychology from the City University of Macao; currently Editor-in-Chief of Phoenix TV (Macao Bureau), Yangcheng Evening News (Macao Bureau) and the Jing Hai Qiao Bao newspaper, and formerly a presenter at China National Radio. She is responsible for the Secretariat's daily administration, member services and coordination of the Association's affairs, supporting the Board's work.",
-        "pt": "Secretária-Geral da Associação de Inovação Digital de Macau. Doutora em Psicologia Aplicada pela Universidade da Cidade de Macau; actualmente redactora-chefe da Phoenix TV (delegação de Macau), do Yangcheng Evening News (delegação de Macau) e do jornal Jing Hai Qiao Bao, e anteriormente apresentadora da Rádio Nacional da China. É responsável pela administração diária do Secretariado, pelos serviços aos associados e pela coordenação das actividades, apoiando o trabalho da Direcção."
+        "pt": "Secretária-Geral da Associação de Inovação Digital de Macau. Doutora em Psicologia Aplicada pela Universidade da Cidade de Macau; actualmente redactora-chefe da Phoenix TV (delegação de Macau), do Yangcheng Evening News (delegação de Macau) e do jornal Jing Hai Qiao Bao, e anteriormente apresentadora da Rádio Nacional da China. É responsável pela administração diária do Secretariado, pelos serviços aos associados e pela coordenação das actividades, apoiando o trabalho da Direcção.",
+        "fr": "Secrétaire générale de l'Association d'Innovation Numérique de Macao. Docteure en psychologie appliquée de l'Université de la ville de Macao ; actuellement rédactrice en chef de Phoenix TV (bureau de Macao), de Yangcheng Evening News (bureau de Macao) et du journal Jing Hai Qiao Bao, anciennement présentatrice à la Radio nationale de Chine. Elle assure l'administration quotidienne du Secrétariat, les services aux membres et la coordination des activités, en appui aux travaux du Conseil d'administration."
       }
     }
   ],
@@ -778,13 +941,15 @@
         "zh-TW": "會員大會",
         "zh-CN": "会员大会",
         "en": "General Assembly",
-        "pt": "Assembleia Geral"
+        "pt": "Assembleia Geral",
+        "fr": "Assemblée générale"
       },
       "desc": {
         "zh-TW": "本會最高權力機關，負責制定或修改會章，選舉會員大會會長、副會長、秘書長、副秘書長和理事會、監事會成員，決定會務方針，審查和批准理事會工作報告。設會長一名，副會長若干名，秘書長一名及副秘書長若干名，每屆任期三年，可連選連任。",
         "zh-CN": "本会最高权力机关，负责制定或修改会章，选举会员大会会长、副会长、秘书长、副秘书长和理事会、监事会成员，决定会务方针，审查和批准理事会工作报告。设会长一名，副会长若干名，秘书长一名及副秘书长若干名，每届任期三年，可连选连任。",
         "en": "The supreme governing body of the Association. It formulates and amends the statutes, elects the President, Vice-Presidents, Secretary-General and Deputy Secretaries-General of the General Assembly as well as members of the Board of Directors and the Supervisory Committee, decides on work policies, and reviews and approves the Board's work reports. It comprises one President, several Vice-Presidents, one Secretary-General and several Deputy Secretaries-General, each serving a renewable three-year term.",
-        "pt": "Órgão supremo da Associação, responsável por elaborar e alterar os estatutos, eleger o Presidente, os Vice-Presidentes, o Secretário-Geral e os Secretários-Gerais Adjuntos da Assembleia Geral, bem como os membros da Direcção e do Conselho Fiscal, definir as orientações gerais e apreciar e aprovar os relatórios da Direcção. É composta por um Presidente, vários Vice-Presidentes, um Secretário-Geral e vários Secretários-Gerais Adjuntos, com mandatos de três anos, renováveis."
+        "pt": "Órgão supremo da Associação, responsável por elaborar e alterar os estatutos, eleger o Presidente, os Vice-Presidentes, o Secretário-Geral e os Secretários-Gerais Adjuntos da Assembleia Geral, bem como os membros da Direcção e do Conselho Fiscal, definir as orientações gerais e apreciar e aprovar os relatórios da Direcção. É composta por um Presidente, vários Vice-Presidentes, um Secretário-Geral e vários Secretários-Gerais Adjuntos, com mandatos de três anos, renováveis.",
+        "fr": "Organe suprême de l'Association. Elle établit et modifie les statuts, élit le Président, les Vice-Présidents, le Secrétaire général et les Secrétaires généraux adjoints de l'Assemblée générale ainsi que les membres du Conseil d'administration et du Conseil de surveillance, définit les orientations des travaux et examine et approuve les rapports d'activité du Conseil d'administration. Elle comprend un Président, plusieurs Vice-Présidents, un Secrétaire général et plusieurs Secrétaires généraux adjoints, élus pour un mandat de trois ans renouvelable."
       }
     },
     {
@@ -793,13 +958,15 @@
         "zh-TW": "理事會",
         "zh-CN": "理事会",
         "en": "Board of Directors",
-        "pt": "Direcção"
+        "pt": "Direcção",
+        "fr": "Conseil d'administration"
       },
       "desc": {
         "zh-TW": "本會執行機關，負責執行會員大會決議和日常具體會務。由最少三名或以上單數成員組成，設理事長一名，副理事長若干名及理事若干名，每屆任期三年，可連選連任。理事會會議每三個月召開一次。",
         "zh-CN": "本会执行机关，负责执行会员大会决议和日常具体会务。由最少三名或以上单数成员组成，设理事长一名，副理事长若干名及理事若干名，每届任期三年，可连选连任。理事会会议每三个月召开一次。",
         "en": "The executive body of the Association, responsible for implementing the resolutions of the General Assembly and managing day-to-day affairs. It comprises no fewer than three members, in odd numbers, with one Chairman, several Vice-Chairmen and Directors, each serving a renewable three-year term. The Board meets once every three months.",
-        "pt": "Órgão executivo da Associação, responsável por executar as deliberações da Assembleia Geral e gerir os assuntos correntes. É composta por um mínimo de três membros, em número ímpar, com um Presidente, vários Vice-Presidentes e Vogais, com mandatos de três anos, renováveis. A Direcção reúne uma vez a cada três meses."
+        "pt": "Órgão executivo da Associação, responsável por executar as deliberações da Assembleia Geral e gerir os assuntos correntes. É composta por um mínimo de três membros, em número ímpar, com um Presidente, vários Vice-Presidentes e Vogais, com mandatos de três anos, renováveis. A Direcção reúne uma vez a cada três meses.",
+        "fr": "Organe exécutif de l'Association, chargé de mettre en œuvre les résolutions de l'Assemblée générale et de gérer les affaires courantes. Il se compose d'au moins trois membres, en nombre impair, avec un Président, plusieurs Vice-Présidents et plusieurs administrateurs, élus pour un mandat de trois ans renouvelable. Le Conseil se réunit une fois tous les trois mois."
       }
     },
     {
@@ -808,13 +975,15 @@
         "zh-TW": "監事會",
         "zh-CN": "监事会",
         "en": "Supervisory Committee",
-        "pt": "Conselho Fiscal"
+        "pt": "Conselho Fiscal",
+        "fr": "Conseil de surveillance"
       },
       "desc": {
         "zh-TW": "本會監察機關，負責監察理事會日常會務運作和財政收支。由最少三名或以上單數成員組成，設監事長一名，副監事長若干名及監事若干名，每屆任期三年，可連選連任。監事會會議每三個月召開一次。",
         "zh-CN": "本会监察机关，负责监察理事会日常会务运作和财政收支。由最少三名或以上单数成员组成，设监事长一名，副监事长若干名及监事若干名，每届任期三年，可连选连任。监事会会议每三个月召开一次。",
         "en": "The supervisory body of the Association, overseeing the Board's daily operations and financial affairs. It comprises no fewer than three members, in odd numbers, with one Chairman, several Vice-Chairmen and Supervisors, each serving a renewable three-year term. The Committee meets once every three months.",
-        "pt": "Órgão fiscal da Associação, responsável por fiscalizar o funcionamento quotidiano da Direcção e a movimentação financeira. É composto por um mínimo de três membros, em número ímpar, com um Presidente, vários Vice-Presidentes e Vogais, com mandatos de três anos, renováveis. O Conselho Fiscal reúne uma vez a cada três meses."
+        "pt": "Órgão fiscal da Associação, responsável por fiscalizar o funcionamento quotidiano da Direcção e a movimentação financeira. É composto por um mínimo de três membros, em número ímpar, com um Presidente, vários Vice-Presidentes e Vogais, com mandatos de três anos, renováveis. O Conselho Fiscal reúne uma vez a cada três meses.",
+        "fr": "Organe de contrôle de l'Association, chargé de surveiller la gestion courante du Conseil d'administration ainsi que les finances. Il se compose d'au moins trois membres, en nombre impair, avec un Président, plusieurs Vice-Présidents et plusieurs contrôleurs, élus pour un mandat de trois ans renouvelable. Le Conseil se réunit une fois tous les trois mois."
       }
     }
   ],
@@ -826,26 +995,30 @@
         "zh-TW": "國際合作",
         "zh-CN": "国际合作",
         "en": "International Cooperation",
-        "pt": "Cooperação Internacional"
+        "pt": "Cooperação Internacional",
+        "fr": "Coopération internationale"
       },
       "title": {
         "zh-TW": "協會於巴黎簽署「中法（澳門）品牌全球化戰略投資合作協議」",
         "zh-CN": "协会于巴黎签署「中法（澳门）品牌全球化战略投资合作协议」",
         "en": "DIA Signs China-France (Macao) Brand Globalisation Strategic Investment Cooperation Agreement in Paris",
-        "pt": "DIA Assina em Paris Acordo de Cooperação Estratégica para a Globalização de Marcas China-França (Macau)"
+        "pt": "DIA Assina em Paris Acordo de Cooperação Estratégica para a Globalização de Marcas China-França (Macau)",
+        "fr": "L'Association signe à Paris l'« Accord de coopération stratégique d'investissement pour la mondialisation des marques Chine-France (Macao) »"
       },
       "excerpt": {
         "zh-TW": "第十二屆中法品牌高峰論壇5月28日在巴黎聯合國教科文組織總部舉行，理事長楊誠代表本會與Bonjour Brand中法品牌美學中心簽署合作協議，開啟內地—澳門—法國三方品牌協同合作。",
         "zh-CN": "第十二届中法品牌高峰论坛5月28日在巴黎联合国教科文组织总部举行，理事长杨诚代表本会与Bonjour Brand中法品牌美学中心签署合作协议，开启内地—澳门—法国三方品牌协同合作。",
         "en": "At the 12th China-France Brand Summit held at UNESCO Headquarters in Paris on 28 May, DIA Chairman Yang Cheng signed a cooperation agreement with the Bonjour Brand China-France Brand Aesthetics Centre, launching tripartite brand collaboration between the Chinese mainland, Macao and France.",
-        "pt": "No 12.º Fórum China-França de Marcas, realizado a 28 de Maio na sede da UNESCO em Paris, o Presidente da Direcção da DIA, Yang Cheng, assinou um acordo de cooperação com o Centro de Estética de Marcas China-França Bonjour Brand, inaugurando a colaboração tripartida de marcas entre o interior da China, Macau e França."
+        "pt": "No 12.º Fórum China-França de Marcas, realizado a 28 de Maio na sede da UNESCO em Paris, o Presidente da Direcção da DIA, Yang Cheng, assinou um acordo de cooperação com o Centro de Estética de Marcas China-França Bonjour Brand, inaugurando a colaboração tripartida de marcas entre o interior da China, Macau e França.",
+        "fr": "Le 12e Sommet des marques Chine-France s'est tenu le 28 mai au siège de l'UNESCO à Paris. Yang Cheng, Président du Conseil d'administration, a signé au nom de l'Association un accord de coopération avec le Centre d'esthétique des marques Chine-France Bonjour Brand, ouvrant une coopération tripartite sur les marques entre la Chine continentale, Macao et la France."
       },
       "source": {
         "name": {
           "zh-TW": "濠江日報",
           "zh-CN": "濠江日报",
           "en": "Hou Kong Daily",
-          "pt": "Hou Kong Daily"
+          "pt": "Hou Kong Daily",
+          "fr": "Hou Kong Daily"
         },
         "url": "https://www.houkongdailynews.com/instantNews/151152"
       },
@@ -873,6 +1046,12 @@
           "Durante o fórum, o Centro de Estética de Marcas China-França (representado por Yang Jing) e a Associação de Inovação Digital de Macau (representada pelo Presidente da Direcção, Yang Cheng) assinaram o Acordo de Cooperação Estratégica de Investimento para a Globalização de Marcas China-França (Macau), inaugurando a colaboração tripartida de marcas entre o interior da China, Macau e França. As duas partes irão trabalhar através da sinergia de recursos de marcas, do reforço das capacidades de comunicação digital e da ligação a cenários internacionais, levando as marcas de Macau aos mercados globais.",
           "A assinatura foi testemunhada pelo antigo Primeiro-Ministro francês Jean-Pierre Raffarin, pelo Presidente da Confederação Empresarial da Região de Paris Bernard Cohen-Hadad, pelo Representante-Chefe do CCPIT em França Li Wenguo e pelo Director do Departamento de Comércio Externo e Cooperação Económica da DSEDT, Lam Hoi Kin, entre outros convidados.",
           "Trata-se do primeiro acordo de cooperação internacional da Associação celebrado na Europa, marcando um passo importante na promoção da globalização das marcas de Macau e da expansão externa das marcas chinesas. As duas partes continuarão a aprofundar a cooperação na internacionalização de marcas, no marketing digital e em exposições internacionais."
+        ],
+        "fr": [
+          "Le 12e Sommet des marques Chine-France s'est déroulé du 27 au 29 mai au siège de l'UNESCO à Paris, organisé par le Centre d'esthétique des marques Chine-France Bonjour Brand et la Fondation française Prospective et Innovation. Pour la première fois, la Direction des services de l'économie et du développement technologique (DSEDT) de Macao a participé comme coorganisatrice, en associant des représentants de marques de Macao à une série d'activités.",
+          "Au cours du sommet, le Centre d'esthétique des marques Chine-France (représenté par Yang Jing) et l'Association d'Innovation Numérique de Macao (représentée par Yang Cheng, Président du Conseil d'administration) ont signé l'« Accord de coopération stratégique d'investissement pour la mondialisation des marques Chine-France (Macao) », ouvrant une coopération tripartite sur les marques entre la Chine continentale, Macao et la France. Les deux parties œuvreront, par la synergie des ressources de marque, le renforcement des capacités de communication numérique et l'articulation avec les scènes internationales, à mener les marques de Macao vers les marchés mondiaux.",
+          "La signature s'est déroulée en présence, notamment, de l'ancien Premier ministre français Jean-Pierre Raffarin, de Bernard Cohen-Hadad, président de la confédération des entreprises de la région parisienne, de Li Wenguo, représentant en chef du bureau de représentation du CCPIT en France, et de Lam Hoi Kin, directeur du Département du commerce extérieur et de la coopération économique de la DSEDT.",
+          "Il s'agit du premier accord de coopération internationale conclu par l'Association en Europe, marquant une étape importante dans la mondialisation des marques de Macao et l'internationalisation des marques chinoises. Les deux parties poursuivront l'approfondissement de leur coopération dans les domaines de l'internationalisation des marques, du marketing numérique et des expositions internationales."
         ]
       }
     },
@@ -883,26 +1062,30 @@
         "zh-TW": "京澳合作",
         "zh-CN": "京澳合作",
         "en": "Beijing-Macao Cooperation",
-        "pt": "Cooperação Pequim-Macau"
+        "pt": "Cooperação Pequim-Macau",
+        "fr": "Coopération Pékin-Macao"
       },
       "title": {
         "zh-TW": "攜手北京海淀區代表團到訪招商投資促進局 共建京澳數字經濟合作機制",
         "zh-CN": "携手北京海淀区代表团到访招商投资促进局 共建京澳数字经济合作机制",
         "en": "DIA Accompanies Beijing Haidian Delegation to IPIM, Establishing a Beijing-Macao Digital Economy Cooperation Mechanism",
-        "pt": "DIA Acompanha Delegação de Haidian (Pequim) ao IPIM e Estabelece Mecanismo de Cooperação em Economia Digital Pequim-Macau"
+        "pt": "DIA Acompanha Delegação de Haidian (Pequim) ao IPIM e Estabelece Mecanismo de Cooperação em Economia Digital Pequim-Macau",
+        "fr": "L'Association accompagne une délégation du district de Haidian (Pékin) à l'IPIM et instaure un mécanisme de coopération Pékin-Macao dans l'économie numérique"
       },
       "excerpt": {
         "zh-TW": "本會4月15日攜手北京市海淀區政府代表團到訪澳門招商投資促進局，三方圍繞數字技術應用、企業出海、人才培養及跨境合作項目落地深入探討，同意建立常態化溝通機制。",
         "zh-CN": "本会4月15日携手北京市海淀区政府代表团到访澳门招商投资促进局，三方围绕数字技术应用、企业出海、人才培养及跨境合作项目落地深入探讨，同意建立常态化沟通机制。",
         "en": "On 15 April, DIA accompanied the Beijing Haidian District Government delegation to the Macao Commerce and Investment Promotion Institute (IPIM). The three sides held in-depth discussions on digital technology applications, enterprises going global, talent development and the implementation of cross-border cooperation projects, and agreed to establish a regular communication mechanism.",
-        "pt": "A 15 de Abril, a DIA acompanhou a delegação do Governo do Distrito de Haidian (Pequim) ao Instituto de Promoção do Comércio e do Investimento de Macau (IPIM). As três partes discutiram aplicações de tecnologias digitais, internacionalização de empresas, formação de talentos e implementação de projectos de cooperação transfronteiriça, acordando estabelecer um mecanismo de comunicação regular."
+        "pt": "A 15 de Abril, a DIA acompanhou a delegação do Governo do Distrito de Haidian (Pequim) ao Instituto de Promoção do Comércio e do Investimento de Macau (IPIM). As três partes discutiram aplicações de tecnologias digitais, internacionalização de empresas, formação de talentos e implementação de projectos de cooperação transfronteiriça, acordando estabelecer um mecanismo de comunicação regular.",
+        "fr": "Le 15 avril, l'Association a accompagné une délégation du gouvernement du district de Haidian (Pékin) à l'Institut de promotion du commerce et de l'investissement de Macao (IPIM). Les trois parties ont échangé en profondeur sur les applications des technologies numériques, l'internationalisation des entreprises, la formation des talents et la concrétisation de projets de coopération transfrontalière, et sont convenues d'établir un mécanisme de communication régulier."
       },
       "source": {
         "name": {
           "zh-TW": "澳門日報",
           "zh-CN": "澳门日报",
           "en": "Macao Daily News",
-          "pt": "Macao Daily News"
+          "pt": "Macao Daily News",
+          "fr": "Macao Daily News"
         },
         "url": "https://www.macaodaily.com/html/2026-04/19/content_1902475.htm"
       },
@@ -930,6 +1113,12 @@
           "O membro da Comissão Administrativa do IPIM, Lei Chao Sam, recebeu a delegação e apresentou em detalhe as políticas, as vantagens da plataforma e os progressos mais recentes de Macau no desenvolvimento da economia digital. Elogiou a Associação por ligar Pequim e Macau com um profundo sentido de compromisso nacional e acolheu mais empresas de alta tecnologia de Haidian para visitar, investir e cooperar com Macau, explorando o vasto potencial da comercialização tecnológica, da governação digital e da expansão transfronteiriça.",
           "Chen Peng, Directora do Gabinete para os Assuntos de Hong Kong e Macau do Governo do Distrito de Haidian, avaliou positivamente a plataforma transfronteiriça Pequim-Macau construída pela Associação. Referiu que Haidian alberga 24 mil empresas tecnológicas e 37 universidades, incluindo as Universidades de Pequim e Tsinghua, com um ecossistema de inovação robusto, manifestando a disponibilidade de Haidian para trabalhar com Macau na internacionalização de mais empresas tecnológicas através da plataforma de Macau.",
           "O deputado à Assembleia Legislativa e Presidente da DIA, Vong Ka Lon, afirmou que a série de actividades construiu eficazmente uma ponte eficiente entre os governos e as empresas de Pequim e Macau, e que mais projectos tecnológicos de qualidade irão enraizar-se em Macau. As três partes acordaram estabelecer um mecanismo de comunicação regular e desenvolver em conjunto projectos de cooperação de demonstração nas áreas das finanças digitais, inteligência artificial e biomedicina — criando um novo marco de referência da cooperação em economia digital Pequim-Macau e contribuindo com a sabedoria e a força de Pequim e Macau para o desenvolvimento da economia digital nacional."
+        ],
+        "fr": [
+          "Pour renforcer encore la coopération Pékin-Macao et approfondir le développement coordonné des deux territoires dans l'économie numérique, l'Association d'Innovation Numérique de Macao a accompagné, le 15 avril, une délégation du gouvernement du district de Haidian (Pékin), conduite par le Bureau des affaires de Hong Kong et de Macao de Haidian, à l'Institut de promotion du commerce et de l'investissement de Macao (IPIM), pour des échanges et une coopération concrète.",
+          "Lei Chao Sam, membre de la Commission administrative de l'IPIM, a chaleureusement reçu la délégation et présenté en détail les mesures, les atouts de la plateforme et les derniers progrès de Macao dans le développement de l'économie numérique. Il a salué le rôle de trait d'union joué par l'Association, animée d'un profond attachement à la patrie, entre Pékin et Macao, et a invité davantage d'entreprises de haute technologie de Haidian à venir à Macao pour des visites, des investissements et des coopérations, afin d'explorer ensemble les vastes perspectives offertes par la valorisation technologique, la gouvernance numérique et l'expansion transfrontalière.",
+          "Chen Peng, directrice du Bureau des affaires de Hong Kong et de Macao du gouvernement du district de Haidian, a hautement apprécié la plateforme transfrontalière Pékin-Macao d'internationalisation construite par l'Association. Elle a rappelé que Haidian compte 24 000 entreprises technologiques et 37 établissements d'enseignement supérieur, dont les universités de Pékin et de Tsinghua, et dispose d'un écosystème d'innovation dynamique ; Haidian entend œuvrer avec Macao à l'approfondissement de la coopération économique, commerciale et technologique et à l'internationalisation, via la plateforme de Macao, d'un plus grand nombre d'entreprises technologiques.",
+          "Vong Ka Lon, député à l'Assemblée législative et Président de l'Association, a indiqué que cette série d'activités avait permis de construire une plateforme efficace de mise en relation entre les pouvoirs publics et les entreprises de Pékin et de Macao, démontrant pleinement le savoir-faire de l'Association en tant que pont et plateforme, et que davantage de projets technologiques de qualité prendraient racine à Macao. Les trois parties sont convenues d'établir un mécanisme de communication régulier et de développer conjointement des projets de coopération de démonstration dans la finance numérique, l'intelligence artificielle, la biomédecine et d'autres domaines clés, faisant de la coopération Pékin-Macao en économie numérique une nouvelle référence et apportant la « sagesse Pékin-Macao » et la « force Pékin-Macao » au développement de l'économie numérique nationale."
         ]
       }
     },
@@ -940,26 +1129,30 @@
         "zh-TW": "企業出海",
         "zh-CN": "企业出海",
         "en": "Enterprises Going Global",
-        "pt": "Internacionalização de Empresas"
+        "pt": "Internacionalização de Empresas",
+        "fr": "Internationalisation des entreprises"
       },
       "title": {
         "zh-TW": "為二十餘家北京專精特新企業舉辦「企業跨境出海通洽會」",
         "zh-CN": "为二十余家北京专精特新企业举办「企业跨境出海通洽会」",
         "en": "DIA Hosts Cross-Border Go-Global Matchmaking Session for Over 20 Beijing 'Specialised and Sophisticated' Enterprises",
-        "pt": "DIA Organiza Sessão de Contactos de Internacionalização para Mais de 20 Empresas 'Especializadas e Sofisticadas' de Pequim"
+        "pt": "DIA Organiza Sessão de Contactos de Internacionalização para Mais de 20 Empresas 'Especializadas e Sofisticadas' de Pequim",
+        "fr": "L'Association organise une « Rencontre d'affaires pour l'internationalisation transfrontalière » au profit de plus de vingt entreprises pékinoises « spécialisées et sophistiquées »"
       },
       "excerpt": {
         "zh-TW": "本會4月15日在澳門為超過二十家北京「專精特新」企業舉辦企業跨境出海通洽會，涵蓋人工智能、雲計算、網絡安全、生物醫藥等領域，多家企業初步達成合作意向。",
         "zh-CN": "本会4月15日在澳门为超过二十家北京「专精特新」企业举办企业跨境出海通洽会，涵盖人工智能、云计算、网络安全、生物医药等领域，多家企业初步达成合作意向。",
-        "en": "On 15 April in Macao, DIA hosted a cross-border go-global matchmaking session for over 20 Beijing 'specialised, refined, distinctive and innovative' enterprises spanning AI, cloud computing, cybersecurity and biomedicine, with several companies reaching preliminary cooperation intentions.",
-        "pt": "A 15 de Abril, em Macau, a DIA organizou uma sessão de contactos de internacionalização transfronteiriça para mais de 20 empresas 'especializadas, refinadas, distintas e inovadoras' de Pequim, nas áreas de IA, computação em nuvem, cibersegurança e biomedicina, com várias empresas a chegarem a intenções preliminares de cooperação."
+        "en": "On 15 April in Macao, DIA hosted a cross-border go-global matchmaking session for over 20 Beijing 'specialised, refined, distinctive and innovative' enterprises spanning AI, cloud computing, cybersecurity and biomedicine, with several companies expressing preliminary interest in cooperation.",
+        "pt": "A 15 de Abril, em Macau, a DIA organizou uma sessão de contactos de internacionalização transfronteiriça para mais de 20 empresas 'especializadas, refinadas, distintas e inovadoras' de Pequim, nas áreas de IA, computação em nuvem, cibersegurança e biomedicina, com várias empresas a manifestarem intenções preliminares de cooperação.",
+        "fr": "Le 15 avril, l'Association a organisé à Macao une rencontre d'affaires pour l'internationalisation transfrontalière au profit de plus de vingt entreprises pékinoises « spécialisées et sophistiquées », couvrant l'intelligence artificielle, l'informatique en nuage, la cybersécurité et la biomédecine ; plusieurs entreprises ont dégagé des intentions préliminaires de coopération."
       },
       "source": {
         "name": {
           "zh-TW": "澳門日報",
           "zh-CN": "澳门日报",
           "en": "Macao Daily News",
-          "pt": "Macao Daily News"
+          "pt": "Macao Daily News",
+          "fr": "Macao Daily News"
         },
         "url": "https://www.macaodaily.com/html/2026-04/18/content_1902189.htm"
       },
@@ -979,14 +1172,20 @@
         "en": [
           "To deepen Beijing-Macao digital economy cooperation and promote Macao's appropriate economic diversification, the Macao Digital Innovation Association hosted a 'Cross-Border Go-Global Matchmaking Session' in Macao on 15 April for over 20 Beijing 'specialised, refined, distinctive and innovative' enterprises, with support from the Haidian Hong Kong and Macao Affairs Office.",
           "Participating companies spanned artificial intelligence, AI molecular computing, cloud computing, cybersecurity and biomedicine — including 51WORLD, Volcano Engine, Zhongguancun Science City City Brain, Glodon and Sinovac Holdings — many of them national or municipal 'Little Giant' enterprises.",
-          "The Association invited officers from IPIM's Investment Promotion Division to present Macao's advantages as a launchpad for overseas expansion. The two sides engaged in practical matchmaking on technology transfer, overseas promotion, talent exchange and project implementation, with several companies reaching preliminary intentions for joint R&D, digital scenario applications and computing-power and data infrastructure cooperation.",
+          "The Association invited officers from IPIM's Investment Promotion Division to present Macao's advantages as a launchpad for overseas expansion. The two sides engaged in practical matchmaking on technology transfer, overseas promotion, talent exchange and project implementation, with several companies expressing preliminary interest in joint R&D, digital scenario applications and computing-power and data infrastructure cooperation.",
           "Legislative Assembly member and DIA President Vong Ka Lon attended and delivered remarks, stating that the Association will continue to serve as a bridge and platform, helping more mainland technology enterprises expand through Macao into Portuguese-speaking countries and international markets, injecting new momentum into Macao's digital economy."
         ],
         "pt": [
           "Para aprofundar a cooperação em economia digital Pequim-Macau e promover a diversificação adequada da economia de Macau, a Associação de Inovação Digital de Macau organizou, a 15 de Abril, uma 'Sessão de Contactos de Internacionalização Transfronteiriça' para mais de 20 empresas 'especializadas, refinadas, distintas e inovadoras' de Pequim, com o apoio do Gabinete para os Assuntos de Hong Kong e Macau de Haidian.",
           "As empresas participantes abrangem inteligência artificial, computação molecular com IA, computação em nuvem, cibersegurança e biomedicina — incluindo 51WORLD, Volcano Engine, Zhongguancun Science City City Brain, Glodon e Sinovac Holdings — muitas delas empresas 'Pequenos Gigantes' de nível nacional ou municipal.",
-          "A Associação convidou responsáveis da Divisão de Promoção de Investimento do IPIM para apresentar as vantagens de Macau como plataforma de expansão externa. As partes realizaram contactos práticos sobre transferência de tecnologia, promoção no exterior, intercâmbio de talentos e implementação de projectos, com várias empresas a chegarem a intenções preliminares de cooperação em I&D conjunta, aplicações de cenários digitais e infra-estruturas de computação e dados.",
+          "A Associação convidou responsáveis da Divisão de Promoção de Investimento do IPIM para apresentar as vantagens de Macau como plataforma de expansão externa. As partes realizaram contactos práticos sobre transferência de tecnologia, promoção no exterior, intercâmbio de talentos e implementação de projectos, com várias empresas a manifestarem interesse preliminar em I&D conjunta, aplicações de cenários digitais e infra-estruturas de computação e dados.",
           "O deputado à Assembleia Legislativa e Presidente da DIA, Vong Ka Lon, esteve presente e discursou, afirmando que a Associação continuará a servir de ponte e plataforma, ajudando mais empresas tecnológicas do interior da China a expandir-se, através de Macau, para os países de língua portuguesa e os mercados internacionais, injectando novo ímpeto na economia digital de Macau."
+        ],
+        "fr": [
+          "Pour approfondir la coopération Pékin-Macao dans l'économie numérique et promouvoir la diversification adéquate de l'économie de Macao, l'Association d'Innovation Numérique de Macao a organisé, le 15 avril à Macao, une « Rencontre d'affaires pour l'internationalisation transfrontalière » au profit de plus de vingt entreprises pékinoises « spécialisées et sophistiquées », avec le soutien du Bureau des affaires de Hong Kong et de Macao de Haidian.",
+          "Les entreprises participantes couvrent l'intelligence artificielle, le calcul moléculaire par IA, l'informatique en nuage, la cybersécurité et la biomédecine — notamment 51WORLD, Volcano Engine, Zhongguancun Science City City Brain, Glodon et Sinovac Holdings —, dont plusieurs sont des « petits géants » de niveau national ou municipal.",
+          "L'Association avait spécialement invité des responsables de la Division de la promotion des investissements de l'IPIM à présenter les atouts de Macao comme tremplin d'internationalisation. Les deux parties ont procédé à des mises en relation concrètes sur le transfert de technologies, la promotion à l'étranger, les échanges de talents et la concrétisation de projets ; plusieurs entreprises ont dégagé des intentions préliminaires de coopération en matière de R-D conjointe, d'applications de scénarios numériques et d'infrastructures de calcul et de données.",
+          "Vong Ka Lon, député à l'Assemblée législative et Président de l'Association, a pris part à l'événement et prononcé une allocution, indiquant que l'Association continuerait de jouer son rôle de pont et de plateforme pour aider davantage d'entreprises technologiques de la Chine continentale à gagner, via Macao, les pays de langue portugaise et les marchés internationaux, insufflant ainsi un nouvel élan à l'économie numérique de Macao."
         ]
       }
     }
@@ -999,19 +1198,22 @@
         "zh-TW": "商務部",
         "zh-CN": "商务部",
         "en": "Ministry of Commerce",
-        "pt": "Ministério do Comércio"
+        "pt": "Ministério do Comércio",
+        "fr": "Ministère du Commerce"
       },
       "title": {
         "zh-TW": "第五屆全球數字貿易博覽會在杭州舉辦 國家數字貿易政策加碼",
         "zh-CN": "第五届全球数字贸易博览会在杭州举办 国家数字贸易政策加码",
         "en": "5th Global Digital Trade Expo Held in Hangzhou as National Digital Trade Policies Intensify",
-        "pt": "5.ª Exposição Global de Comércio Digital em Hangzhou com Reforço das Políticas Nacionais"
+        "pt": "5.ª Exposição Global de Comércio Digital em Hangzhou com Reforço das Políticas Nacionais",
+        "fr": "La 5e Exposition mondiale du commerce numérique se tient à Hangzhou, dans un contexte de renforcement des politiques nationales du commerce numérique"
       },
       "summary": {
         "zh-TW": "第五屆全球數字貿易博覽會9月23至27日在杭州舉辦，國務院總理李強出席啟動儀式。商務部明確將建設國家數字貿易示範區、落實國家數字貿易出口基地支持舉措，並支持遠程醫療、在線教育、雲端辦公等數字服務出口。",
         "zh-CN": "第五届全球数字贸易博览会9月23至27日在杭州举办，国务院总理李强出席启动仪式。商务部明确将建设国家数字贸易示范区、落实国家数字贸易出口基地支持举措，并支持远程医疗、在线教育、云端办公等数字服务出口。",
         "en": "The 5th Global Digital Trade Expo was held in Hangzhou on 23–27 September, with Premier Li Qiang attending the opening ceremony. The Ministry of Commerce announced plans to build national digital trade demonstration zones, implement support measures for national digital trade export bases, and support exports of digital services such as telemedicine, online education and cloud-based office solutions.",
-        "pt": "A 5.ª Exposição Global de Comércio Digital decorreu em Hangzhou de 23 a 27 de Setembro, com a presença do Primeiro-Ministro Li Qiang. O Ministério do Comércio anunciou a criação de zonas de demonstração nacionais de comércio digital, medidas de apoio às bases nacionais de exportação de comércio digital e o apoio à exportação de serviços digitais como telemedicina, educação online e trabalho em nuvem."
+        "pt": "A 5.ª Exposição Global de Comércio Digital decorreu em Hangzhou de 23 a 27 de Setembro, com a presença do Primeiro-Ministro Li Qiang. O Ministério do Comércio anunciou a criação de zonas de demonstração nacionais de comércio digital, medidas de apoio às bases nacionais de exportação de comércio digital e o apoio à exportação de serviços digitais como telemedicina, educação online e trabalho em nuvem.",
+        "fr": "La 5e Exposition mondiale du commerce numérique s'est tenue à Hangzhou du 23 au 27 septembre, en présence du Premier ministre Li Qiang à la cérémonie d'ouverture. Le Ministère du Commerce a annoncé la création de zones de démonstration nationales du commerce numérique, la mise en œuvre de mesures de soutien aux bases nationales d'exportation du commerce numérique, ainsi que le soutien à l'exportation de services numériques tels que la télémédecine, l'enseignement en ligne et le travail dématérialisé en nuage."
       },
       "url": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_c91d7c144ec141c6904104d03d3416e5.html"
     },
@@ -1022,19 +1224,22 @@
         "zh-TW": "國務院",
         "zh-CN": "国务院",
         "en": "State Council",
-        "pt": "Conselho de Estado"
+        "pt": "Conselho de Estado",
+        "fr": "Conseil des affaires d'État"
       },
       "title": {
         "zh-TW": "國務院公布《對外投資的規定》（國令第837號）7月1日起施行",
         "zh-CN": "国务院公布《对外投资的规定》（国令第837号）7月1日起施行",
         "en": "State Council Promulgates Regulations on Outbound Investment (Decree No. 837), Effective 1 July",
-        "pt": "Conselho de Estado Promulga Regulamento sobre Investimento no Exterior (Decreto n.º 837), em Vigor desde 1 de Julho"
+        "pt": "Conselho de Estado Promulga Regulamento sobre Investimento no Exterior (Decreto n.º 837), em Vigor desde 1 de Julho",
+        "fr": "Le Conseil des affaires d'État publie le « Règlement sur l'investissement à l'étranger » (Décret n° 837), en vigueur au 1er juillet"
       },
       "summary": {
         "zh-TW": "我國首部對外投資領域行政法規，明確投資者享有對外投資自主權，國家健全海外綜合服務體系與境外投資安全審查制度，對核準備案、出口管制、數據跨境等設定合規要求，對港澳台投資參照執行，是出海企業必須掌握的基礎性合規框架。",
         "zh-CN": "我国首部对外投资领域行政法规，明确投资者享有对外投资自主权，国家健全海外综合服务体系与境外投资安全审查制度，对核准备案、出口管制、数据跨境等设定合规要求，对港澳台投资参照执行，是出海企业必须掌握的基础性合规框架。",
         "en": "China's first administrative regulation on outbound investment affirms investors' autonomy in overseas investment, improves the overseas comprehensive service system and the security review regime for outbound investment, sets compliance requirements for approval and filing, export controls and cross-border data flows, and applies by reference to investments in Hong Kong, Macao and Taiwan — a foundational compliance framework for all enterprises going global.",
-        "pt": "Primeiro regulamento administrativo da China sobre investimento no exterior: afirma a autonomia dos investidores, melhora o sistema de serviços integrados no exterior e o regime de revisão de segurança, define requisitos de conformidade para aprovações e registos, controlos de exportação e fluxos transfronteiriços de dados, aplicando-se por referência aos investimentos em Hong Kong, Macau e Taiwan — um quadro de conformidade fundamental para as empresas em internacionalização."
+        "pt": "Primeiro regulamento administrativo da China sobre investimento no exterior: afirma a autonomia dos investidores, melhora o sistema de serviços integrados no exterior e o regime de revisão de segurança, define requisitos de conformidade para aprovações e registos, controlos de exportação e fluxos transfronteiriços de dados, aplicando-se por referência aos investimentos em Hong Kong, Macau e Taiwan — um quadro de conformidade fundamental para as empresas em internacionalização.",
+        "fr": "Premier règlement administratif chinois en matière d'investissement à l'étranger : il affirme l'autonomie des investisseurs, perfectionne le système de services intégrés à l'étranger et le régime d'examen de sécurité des investissements à l'étranger, fixe des exigences de conformité pour les approbations et enregistrements, les contrôles à l'exportation et les flux transfrontaliers de données, et s'applique par référence aux investissements à Hong Kong, Macao et Taiwan — un cadre de conformité fondamental que toute entreprise en cours d'internationalisation doit maîtriser."
       },
       "url": "https://www.gov.cn/zhengce/content/202606/content_7070755.htm"
     },
@@ -1045,19 +1250,22 @@
         "zh-TW": "商務部等五部門",
         "zh-CN": "商务部等五部门",
         "en": "Five Departments incl. MOFCOM",
-        "pt": "Cinco Departamentos incl. Min. do Comércio"
+        "pt": "Cinco Departamentos incl. Min. do Comércio",
+        "fr": "Cinq départements dont le Ministère du Commerce"
       },
       "title": {
         "zh-TW": "《關於進一步完善海外綜合服務體系的指導意見》印發",
         "zh-CN": "《关于进一步完善海外综合服务体系的指导意见》印发",
         "en": "Guiding Opinions on Further Improving the Overseas Comprehensive Service System Issued",
-        "pt": "Publicadas Orientações para Aperfeiçoar o Sistema de Serviços Integrados no Exterior"
+        "pt": "Publicadas Orientações para Aperfeiçoar o Sistema de Serviços Integrados no Exterior",
+        "fr": "Publication des « Avis directeurs sur le perfectionnement du système de services intégrés à l'étranger »"
       },
       "summary": {
         "zh-TW": "我國首個海外綜合服務領域指導文件，提出將「走出去」公共服務平台升級為國家層面海外綜合服務平台，形成「1+N」服務體系，支持地方打造出海綜合服務港，並明確支持粵港澳大灣區整合服務資源、依託港澳優勢增強服務企業出海能力。",
         "zh-CN": "我国首个海外综合服务领域指导文件，提出将「走出去」公共服务平台升级为国家层面海外综合服务平台，形成「1+N」服务体系，支持地方打造出海综合服务港，并明确支持粤港澳大湾区整合服务资源、依托港澳优势增强服务企业出海能力。",
         "en": "China's first guiding document on overseas comprehensive services upgrades the 'Going Global' public service platform into a national-level overseas comprehensive service platform with a '1+N' service system, supports localities in building go-global service ports, and explicitly supports the Greater Bay Area in integrating service resources and leveraging the strengths of Hong Kong and Macao to better serve enterprises going global.",
-        "pt": "Primeiro documento orientador da China sobre serviços integrados no exterior: eleva a plataforma pública 'Going Global' a plataforma nacional com um sistema '1+N', apoia a criação de portos de serviços de internacionalização e apoia explicitamente a Grande Baía na integração de recursos e no aproveitamento das vantagens de Hong Kong e Macau para melhor servir as empresas em internacionalização."
+        "pt": "Primeiro documento orientador da China sobre serviços integrados no exterior: eleva a plataforma pública 'Going Global' a plataforma nacional com um sistema '1+N', apoia a criação de portos de serviços de internacionalização e apoia explicitamente a Grande Baía na integração de recursos e no aproveitamento das vantagens de Hong Kong e Macau para melhor servir as empresas em internacionalização.",
+        "fr": "Premier document d'orientation chinois sur les services intégrés à l'étranger : il porte la plateforme publique de services « Going Global » au rang de plateforme nationale de services intégrés à l'étranger, forme un système de services « 1+N », soutient la création par les collectivités locales de ports de services intégrés d'internationalisation, et soutient explicitement la Grande Baie Guangdong-Hong Kong-Macao dans l'intégration des ressources de services, en s'appuyant sur les atouts de Hong Kong et de Macao pour renforcer l'accompagnement des entreprises dans leur internationalisation."
       },
       "url": "https://fec.mofcom.gov.cn/article/ggfw/zcfg/zcdwtz/202510/20251003603348.html"
     },
@@ -1068,19 +1276,22 @@
         "zh-TW": "海關總署",
         "zh-CN": "海关总署",
         "en": "General Administration of Customs",
-        "pt": "Administração-Geral das Alfândegas"
+        "pt": "Administração-Geral das Alfândegas",
+        "fr": "Administration générale des douanes"
       },
       "title": {
         "zh-TW": "海關出台支持粵港澳大灣區建設若干措施（5方面20項）",
         "zh-CN": "海关出台支持粤港澳大湾区建设若干措施（5方面20项）",
         "en": "Customs Unveils 20 Measures in Five Areas to Support the Greater Bay Area",
-        "pt": "Alfândegas Apresentam 20 Medidas em Cinco Áreas de Apoio à Grande Baía"
+        "pt": "Alfândegas Apresentam 20 Medidas em Cinco Áreas de Apoio à Grande Baía",
+        "fr": "Les douanes déploient vingt mesures en cinq volets en soutien à la construction de la Grande Baie Guangdong-Hong Kong-Macao"
       },
       "summary": {
         "zh-TW": "從規則銜接、科創要素、新業態、物流樞紐、重大平台5方面提出20項舉措：拓展「一單兩報」、擴大「跨境一鎖」與跨境電商出口「先查驗、後裝運」試點（物流成本可降約30%），支持大灣區優勢產品應對海外技術壁壘「出海」，並對橫琴等四大平台實施「一區一策」。",
         "zh-CN": "从规则衔接、科创要素、新业态、物流枢纽、重大平台5方面提出20项举措：拓展「一单两报」、扩大「跨境一锁」与跨境电商出口「先查验、后装运」试点（物流成本可降约30%），支持大湾区优势产品应对海外技术壁垒「出海」，并对横琴等四大平台实施「一区一策」。",
-        "en": "Twenty measures across five areas — regulatory alignment, sci-tech factors, new business formats, logistics hubs and major platforms: expanding 'single declaration for two jurisdictions', extending the 'cross-boundary single lock' scheme, piloting 'inspect first, load later' for cross-border e-commerce exports (cutting logistics costs by around 30%), helping the GBA's competitive products overcome overseas technical barriers, and applying tailored 'one zone, one policy' approaches to the four major platforms including Hengqin.",
-        "pt": "Vinte medidas em cinco áreas — harmonização de regras, factores científicos, novos formatos de negócio, plataformas logísticas e grandes plataformas: expansão da 'declaração única para duas jurisdições', alargamento do 'cadeado único transfronteiriço', pilotos de 'inspeccionar primeiro, embarcar depois' nas exportações de comércio electrónico (redução de custos logísticos de cerca de 30%), apoio aos produtos competitivos da Grande Baía face a barreiras técnicas externas e políticas diferenciadas para as quatro grandes plataformas, incluindo Hengqin."
+        "en": "Twenty measures across five areas — regulatory alignment, sci-tech innovation factors, new business formats, logistics hubs and major platforms: expanding 'single declaration for two jurisdictions', extending the 'cross-boundary single lock' scheme, piloting 'inspect first, load later' for cross-border e-commerce exports (cutting logistics costs by around 30%), helping the GBA's competitive products overcome overseas technical barriers, and applying tailored 'one zone, one policy' approaches to the four major platforms including Hengqin.",
+        "pt": "Vinte medidas em cinco áreas — harmonização de regras, factores de inovação científica e tecnológica, novos formatos de negócio, hubs logísticos e grandes plataformas: expansão da 'declaração única para duas jurisdições', alargamento do 'cadeado único transfronteiriço', pilotos de 'inspeccionar primeiro, embarcar depois' nas exportações de comércio electrónico (redução de custos logísticos de cerca de 30%), apoio aos produtos competitivos da Grande Baía face a barreiras técnicas externas e políticas diferenciadas para as quatro grandes plataformas, incluindo Hengqin.",
+        "fr": "Vingt mesures en cinq volets — alignement des règles, facteurs d'innovation scientifique et technologique, nouveaux modèles d'activité, plateformes logistiques et grandes plateformes : extension de la « déclaration unique pour deux juridictions », élargissement du dispositif du « cadenas unique transfrontalier » et des projets pilotes « inspection d'abord, chargement ensuite » pour les exportations de commerce électronique transfrontalier (réduction des coûts logistiques d'environ 30 %), soutien aux produits compétitifs de la Grande Baie face aux barrières techniques à l'étranger dans leur internationalisation, et application d'une politique différenciée « une zone, une politique » aux quatre grandes plateformes, dont Hengqin."
       },
       "url": "http://www.customs.gov.cn/customs/xwfb34/302330/hgzsjxxwfbhjszscqhgbh/index.html"
     },
@@ -1091,19 +1302,22 @@
         "zh-TW": "海關總署",
         "zh-CN": "海关总署",
         "en": "General Administration of Customs",
-        "pt": "Administração-Geral das Alfândegas"
+        "pt": "Administração-Geral das Alfândegas",
+        "fr": "Administration générale des douanes"
       },
       "title": {
         "zh-TW": "海關支持橫琴粵澳深度合作區建設新一輪措施（23項）印發",
         "zh-CN": "海关支持横琴粤澳深度合作区建设新一轮措施（23项）印发",
         "en": "Customs Issues New Round of 23 Measures Supporting the Hengqin Guangdong-Macao In-Depth Cooperation Zone",
-        "pt": "Alfândegas Publicam Nova Ronda de 23 Medidas de Apoio à Zona de Cooperação Aprofundada Guangdong-Macau em Hengqin"
+        "pt": "Alfândegas Publicam Nova Ronda de 23 Medidas de Apoio à Zona de Cooperação Aprofundada Guangdong-Macau em Hengqin",
+        "fr": "Publication d'une nouvelle série de 23 mesures douanières en soutien à la Zone de coopération approfondie Guangdong-Macao à Hengqin"
       },
       "summary": {
         "zh-TW": "涵蓋促進澳門產業多元、便利琴澳居民生活就業、推進規則銜接、以琴澳一體化推進大灣區市場一體化四方面，包括支持橫琴開展跨境電商「網購保稅1210」業務、打通「澳門註冊＋橫琴生產＋海外銷售」鏈路，支持中國—葡語（西語）國家經濟貿易服務中心建設。",
         "zh-CN": "涵盖促进澳门产业多元、便利琴澳居民生活就业、推进规则衔接、以琴澳一体化推进大湾区市场一体化四方面，包括支持横琴开展跨境电商「网购保税1210」业务、打通「澳门注册＋横琴生产＋海外销售」链路，支持中国—葡语（西语）国家经济贸易服务中心建设。",
         "en": "Covering four areas — Macao's industrial diversification, facilitating living and employment in Hengqin and Macao, regulatory alignment, and GBA market integration through Hengqin-Macao integration — the measures include supporting the '1210 bonded online shopping' cross-border e-commerce model in Hengqin, connecting the chain of 'registered in Macao + produced in Hengqin + sold overseas', and supporting the building of the China-Portuguese(Spanish)-speaking Countries Economic and Trade Service Centre.",
-        "pt": "Abrangendo quatro áreas — diversificação industrial de Macau, facilitação da vida e do emprego em Hengqin e Macau, harmonização de regras e integração dos mercados da Grande Baía através da integração Hengqin-Macau — as medidas incluem o apoio ao modelo de comércio electrónico '1210 compras online com depósito alfandegado', a ligação da cadeia 'registado em Macau + produzido em Hengqin + vendido no exterior' e o apoio à construção do Centro de Serviços Económicos e Comerciais China-Países de Língua Portuguesa (Espanhola)."
+        "pt": "Abrangendo quatro áreas — diversificação industrial de Macau, facilitação da vida e do emprego em Hengqin e Macau, harmonização de regras e integração dos mercados da Grande Baía através da integração Hengqin-Macau — as medidas incluem o apoio ao modelo de comércio electrónico '1210 compras online com depósito alfandegado', a ligação da cadeia 'registado em Macau + produzido em Hengqin + vendido no exterior' e o apoio à construção do Centro de Serviços Económicos e Comerciais China-Países de Língua Portuguesa (Espanhola).",
+        "fr": "Couvrant quatre volets — diversification industrielle de Macao, facilitation de la vie et de l'emploi à Hengqin et Macao, alignement des règles et intégration des marchés de la Grande Baie par l'intégration Hengqin-Macao —, ces mesures comprennent le soutien au modèle de commerce électronique transfrontalier « achats en ligne sous douane 1210 » à Hengqin, l'articulation de la chaîne « immatriculation à Macao + production à Hengqin + vente à l'étranger », ainsi que le soutien à la construction du Centre de services économiques et commerciaux Chine-Pays de langue portugaise (espagnole)."
       },
       "url": "http://www.customs.gov.cn/customs/302249/zfxxgk/zfxxgkml34/6888243/index.html"
     },
@@ -1114,19 +1328,22 @@
         "zh-TW": "招商投資促進局",
         "zh-CN": "招商投资促进局",
         "en": "IPIM",
-        "pt": "IPIM"
+        "pt": "IPIM",
+        "fr": "IPIM"
       },
       "title": {
         "zh-TW": "「澳門平台優勢推介會」赴深圳廣州舉辦 賦能大灣區企業出海葡西語國家",
         "zh-CN": "「澳门平台优势推介会」赴深圳广州举办 赋能大湾区企业出海葡西语国家",
         "en": "Macao Platform Advantage Seminars Held in Shenzhen and Guangzhou, Empowering GBA Enterprises to Expand into Portuguese- and Spanish-speaking Markets",
-        "pt": "Seminários sobre as Vantagens da Plataforma de Macau em Shenzhen e Cantão, Capacitando Empresas da Grande Baía para os Mercados Lusófonos e Hispanófonos"
+        "pt": "Seminários sobre as Vantagens da Plataforma de Macau em Shenzhen e Cantão, Capacitando Empresas da Grande Baía para os Mercados Lusófonos e Hispanófonos",
+        "fr": "Des « Séminaires sur les atouts de la plateforme de Macao » à Shenzhen et Canton pour accompagner les entreprises de la Grande Baie vers les pays lusophones et hispanophones"
       },
       "summary": {
         "zh-TW": "招商投資促進局8月19至21日赴深圳、廣州舉辦推介會，吸引近300位科創、外貿、製造、法律及金融領域企業代表出席，安排150多場商務洽談，部分企業明確表達出海意願，計劃將海外業務結算環節佈局澳門。",
         "zh-CN": "招商投资促进局8月19至21日赴深圳、广州举办推介会，吸引近300位科创、外贸、制造、法律及金融领域企业代表出席，安排150多场商务洽谈，部分企业明确表达出海意愿，计划将海外业务结算环节布局澳门。",
         "en": "IPIM held promotion seminars in Shenzhen and Guangzhou on 19–21 August, attracting nearly 300 corporate representatives from technology, foreign trade, manufacturing, legal and financial sectors, arranging over 150 business matching sessions. Several enterprises expressed clear intent to go global, planning to base their overseas business settlement operations in Macao.",
-        "pt": "O IPIM realizou seminários de promoção em Shenzhen e Cantão de 19 a 21 de Agosto, atraindo cerca de 300 representantes empresariais dos sectores tecnológico, comércio externo, indústria, jurídico e financeiro, com mais de 150 sessões de contactos de negócio. Várias empresas manifestaram intenção clara de internacionalização, planeando instalar em Macau as operações de liquidação dos seus negócios no exterior."
+        "pt": "O IPIM realizou seminários de promoção em Shenzhen e Cantão de 19 a 21 de Agosto, atraindo cerca de 300 representantes empresariais dos sectores tecnológico, comércio externo, indústria, jurídico e financeiro, com mais de 150 sessões de contactos de negócio. Várias empresas manifestaram intenção clara de internacionalização, planeando instalar em Macau as operações de liquidação dos seus negócios no exterior.",
+        "fr": "L'IPIM a organisé des séminaires de promotion à Shenzhen et Canton du 19 au 21 août, attirant près de 300 représentants d'entreprises des secteurs de la technologie, du commerce extérieur, de l'industrie, du droit et de la finance, avec plus de 150 rendez-vous d'affaires. Plusieurs entreprises ont clairement exprimé leur volonté d'internationalisation et prévoient d'implanter à Macao leurs activités de règlement des opérations à l'étranger."
       },
       "url": "https://www.ipim.gov.mo/zh-hant/category/ipim-news-zh-hant/2091830388717834242"
     },
@@ -1137,19 +1354,22 @@
         "zh-TW": "招商投資促進局",
         "zh-CN": "招商投资促进局",
         "en": "IPIM",
-        "pt": "IPIM"
+        "pt": "IPIM",
+        "fr": "IPIM"
       },
       "title": {
         "zh-TW": "第31屆MIF設「澳門本地企業展銷區」 助企業出海拓展內地及葡西市場",
         "zh-CN": "第31届MIF设「澳门本地企业展销区」 助企业出海拓展内地及葡西市场",
         "en": "31st MIF Features Macao Local Enterprise Pavilion to Help Businesses Expand into Mainland and Portuguese/Spanish-speaking Markets",
-        "pt": "31.ª MIF com Pavilhão de Empresas Locais de Macau para Apoiar a Expansão para o Interior da China e os Mercados Lusófonos e Hispanófonos"
+        "pt": "31.ª MIF com Pavilhão de Empresas Locais de Macau para Apoiar a Expansão para o Interior da China e os Mercados Lusófonos e Hispanófonos",
+        "fr": "La 31e MIF inaugure un « Espace de vente des entreprises locales de Macao » pour accompagner l'expansion des entreprises vers la Chine continentale et les marchés lusophones et hispanophones"
       },
       "summary": {
         "zh-TW": "第31屆澳門國際貿易投資展覽會10月21至24日舉行，主題「商聚澳門 聯通全球」，設「澳門本地企業展銷區」並提供參展優惠，今屆新增西語國家元素，與PLPEX、MFE三展聯動，以會展平台助力澳門及琴澳企業開拓內地、葡語和西語國家市場。",
         "zh-CN": "第31届澳门国际贸易投资展览会10月21至24日举行，主题「商聚澳门 联通全球」，设「澳门本地企业展销区」并提供参展优惠，今届新增西语国家元素，与PLPEX、MFE三展联动，以会展平台助力澳门及琴澳企业开拓内地、葡语和西语国家市场。",
         "en": "The 31st Macao International Trade and Investment Fair (MIF) takes place on 21–24 October under the theme 'Business Gathering in Macao, Connecting the World', featuring a Macao Local Enterprise Pavilion with preferential participation rates. This edition adds Spanish-speaking country elements and runs in synergy with PLPEX and MFE, helping Macao and Hengqin-Macao enterprises explore mainland, Portuguese-speaking and Spanish-speaking markets through the exhibition platform.",
-        "pt": "A 31.ª Feira Internacional de Macau (MIF) realiza-se de 21 a 24 de Outubro sob o tema 'Negócios em Macau, Ligação ao Mundo', com um Pavilhão de Empresas Locais de Macau e tarifas preferenciais de participação. Esta edição acrescenta elementos dos países hispanófonos e decorre em sinergia com a PLPEX e a MFE, ajudando empresas de Macau e de Hengqin-Macau a explorar os mercados do interior da China, lusófonos e hispanófonos."
+        "pt": "A 31.ª Feira Internacional de Macau (MIF) realiza-se de 21 a 24 de Outubro sob o tema 'Negócios em Macau, Ligação ao Mundo', com um Pavilhão de Empresas Locais de Macau e tarifas preferenciais de participação. Esta edição acrescenta elementos dos países hispanófonos e decorre em sinergia com a PLPEX e a MFE, ajudando empresas de Macau e de Hengqin-Macau a explorar os mercados do interior da China, lusófonos e hispanófonos.",
+        "fr": "La 31e Foire internationale du commerce et de l'investissement de Macao (MIF) se tiendra du 21 au 24 octobre sous le thème « Les affaires se donnent rendez-vous à Macao, connectées au monde », avec un « Espace de vente des entreprises locales de Macao » et des conditions préférentielles de participation. Cette édition ajoute une dimension hispanophone et se déroule en synergie avec la PLPEX et la MFE, aidant les entreprises de Macao et de Hengqin-Macao à conquérir, par la plateforme des foires, les marchés de la Chine continentale et des pays lusophones et hispanophones."
       },
       "url": "https://www.gsef.gov.mo/zh/posts/12022"
     },
@@ -1160,19 +1380,22 @@
         "zh-TW": "招商投資促進局",
         "zh-CN": "招商投资促进局",
         "en": "IPIM",
-        "pt": "IPIM"
+        "pt": "IPIM",
+        "fr": "IPIM"
       },
       "title": {
         "zh-TW": "「拼船出海」組團赴莫桑比克出席中國與葡語國家企業經貿合作洽談會",
         "zh-CN": "「拼船出海」组团赴莫桑比克出席中国与葡语国家企业经贸合作洽谈会",
         "en": "IPIM Leads Delegation to Mozambique for China-Portuguese-speaking Countries Business Cooperation Meeting under 'Joint Voyage' Model",
-        "pt": "IPIM Lidera Delegação a Moçambique para o Encontro de Cooperação Empresarial China-Países de Língua Portuguesa"
+        "pt": "IPIM Lidera Delegação a Moçambique para o Encontro de Cooperação Empresarial China-Países de Língua Portuguesa",
+        "fr": "Une délégation conduite par l'IPIM au Mozambique pour la Rencontre de coopération économique et commerciale Chine-Pays de langue portugaise, dans l'esprit de « l'internationalisation en commun »"
       },
       "summary": {
         "zh-TW": "招商投資促進局組織29人內地及澳琴企業家代表團7月20至25日赴莫桑比克出席「中國與葡語國家企業經貿合作洽談會—馬普托—2026」，涵蓋中葡貿易、基建、物流供應鏈、跨境電商等領域，是澳門中葡平台「拼船出海」助企業開拓非洲及葡語國家市場的標誌性機制。",
         "zh-CN": "招商投资促进局组织29人内地及澳琴企业家代表团7月20至25日赴莫桑比克出席「中国与葡语国家企业经贸合作洽谈会—马普托—2026」，涵盖中葡贸易、基建、物流供应链、跨境电商等领域，是澳门中葡平台「拼船出海」助企业开拓非洲及葡语国家市场的标志性机制。",
         "en": "IPIM organised a 29-member delegation of entrepreneurs from the mainland, Macao and Hengqin to attend the China-Portuguese-speaking Countries Economic and Trade Cooperation Meeting in Maputo on 20–25 July, covering China-Portuguese-speaking trade, infrastructure, logistics and supply chains, and cross-border e-commerce. Originating from the Forum Macao mechanism since 2003, the meeting series is a signature 'joint voyage' model of the Macao platform helping enterprises explore African and Portuguese-speaking markets.",
-        "pt": "O IPIM organizou uma delegação de 29 empresários do interior da China, Macau e Hengqin para participar, de 20 a 25 de Julho, no Encontro de Cooperação Económica e Comercial China-Países de Língua Portuguesa em Maputo, abrangendo comércio sino-lusófono, infra-estruturas, logística e comércio electrónico transfronteiriço. Originário do Fórum Macau em 2003, este encontro é um mecanismo emblemático da plataforma de Macau para apoiar as empresas na exploração dos mercados africanos e lusófonos."
+        "pt": "O IPIM organizou uma delegação de 29 empresários do interior da China, Macau e Hengqin para participar, de 20 a 25 de Julho, no Encontro de Cooperação Económica e Comercial China-Países de Língua Portuguesa em Maputo, abrangendo comércio sino-lusófono, infra-estruturas, logística e comércio electrónico transfronteiriço. Originário do Fórum Macau em 2003, este encontro é um mecanismo emblemático da plataforma de Macau para apoiar as empresas na exploração dos mercados africanos e lusófonos.",
+        "fr": "L'IPIM a organisé une délégation de 29 chefs d'entreprise de la Chine continentale, de Macao et de Hengqin pour participer, du 20 au 25 juillet, à la « Rencontre de coopération économique et commerciale Chine-Pays de langue portugaise — Maputo 2026 », couvrant le commerce Chine-pays lusophones, les infrastructures, la logistique et les chaînes d'approvisionnement, ainsi que le commerce électronique transfrontalier. Issue du mécanisme du Forum de Macao depuis 2003, cette rencontre est un dispositif emblématique de « l'internationalisation en commun » de la plateforme sino-lusophone de Macao au service de la conquête des marchés africains et lusophones par les entreprises."
       },
       "url": "https://www.gov.mo/zh-hant/news/1253117/"
     },
@@ -1183,19 +1406,22 @@
         "zh-TW": "商務部",
         "zh-CN": "商务部",
         "en": "Ministry of Commerce",
-        "pt": "Ministério do Comércio"
+        "pt": "Ministério do Comércio",
+        "fr": "Ministère du Commerce"
       },
       "title": {
         "zh-TW": "中國加入《數字經濟夥伴關係協定》（DEPA）工作組舉行第十次首席談判代表會議",
         "zh-CN": "中国加入《数字经济伙伴关系协定》（DEPA）工作组举行第十次首席谈判代表会议",
         "en": "Working Group on China's Accession to DEPA Holds Tenth Chief Negotiators Meeting",
-        "pt": "Grupo de Trabalho para a Adesão da China ao DEPA Realiza a Décima Reunião de Negociadores-Chefes"
+        "pt": "Grupo de Trabalho para a Adesão da China ao DEPA Realiza a Décima Reunião de Negociadores-Chefes",
+        "fr": "Le groupe de travail pour l'adhésion de la Chine à l'Accord de partenariat sur l'économie numérique (DEPA) tient sa dixième réunion des négociateurs en chef"
       },
       "summary": {
         "zh-TW": "4月27至28日，中方同智利、新西蘭、新加坡、韓國等DEPA成員在首爾就加入談判進程深入交換意見。DEPA涵蓋數據跨境流動、數字身份互認、電子發票互通等核心規則，中國加入將直接影響數字平台、雲服務、跨境電商企業在成員市場的准入門檻與合規框架。",
         "zh-CN": "4月27至28日，中方同智利、新西兰、新加坡、韩国等DEPA成员在首尔就加入谈判进程深入交换意见。DEPA涵盖数据跨境流动、数字身份互认、电子发票互通等核心规则，中国加入将直接影响数字平台、云服务、跨境电商企业在成员市场的准入门槛与合规框架。",
         "en": "On 27–28 April in Seoul, China held in-depth exchanges with DEPA members including Chile, New Zealand, Singapore and South Korea on the accession process. DEPA covers core rules on cross-border data flows, mutual recognition of digital identities and e-invoicing interoperability; China's accession will directly affect market access thresholds and compliance frameworks for digital platforms, cloud services and cross-border e-commerce enterprises in member markets.",
-        "pt": "Nos dias 27 e 28 de Abril, em Seul, a China manteve intercâmbios aprofundados com os membros do DEPA — Chile, Nova Zelândia, Singapura e Coreia do Sul — sobre o processo de adesão. O DEPA abrange regras centrais sobre fluxos transfronteiriços de dados, reconhecimento mútuo de identidades digitais e interoperabilidade de facturação electrónica; a adesão da China afectará directamente os requisitos de acesso e os quadros de conformidade das plataformas digitais, serviços de nuvem e comércio electrónico transfronteiriço nos mercados membros."
+        "pt": "Nos dias 27 e 28 de Abril, em Seul, a China manteve intercâmbios aprofundados com os membros do DEPA — Chile, Nova Zelândia, Singapura e Coreia do Sul — sobre o processo de adesão. O DEPA abrange regras centrais sobre fluxos transfronteiriços de dados, reconhecimento mútuo de identidades digitais e interoperabilidade de facturação electrónica; a adesão da China afectará directamente os requisitos de acesso e os quadros de conformidade das plataformas digitais, serviços de nuvem e comércio electrónico transfronteiriço nos mercados membros.",
+        "fr": "Les 27 et 28 avril, à Séoul, la partie chinoise a échangé en profondeur avec les membres du DEPA — Chili, Nouvelle-Zélande, Singapour, Corée du Sud — sur le processus d'adhésion. Le DEPA couvre des règles essentielles sur les flux transfrontaliers de données, la reconnaissance mutuelle des identités numériques et l'interopérabilité de la facturation électronique ; l'adhésion de la Chine influera directement sur les seuils d'accès aux marchés membres et les cadres de conformité des plateformes numériques, des services en nuage et des entreprises de commerce électronique transfrontalier."
       },
       "url": "http://www.mofcom.gov.cn/syxwfb/art/2026/art_c768f3b6555d4c1391ef797547b3dfd0.html"
     },
@@ -1206,19 +1432,22 @@
         "zh-TW": "中國·東盟",
         "zh-CN": "中国·东盟",
         "en": "China & ASEAN",
-        "pt": "China e ASEAN"
+        "pt": "China e ASEAN",
+        "fr": "Chine · ASEAN"
       },
       "title": {
         "zh-TW": "中國—東盟自貿區3.0版升級議定書簽署 首設數字經濟專章",
         "zh-CN": "中国—东盟自贸区3.0版升级议定书签署 首设数字经济专章",
         "en": "China-ASEAN Free Trade Area 3.0 Upgrade Protocol Signed, Featuring First-Ever Digital Economy Chapter",
-        "pt": "Assinado Protocolo de Actualização 3.0 da Zona de Comércio Livre China-ASEAN, com Primeiro Capítulo sobre Economia Digital"
+        "pt": "Assinado Protocolo de Actualização 3.0 da Zona de Comércio Livre China-ASEAN, com Primeiro Capítulo sobre Economia Digital",
+        "fr": "Signature du protocole d'actualisation 3.0 de la zone de libre-échange Chine-ASEAN, avec un premier chapitre dédié à l'économie numérique"
       },
       "summary": {
         "zh-TW": "議定書於吉隆坡簽署，涵蓋數字經濟、綠色經濟、供應鏈互聯互通、中小微企業等9個領域，首次將數字經濟納入自貿框架，推動合作從關稅減讓轉向「制度型開放」，目前正處各國國內核准階段，對佈局東盟的中國企業意味著標準互認與數字貿易新規則。",
         "zh-CN": "议定书于吉隆坡签署，涵盖数字经济、绿色经济、供应链互联互通、中小微企业等9个领域，首次将数字经济纳入自贸框架，推动合作从关税减让转向「制度型开放」，目前正处各国国内核准阶段，对布局东盟的中国企业意味着标准互认与数字贸易新规则。",
         "en": "Signed in Kuala Lumpur, the protocol covers nine areas including the digital economy, green economy, supply chain connectivity and MSMEs, bringing the digital economy into the free trade framework for the first time and shifting cooperation from tariff concessions towards 'institutional opening'. It is currently undergoing domestic ratification in the signatory countries, and for Chinese enterprises expanding into ASEAN it means mutual recognition of standards and new rules for digital trade.",
-        "pt": "Assinado em Kuala Lumpur, o protocolo abrange nove áreas, incluindo economia digital, economia verde, conectividade das cadeias de abastecimento e MPME, integrando pela primeira vez a economia digital no quadro de comércio livre e transitando a cooperação das concessões pautais para a 'abertura institucional'. Encontra-se em fase de ratificação nacional e, para as empresas chinesas na ASEAN, significa reconhecimento mútuo de normas e novas regras para o comércio digital."
+        "pt": "Assinado em Kuala Lumpur, o protocolo abrange nove áreas, incluindo economia digital, economia verde, conectividade das cadeias de abastecimento e MPME, integrando pela primeira vez a economia digital no quadro de comércio livre e transitando a cooperação das concessões pautais para a 'abertura institucional'. Encontra-se em fase de ratificação nacional e, para as empresas chinesas na ASEAN, significa reconhecimento mútuo de normas e novas regras para o comércio digital.",
+        "fr": "Signé à Kuala Lumpur, le protocole couvre neuf domaines, dont l'économie numérique, l'économie verte, l'interconnexion des chaînes d'approvisionnement et les micro, petites et moyennes entreprises, intégrant pour la première fois l'économie numérique dans le cadre de libre-échange et faisant évoluer la coopération des concessions tarifaires vers une « ouverture institutionnelle ». Actuellement en phase de ratification nationale, il signifie, pour les entreprises chinoises présentes dans l'ASEAN, une reconnaissance mutuelle des normes et de nouvelles règles pour le commerce numérique."
       },
       "url": "http://www.news.cn/local/20251028/00cffc77a4bf4befb6cdea5d96e6673e/c.html"
     }
@@ -1229,13 +1458,15 @@
         "zh-TW": "從「產品走出去」到「品牌扎根世界」",
         "zh-CN": "从「产品走出去」到「品牌扎根世界」",
         "en": "From \"Products Going Out\" to \"Brands Taking Root Worldwide\"",
-        "pt": "De \"Produtos que Saem\" a \"Marcas que Criam Raízes no Mundo\""
+        "pt": "De \"Produtos que Saem\" a \"Marcas que Criam Raízes no Mundo\"",
+        "fr": "Des « produits qui s'exportent » aux « marques qui s'enracinent dans le monde »"
       },
       "lead": {
         "zh-TW": "數字時代，世界正在以前所未有的方式重新連接。中國企業出海，正邁入品牌全球化的新紀元。",
         "zh-CN": "数字时代，世界正在以前所未有的方式重新连接。中国企业出海，正迈入品牌全球化的新纪元。",
         "en": "In the digital era, the world is reconnecting in unprecedented ways. For Chinese enterprises, going global is entering a new era of brand globalisation.",
-        "pt": "Na era digital, o mundo está a religar-se de formas sem precedentes. Para as empresas chinesas, a internacionalização entra numa nova era de globalização das marcas."
+        "pt": "Na era digital, o mundo está a religar-se de formas sem precedentes. Para as empresas chinesas, a internacionalização entra numa nova era de globalização das marcas.",
+        "fr": "À l'ère numérique, le monde se reconnecte de manière inédite. L'internationalisation des entreprises chinoises entre dans une nouvelle ère : celle de la mondialisation des marques."
       },
       "stats": [
         {
@@ -1243,13 +1474,15 @@
             "zh-TW": "約30%",
             "zh-CN": "约30%",
             "en": "≈30%",
-            "pt": "≈30%"
+            "pt": "≈30%",
+            "fr": "≈ 30 %"
           },
           "text": {
             "zh-TW": "中國製造業增加值佔全球製造業比重，連續16年全球第一",
             "zh-CN": "中国制造业增加值占全球制造业比重，连续16年全球第一",
             "en": "China's share of global manufacturing value-added — ranked first worldwide for 16 consecutive years",
-            "pt": "A quota da China no valor acrescentado da indústria transformadora mundial — no 1.º lugar há 16 anos consecutivos"
+            "pt": "A quota da China no valor acrescentado da indústria transformadora mundial — no 1.º lugar há 16 anos consecutivos",
+            "fr": "Part de la Chine dans la valeur ajoutée manufacturière mondiale — première au monde depuis 16 années consécutives"
           }
         },
         {
@@ -1257,13 +1490,15 @@
             "zh-TW": "45.47萬億元",
             "zh-CN": "45.47万亿元",
             "en": "RMB 45.47tn",
-            "pt": "45,47 bi CNY"
+            "pt": "45,47 biliões CNY",
+            "fr": "45,47 billions CNY"
           },
           "text": {
             "zh-TW": "2025年中國貨物貿易進出口總額，再創歷史新高，連續9年增長",
             "zh-CN": "2025年中国货物贸易进出口总额，再创历史新高，连续9年增长",
             "en": "China's total goods imports and exports in 2025 — a record high, growing for the 9th consecutive year",
-            "pt": "O total das importações e exportações de bens da China em 2025 — um novo recorde, com crescimento pelo 9.º ano consecutivo"
+            "pt": "O total das importações e exportações de bens da China em 2025 — um novo recorde, com crescimento pelo 9.º ano consecutivo",
+            "fr": "Total des importations et exportations de marchandises de la Chine en 2025 — un nouveau record, en croissance pour la 9e année consécutive"
           }
         },
         {
@@ -1271,13 +1506,15 @@
             "zh-TW": "2.6億",
             "zh-CN": "2.6亿",
             "en": "260M",
-            "pt": "260 M"
+            "pt": "260 M",
+            "fr": "260 M"
           },
           "text": {
             "zh-TW": "葡語國家人口，橫跨四大洲——一片等待中國品牌書寫新篇章的廣闊市場",
             "zh-CN": "葡语国家人口，横跨四大洲——一片等待中国品牌书写新篇章的广阔市场",
             "en": "The population of Portuguese-speaking countries spans four continents — a vast market awaiting the next chapter of Chinese brands",
-            "pt": "A população dos países de língua portuguesa estende-se por quatro continentes — um vasto mercado à espera do próximo capítulo das marcas chinesas"
+            "pt": "A população dos países de língua portuguesa estende-se por quatro continentes — um vasto mercado à espera do próximo capítulo das marcas chinesas",
+            "fr": "La population des pays de langue portugaise s'étend sur quatre continents — un vaste marché qui attend le prochain chapitre des marques chinoises"
           }
         },
         {
@@ -1285,13 +1522,15 @@
             "zh-TW": "56億",
             "zh-CN": "56亿",
             "en": "5.6B",
-            "pt": "5,6 mil M"
+            "pt": "5,6 mil milhões",
+            "fr": "5,6 Md"
           },
           "text": {
             "zh-TW": "互聯網用戶共享AI時代數字平權，讓中國企業真正擁有全球化能力",
             "zh-CN": "互联网用户共享AI时代数字平权，让中国企业真正拥有全球化能力",
             "en": "Internet users share the digital equality of the AI era, giving Chinese enterprises truly global reach",
-            "pt": "Os utilizadores da Internet partilham a igualdade digital da era da IA, dando às empresas chinesas um alcance verdadeiramente global"
+            "pt": "Os utilizadores da Internet partilham a igualdade digital da era da IA, dando às empresas chinesas um alcance verdadeiramente global",
+            "fr": "Des internautes qui partagent l'égalité numérique de l'ère de l'IA, donnant aux entreprises chinoises une véritable capacité de mondialisation"
           }
         }
       ],
@@ -1299,7 +1538,8 @@
         "zh-TW": "中國企業品牌出海加速期，就是現在。",
         "zh-CN": "中国企业品牌出海加速期，就是现在。",
         "en": "The acceleration window for Chinese brands going global is now.",
-        "pt": "A fase de aceleração da internacionalização das marcas chinesas é agora."
+        "pt": "A fase de aceleração da internacionalização das marcas chinesas é agora.",
+        "fr": "L'accélération de l'internationalisation des marques chinoises, c'est maintenant."
       }
     },
     "s2": {
@@ -1307,13 +1547,15 @@
         "zh-TW": "澳門——中國企業出海的獨特跳板和減震器",
         "zh-CN": "澳门——中国企业出海的独特跳板和减震器",
         "en": "Macao — A Unique Springboard and Shock Absorber for Chinese Enterprises Going Global",
-        "pt": "Macau — Plataforma de Lançamento e Amortecedor Únicos para a Internacionalização das Empresas Chinesas"
+        "pt": "Macau — Plataforma de Lançamento e Amortecedor Únicos para a Internacionalização das Empresas Chinesas",
+        "fr": "Macao — tremplin unique et amortisseur de l'internationalisation des entreprises chinoises"
       },
       "lead": {
         "zh-TW": "作為「一國兩制」成功實踐的窗口之城，澳門以自由港、中葡平台、琴澳腹地之優勢，給中國企業出海提供新思路。",
         "zh-CN": "作为「一国两制」成功实践的窗口之城，澳门以自由港、中葡平台、琴澳腹地之优势，给中国企业出海提供新思路。",
         "en": "As a showcase city of the successful \"One Country, Two Systems\" principle, Macao offers new pathways for Chinese enterprises going global through its free-port status, the Sino-Portuguese platform and the Hengqin-Macao hinterland.",
-        "pt": "Enquanto cidade-vitrine do êxito do princípio \"Um País, Dois Sistemas\", Macau oferece novas vias à internacionalização das empresas chinesas através do estatuto de porto franco, da plataforma sino-lusófona e da retaguarda Hengqin-Macau."
+        "pt": "Enquanto cidade-vitrine do êxito do princípio \"Um País, Dois Sistemas\", Macau oferece novas vias à internacionalização das empresas chinesas através do estatuto de porto franco, da plataforma sino-lusófona e da retaguarda Hengqin-Macau.",
+        "fr": "Vitrine du succès du principe « un pays, deux systèmes », Macao offre de nouvelles pistes pour l'internationalisation des entreprises chinoises grâce à son statut de port franc, à la plateforme sino-lusophone et à l'arrière-pays Hengqin-Macao."
       },
       "circles": [
         {
@@ -1321,13 +1563,15 @@
             "zh-TW": "一中心",
             "zh-CN": "一中心",
             "en": "One Centre",
-            "pt": "Um Centro"
+            "pt": "Um Centro",
+            "fr": "Un centre"
           },
           "v": {
             "zh-TW": "世界旅遊休閒中心",
             "zh-CN": "世界旅游休闲中心",
             "en": "World Centre of Tourism and Leisure",
-            "pt": "Centro Mundial de Turismo e Lazer"
+            "pt": "Centro Mundial de Turismo e Lazer",
+            "fr": "Centre mondial de tourisme et de loisirs"
           }
         },
         {
@@ -1335,13 +1579,15 @@
             "zh-TW": "一平台",
             "zh-CN": "一平台",
             "en": "One Platform",
-            "pt": "Uma Plataforma"
+            "pt": "Uma Plataforma",
+            "fr": "Une plateforme"
           },
           "v": {
             "zh-TW": "中國與葡語國家商貿合作服務平台",
             "zh-CN": "中国与葡语国家商贸合作服务平台",
             "en": "Service Platform for Commercial and Trade Cooperation between China and Portuguese-speaking Countries",
-            "pt": "Plataforma de Serviços para a Cooperação Comercial entre a China e os Países de Língua Portuguesa"
+            "pt": "Plataforma de Serviços para a Cooperação Comercial entre a China e os Países de Língua Portuguesa",
+            "fr": "Plateforme de services pour la coopération commerciale entre la Chine et les pays de langue portugaise"
           }
         },
         {
@@ -1349,13 +1595,15 @@
             "zh-TW": "一基地",
             "zh-CN": "一基地",
             "en": "One Base",
-            "pt": "Uma Base"
+            "pt": "Uma Base",
+            "fr": "Une base"
           },
           "v": {
             "zh-TW": "以中華文化為主流、多元文化共存的交流合作基地",
             "zh-CN": "以中华文化为主流、多元文化共存的交流合作基地",
             "en": "Exchange and Cooperation Base with Chinese Culture as the Mainstream and Diverse Cultures Coexisting",
-            "pt": "Base de Intercâmbio e Cooperação com a Cultura Chinesa como Corrente Principal em Coexistência Multicultural"
+            "pt": "Base de Intercâmbio e Cooperação com a Cultura Chinesa como Corrente Principal em Coexistência Multicultural",
+            "fr": "Base d'échanges et de coopération où la culture chinoise prédomine dans la coexistence de cultures diverses"
           }
         }
       ],
@@ -1365,27 +1613,31 @@
             "zh-TW": "澳門 · 前台",
             "zh-CN": "澳门 · 前台",
             "en": "Macao · Front Office",
-            "pt": "Macau · Frente"
+            "pt": "Macau · Frente",
+            "fr": "Macao · Front office"
           },
           "v": {
             "zh-TW": "制度優勢、自由港、境外主體身份：面向國際市場的信任接口。",
             "zh-CN": "制度优势、自由港、境外主体身份：面向国际市场的信任接口。",
             "en": "Institutional strengths, free-port status and offshore identity: a trust interface for international markets.",
-            "pt": "Vantagens institucionais, porto franco e identidade extraterritorial: uma interface de confiança para os mercados internacionais."
+            "pt": "Vantagens institucionais, porto franco e identidade extraterritorial: uma interface de confiança para os mercados internacionais.",
+            "fr": "Atouts institutionnels, statut de port franc, identité d'entité extraterritoriale : une interface de confiance vers les marchés internationaux."
           }
         },
         {
           "k": {
             "zh-TW": "橫琴 · 中台",
             "zh-CN": "横琴 · 中台",
-            "en": "Hengqin · Middle Platform",
-            "pt": "Hengqin · Plataforma Intermédia"
+            "en": "Hengqin · Middle Office",
+            "pt": "Hengqin · Plataforma Intermédia",
+            "fr": "Hengqin · Middle office"
           },
           "v": {
             "zh-TW": "創新熱土與數字底座：雙15%稅收優惠、政策支持，承接業務、資源與算力。",
             "zh-CN": "创新热土与数字底座：双15%税收优惠、政策支持，承接业务、资源与算力。",
             "en": "A hotbed of innovation and digital foundation: dual 15% tax incentives and policy support, carrying operations, resources and computing power.",
-            "pt": "Terreno fértil de inovação e base digital: duplos incentivos fiscais de 15% e apoio político, acolhendo operações, recursos e capacidade de computação."
+            "pt": "Terreno fértil de inovação e base digital: duplos incentivos fiscais de 15% e apoio político, acolhendo operações, recursos e capacidade de computação.",
+            "fr": "Terreau d'innovation et socle numérique : double avantage fiscal de 15 % et soutien politique, pour porter les activités, les ressources et la puissance de calcul."
           }
         },
         {
@@ -1393,13 +1645,15 @@
             "zh-TW": "內地 · 後台",
             "zh-CN": "内地 · 后台",
             "en": "Mainland · Back Office",
-            "pt": "Interior da China · Retaguarda"
+            "pt": "Interior da China · Retaguarda",
+            "fr": "Chine continentale · Back office"
           },
           "v": {
             "zh-TW": "廣闊腹地的產業支撐：研發製造與供應鏈能力，轉化為面向全球的品牌力。",
             "zh-CN": "广阔腹地的产业支撑：研发制造与供应链能力，转化为面向全球的品牌力。",
             "en": "Industrial backing from a vast hinterland: R&D, manufacturing and supply-chain capabilities converted into global brand power.",
-            "pt": "Apoio industrial de uma vasta retaguarda: capacidades de I&D, fabrico e cadeia de abastecimento convertidas em força de marca global."
+            "pt": "Apoio industrial de uma vasta retaguarda: capacidades de I&D, fabrico e cadeia de abastecimento convertidas em força de marca global.",
+            "fr": "L'appui industriel d'un vaste arrière-pays : des capacités de R-D, de fabrication et de chaîne d'approvisionnement converties en puissance de marque mondiale."
           }
         }
       ],
@@ -1407,7 +1661,8 @@
         "zh-TW": "信任起跳有推力，落地緩衝有底氣。",
         "zh-CN": "信任起跳有推力，落地缓冲有底气。",
         "en": "Trust gives the jump its thrust; the cushion gives the landing its confidence.",
-        "pt": "A confiança dá impulso ao salto; o amortecedor dá segurança à aterragem."
+        "pt": "A confiança dá impulso ao salto; o amortecedor dá segurança à aterragem.",
+        "fr": "La confiance donne l'élan du départ ; l'amortisseur assure la sérénité de l'atterrissage."
       }
     },
     "s3": {
@@ -1415,13 +1670,15 @@
         "zh-TW": "出海之難——看不見的信任就是不存在的實力",
         "zh-CN": "出海之难——看不见的信任就是不存在的实力",
         "en": "The Hard Part of Going Global — Invisible Trust Is Non-Existent Strength",
-        "pt": "A Dificuldade da Internacionalização — Confiança Invisível é Força Inexistente"
+        "pt": "A Dificuldade da Internacionalização — Confiança Invisível é Força Inexistente",
+        "fr": "La difficulté de l'internationalisation — une confiance invisible est une force inexistante"
       },
       "lead": {
         "zh-TW": "如今，海外買家在聯繫一家企業之前，早已獨自完成了搜索、比較、求證與詢問AI——四次決定，都發生在企業看不見的地方。",
         "zh-CN": "如今，海外买家在联系一家企业之前，早已独自完成了搜索、比较、求证与询问AI——四次决定，都发生在企业看不见的地方。",
         "en": "Today, before ever contacting a company, overseas buyers have already searched, compared, verified and asked AI on their own — four decisions that all happen where the company cannot see.",
-        "pt": "Hoje, antes de contactar uma empresa, o comprador internacional já pesquisou, comparou, verificou e perguntou à IA por si próprio — quatro decisões que acontecem onde a empresa não vê."
+        "pt": "Hoje, antes de contactar uma empresa, o comprador internacional já pesquisou, comparou, verificou e perguntou à IA por si próprio — quatro decisões que acontecem onde a empresa não vê.",
+        "fr": "Aujourd'hui, avant même de contacter une entreprise, l'acheteur étranger a déjà mené seul ses recherches, comparaisons, vérifications et questions à l'IA — quatre décisions prises là où l'entreprise ne voit rien."
       },
       "flow": [
         {
@@ -1429,7 +1686,8 @@
             "zh-TW": "搜索",
             "zh-CN": "搜索",
             "en": "Search",
-            "pt": "Pesquisa"
+            "pt": "Pesquisa",
+            "fr": "Rechercher"
           },
           "present": false
         },
@@ -1438,7 +1696,8 @@
             "zh-TW": "比較",
             "zh-CN": "比较",
             "en": "Compare",
-            "pt": "Comparação"
+            "pt": "Comparação",
+            "fr": "Comparer"
           },
           "present": false
         },
@@ -1447,7 +1706,8 @@
             "zh-TW": "求證",
             "zh-CN": "求证",
             "en": "Verify",
-            "pt": "Verificação"
+            "pt": "Verificação",
+            "fr": "Vérifier"
           },
           "present": false
         },
@@ -1456,7 +1716,8 @@
             "zh-TW": "問AI",
             "zh-CN": "问AI",
             "en": "Ask AI",
-            "pt": "Pergunta à IA"
+            "pt": "Pergunta à IA",
+            "fr": "Interroger l'IA"
           },
           "present": false
         },
@@ -1465,7 +1726,8 @@
             "zh-TW": "聯繫你",
             "zh-CN": "联系你",
             "en": "Contact You",
-            "pt": "Contacto"
+            "pt": "Contacto",
+            "fr": "Vous contacter"
           },
           "present": true
         }
@@ -1474,13 +1736,15 @@
         "zh-TW": "企業不在場",
         "zh-CN": "企业不在场",
         "en": "Company absent",
-        "pt": "Empresa ausente"
+        "pt": "Empresa ausente",
+        "fr": "Entreprise absente"
       },
       "present": {
         "zh-TW": "企業在場",
         "zh-CN": "企业在场",
         "en": "Company present",
-        "pt": "Empresa presente"
+        "pt": "Empresa presente",
+        "fr": "Entreprise présente"
       },
       "pains": [
         {
@@ -1488,13 +1752,15 @@
             "zh-TW": "搜不到",
             "zh-CN": "搜不到",
             "en": "Nowhere to Be Found",
-            "pt": "Invisível nas Pesquisas"
+            "pt": "Invisível nas Pesquisas",
+            "fr": "Introuvable"
           },
           "desc": {
             "zh-TW": "產品參數比國際大廠好30%、價格低40%，但買家搜品類詞，前三頁沒有你。",
             "zh-CN": "产品参数比国际大厂好30%、价格低40%，但买家搜品类词，前三页没有你。",
             "en": "Your specifications beat international giants by 30% at 40% lower prices — yet when buyers search category keywords, you are nowhere in the first three pages.",
-            "pt": "Os seus parâmetros superam os gigantes internacionais em 30%, com preços 40% mais baixos — mas quando o comprador pesquisa a categoria, a sua empresa não aparece nas três primeiras páginas."
+            "pt": "Os seus parâmetros superam os gigantes internacionais em 30%, com preços 40% mais baixos — mas quando o comprador pesquisa a categoria, a sua empresa não aparece nas três primeiras páginas.",
+            "fr": "Vos caractéristiques dépassent de 30 % celles des géants internationaux, pour des prix inférieurs de 40 % — mais lorsque l'acheteur recherche votre catégorie, vous n'apparaissez pas dans les trois premières pages."
           }
         },
         {
@@ -1502,13 +1768,15 @@
             "zh-TW": "信不過",
             "zh-CN": "信不过",
             "en": "Not Trusted",
-            "pt": "Falta de Confiança"
+            "pt": "Falta de Confiança",
+            "fr": "Peu crédible"
           },
           "desc": {
             "zh-TW": "銷售跑了兩個月，客戶回一句「沒聽說過你們」。你去問AI，答案全是競品。",
             "zh-CN": "销售跑了两个月，客户回一句「没听说过你们」。你去问AI，答案全是竞品。",
             "en": "Two months of sales visits, and the client replies \"never heard of you\". Ask AI, and the answers are all about your competitors.",
-            "pt": "Dois meses de visitas comerciais e o cliente responde \"nunca ouvi falar de vocês\". Pergunte à IA e as respostas são todas sobre concorrentes."
+            "pt": "Dois meses de visitas comerciais e o cliente responde \"nunca ouvi falar de vocês\". Pergunte à IA e as respostas são todas sobre concorrentes.",
+            "fr": "Deux mois de prospection, et le client répond « jamais entendu parler de vous ». Interrogez l'IA : les réponses ne parlent que de vos concurrents."
           }
         },
         {
@@ -1516,13 +1784,15 @@
             "zh-TW": "不活躍",
             "zh-CN": "不活跃",
             "en": "Inactive",
-            "pt": "Sem Actividade"
+            "pt": "Sem Actividade",
+            "fr": "Inactif"
           },
           "desc": {
             "zh-TW": "社媒主頁上次更新是幾個月前——在買家眼裡，你像一家停擺的公司。",
             "zh-CN": "社媒主页上次更新是几个月前——在买家眼里，你像一家停摆的公司。",
             "en": "Your social media was last updated months ago — in the buyer's eyes, you look like a company on hold.",
-            "pt": "As suas redes sociais não são actualizadas há meses — aos olhos do comprador, parece uma empresa parada."
+            "pt": "As suas redes sociais não são actualizadas há meses — aos olhos do comprador, parece uma empresa parada.",
+            "fr": "Votre dernière publication sur les réseaux sociaux remonte à plusieurs mois — aux yeux de l'acheteur, vous ressemblez à une entreprise à l'arrêt."
           }
         },
         {
@@ -1530,35 +1800,40 @@
             "zh-TW": "難驗證",
             "zh-CN": "难验证",
             "en": "Hard to Verify",
-            "pt": "Difícil de Verificar"
+            "pt": "Difícil de Verificar",
+            "fr": "Invérifiable"
           },
           "desc": {
             "zh-TW": "官網自述遠銷數十國，站外卻找不到任何交叉驗證——一面之詞，無法成交。",
             "zh-CN": "官网自述远销数十国，站外却找不到任何交叉验证——一面之词，无法成交。",
             "en": "Your website claims exports to dozens of countries, yet no cross-verification exists anywhere else — one-sided claims cannot close deals.",
-            "pt": "O site afirma exportar para dezenas de países, mas fora dele não há qualquer verificação cruzada — declarações unilaterais não fecham negócios."
+            "pt": "O site afirma exportar para dezenas de países, mas fora dele não há qualquer verificação cruzada — declarações unilaterais não fecham negócios.",
+            "fr": "Votre site revendique des exportations vers des dizaines de pays, mais aucun recoupement n'existe ailleurs — des affirmations unilatérales ne concluent pas de ventes."
           }
         }
       ],
       "tagline": {
         "zh-TW": "斷一環，都不是慢一步，而是徹底出局。",
         "zh-CN": "断一环，都不是慢一步，而是彻底出局。",
-        "en": "A broken link in the chain is not one step slower — it is complete elimination.",
-        "pt": "Um elo quebrado não é um passo atrasado — é a eliminação total."
+        "en": "A broken link in the chain does not just slow you down — it knocks you out entirely.",
+        "pt": "Um elo quebrado não é um passo atrasado — é a eliminação total.",
+        "fr": "Un maillon rompu, et ce n'est pas un temps de retard : c'est l'élimination pure et simple."
       }
     },
     "s4": {
       "title": {
         "zh-TW": "一站式護航——讓出海企業真正被看見",
         "zh-CN": "一站式护航——让出海企业真正被看见",
-        "en": "One-Stop Escort — Making Go-Global Enterprises Truly Visible",
-        "pt": "Acompanhamento Integral — Tornar as Empresas em Internacionalização Verdadeiramente Visíveis"
+        "en": "One-Stop Support — Making Go-Global Enterprises Truly Visible",
+        "pt": "Acompanhamento Integral — Tornar as Empresas em Internacionalização Verdadeiramente Visíveis",
+        "fr": "Un accompagnement intégral — pour que les entreprises en internationalisation soient vraiment vues"
       },
       "lead": {
         "zh-TW": "在他聯繫你之前，先讓他搜得到你；在他懷疑你之前，先讓他驗證得到你；在他開口之前，讓AI願意引用你。",
         "zh-CN": "在他联系你之前，先让他搜得到你；在他怀疑你之前，先让他验证得到你；在他开口之前，让AI愿意引用你。",
         "en": "Before they contact you, make sure they can find you; before they doubt you, make sure they can verify you; before they even ask, make AI willing to cite you.",
-        "pt": "Antes que o contactem, faça-se encontrar; antes que duvidem, faça-se verificar; antes que perguntem, faça com que a IA o cite."
+        "pt": "Antes que o contactem, faça-se encontrar; antes que duvidem, faça-se verificar; antes que perguntem, faça com que a IA o cite.",
+        "fr": "Avant qu'il ne vous contacte, faites qu'il vous trouve ; avant qu'il ne doute, faites qu'il puisse vous vérifier ; avant même qu'il ne pose la question, faites que l'IA accepte de vous citer."
       },
       "services": [
         {
@@ -1566,19 +1841,22 @@
             "zh-TW": "找得到",
             "zh-CN": "找得到",
             "en": "Be Found",
-            "pt": "Ser Encontrado"
+            "pt": "Ser Encontrada",
+            "fr": "Être trouvé"
           },
           "sub": {
             "zh-TW": "WEB 獨立站 + SEO",
             "zh-CN": "WEB 独立站 + SEO",
             "en": "Independent Website + SEO",
-            "pt": "Site Independente + SEO"
+            "pt": "Site Independente + SEO",
+            "fr": "Site indépendant + SEO"
           },
           "desc": {
             "zh-TW": "把產品、規格、認證與案例，做成買家搜得到、看得懂、可長期收錄的數字資產，由AI 24小時運營。",
             "zh-CN": "把产品、规格、认证与案例，做成买家搜得到、看得懂、可长期收录的数字资产，由AI 24小时运营。",
             "en": "Turn products, specifications, certifications and case studies into digital assets that buyers can find, understand and index for the long term — operated by AI around the clock.",
-            "pt": "Transformar produtos, especificações, certificações e casos em activos digitais pesquisáveis, compreensíveis e indexáveis a longo prazo — operados por IA 24 horas por dia."
+            "pt": "Transformar produtos, especificações, certificações e casos em activos digitais pesquisáveis, compreensíveis e indexáveis a longo prazo — operados por IA 24 horas por dia.",
+            "fr": "Transformer produits, spécifications, certifications et études de cas en actifs numériques que l'acheteur trouve, comprend et que les moteurs référencent durablement — exploités par l'IA 24 h/24."
           }
         },
         {
@@ -1586,19 +1864,22 @@
             "zh-TW": "信得過",
             "zh-CN": "信得过",
             "en": "Be Trusted",
-            "pt": "Ser Confiável"
+            "pt": "Ser Confiável",
+            "fr": "Inspirer confiance"
           },
           "sub": {
             "zh-TW": "AI 社媒矩陣",
             "zh-CN": "AI 社媒矩阵",
             "en": "AI Social Media Matrix",
-            "pt": "Matriz de Redes Sociais com IA"
+            "pt": "Matriz de Redes Sociais com IA",
+            "fr": "Matrice de réseaux sociaux pilotée par l'IA"
           },
           "desc": {
             "zh-TW": "24小時AI託管官方賬號＋真實員工IP號＋第三方報道，賬號常新、多點交叉印證，讓信任有跡可循。",
             "zh-CN": "24小时AI托管官方账号＋真实员工IP号＋第三方报道，账号常新、多点交叉印证，让信任有迹可循。",
             "en": "24/7 AI-managed official accounts, authentic employee IP accounts and third-party coverage keep channels fresh and cross-validated — making trust traceable.",
-            "pt": "Gestão de contas oficiais por IA 24/7, contas autênticas de colaboradores e cobertura de terceiros mantêm os canais actualizados e com validação cruzada — tornando a confiança rastreável."
+            "pt": "Gestão de contas oficiais por IA 24/7, contas autênticas de colaboradores e cobertura de terceiros mantêm os canais actualizados e com validação cruzada — tornando a confiança rastreável.",
+            "fr": "Comptes officiels gérés par l'IA 24 h/24, comptes authentiques d'employés et couverture tierce : des canaux constamment actualisés et recoupés en plusieurs points, pour une confiance traçable."
           }
         },
         {
@@ -1606,19 +1887,22 @@
             "zh-TW": "問得着",
             "zh-CN": "问得着",
             "en": "Be Quoted by AI",
-            "pt": "Ser Citado pela IA"
+            "pt": "Ser Citada pela IA",
+            "fr": "Être cité par l'IA"
           },
           "sub": {
             "zh-TW": "GEO 生成式引擎優化",
             "zh-CN": "GEO 生成式引擎优化",
             "en": "GEO — Generative Engine Optimization",
-            "pt": "GEO — Optimização de Motores Generativos"
+            "pt": "GEO — Optimização de Motores Generativos",
+            "fr": "GEO — optimisation pour les moteurs génératifs"
           },
           "desc": {
             "zh-TW": "面向ChatGPT、Perplexity、Gemini逐月實測，讓買家問AI一句，答案裏總有你。",
             "zh-CN": "面向ChatGPT、Perplexity、Gemini逐月实测，让买家问AI一句，答案里总有你。",
             "en": "Monthly hands-on testing across ChatGPT, Perplexity and Gemini ensures that when a buyer asks AI, the answer always includes you.",
-            "pt": "Testes práticos mensais no ChatGPT, Perplexity e Gemini garantem que, quando o comprador pergunta à IA, a resposta inclui sempre a sua empresa."
+            "pt": "Testes práticos mensais no ChatGPT, Perplexity e Gemini garantem que, quando o comprador pergunta à IA, a resposta inclui sempre a sua empresa.",
+            "fr": "Des tests pratiques mensuels sur ChatGPT, Perplexity et Gemini garantissent que, lorsque l'acheteur interroge l'IA, la réponse vous inclut toujours."
           }
         }
       ],
@@ -1626,64 +1910,74 @@
         "zh-TW": "六大服務支撐",
         "zh-CN": "六大服务支撑",
         "en": "Six Supporting Services",
-        "pt": "Seis Serviços de Apoio"
+        "pt": "Seis Serviços de Apoio",
+        "fr": "Six services de soutien"
       },
       "supports": [
         {
           "zh-TW": "出海落地服務",
           "zh-CN": "出海落地服务",
           "en": "Go-Global Landing Services",
-          "pt": "Serviços de Implementação no Exterior"
+          "pt": "Serviços de Implementação no Exterior",
+          "fr": "Services d'implantation à l'étranger"
         },
         {
           "zh-TW": "數字IP打造",
           "zh-CN": "数字IP打造",
           "en": "Digital IP Building",
-          "pt": "Criação de IP Digital"
+          "pt": "Criação de IP Digital",
+          "fr": "Création de PI numérique"
         },
         {
           "zh-TW": "AI矩陣搭建",
           "zh-CN": "AI矩阵搭建",
           "en": "AI Matrix Setup",
-          "pt": "Configuração de Matriz de IA"
+          "pt": "Configuração de Matriz de IA",
+          "fr": "Mise en place de matrices IA"
         },
         {
           "zh-TW": "定制AI部署",
           "zh-CN": "定制AI部署",
           "en": "Custom AI Deployment",
-          "pt": "Implementação de IA à Medida"
+          "pt": "Implementação de IA à Medida",
+          "fr": "Déploiement d'IA sur mesure"
         },
         {
           "zh-TW": "品牌出海培訓",
           "zh-CN": "品牌出海培训",
           "en": "Brand Go-Global Training",
-          "pt": "Formação em Internacionalização de Marcas"
+          "pt": "Formação em Internacionalização de Marcas",
+          "fr": "Formation à l'internationalisation des marques"
         },
         {
           "zh-TW": "獨立站增長",
           "zh-CN": "独立站增长",
           "en": "Independent Site Growth",
-          "pt": "Crescimento de Sites Independentes"
+          "pt": "Crescimento de Sites Independentes",
+          "fr": "Croissance de sites indépendants"
         }
       ],
       "support": {
         "note": {
           "zh-TW": "出海護航計劃由澳門數字創新協會會員單位——澳門海易通達科技有限公司全程提供支持",
           "zh-CN": "出海护航计划由澳门数字创新协会会员单位——澳门海易通达科技有限公司全程提供支持",
-          "en": "The Go-Global Escort Program is fully supported by DIA member Macao Haiyi Tongda Technology Co., Ltd.",
-          "pt": "O Programa de Acompanhamento conta com o apoio integral de Macao Haiyi Tongda Technology Co., Ltd., membro da DIA"
+          "en": "The Go-Global Support Program is fully supported by DIA member Macao Haiyi Tongda Technology Co., Ltd.",
+          "pt": "O Programa de Acompanhamento conta com o apoio integral de Macao Haiyi Tongda Technology Co., Ltd., membro da DIA",
+          "fr": "Le Programme d'accompagnement à l'internationalisation bénéficie du soutien intégral de Macao Haiyi Tongda Technology Co., Ltd., membre de l'Association d'Innovation Numérique de Macao"
         },
         "contactLabel": {
           "zh-TW": "業務聯繫",
           "zh-CN": "业务联系",
           "en": "Business Contact",
-          "pt": "Contacto Comercial"
+          "pt": "Contacto Comercial",
+          "fr": "Contact commercial"
         },
         "person": {
           "zh-TW": "韓女士",
           "zh-CN": "韩女士",
           "en": "Ms. Han",
-          "pt": "Sra. Han"
+          "pt": "Sra. Han",
+          "fr": "Mme Han"
         },
         "phones": [
           "+853 6521 7951",
@@ -1693,7 +1987,8 @@
           "zh-TW": "官網",
           "zh-CN": "官网",
           "en": "Website",
-          "pt": "Site"
+          "pt": "Site",
+          "fr": "Site officiel"
         },
         "site": "www.nexmatrixs.com",
         "siteUrl": "https://www.nexmatrixs.com"
@@ -1701,8 +1996,9 @@
       "tagline": {
         "zh-TW": "助企業成功出海，讓世界為品牌喝彩",
         "zh-CN": "助企业成功出海，让世界为品牌喝彩",
-        "en": "Helping enterprises succeed overseas, letting the world applaud the brand",
-        "pt": "Ajudar as empresas a ter sucesso no exterior, fazendo o mundo aplaudir a marca"
+        "en": "Helping enterprises succeed overseas — and giving the world brands to applaud.",
+        "pt": "Ajudar as empresas a ter sucesso no exterior, fazendo o mundo aplaudir a marca",
+        "fr": "Accompagner les entreprises vers le succès international, et faire applaudir leurs marques par le monde entier"
       }
     }
   },
@@ -1712,13 +2008,15 @@
         "zh-TW": "澳門愛國教育青年協會",
         "zh-CN": "澳门爱国教育青年协会",
         "en": "Macao Youth Association of Patriotic Education",
-        "pt": "Associação de Juventude de Educação Patriótica de Macau"
+        "pt": "Associação de Juventude de Educação Patriótica de Macau",
+        "fr": "Association de la jeunesse pour l'éducation patriotique de Macao"
       },
       "desc": {
         "zh-TW": "以愛國愛澳教育為宗旨的青年社團，推動國情研學、兩會精神傳達與兩地青年交流，培育青年家國情懷",
         "zh-CN": "以爱国爱澳教育为宗旨的青年社团，推动国情研学、两会精神传达与两地青年交流，培育青年家国情怀",
         "en": "A youth association dedicated to patriotic education in Macao, promoting national-affairs study tours, youth exchanges and a strong sense of national identity among young people",
-        "pt": "Associação juvenil dedicada à educação patriótica em Macau, promovendo visitas de estudo sobre os assuntos nacionais, intercâmbios de jovens e o sentimento de identidade nacional entre os jovens"
+        "pt": "Associação juvenil dedicada à educação patriótica em Macau, promovendo visitas de estudo sobre os assuntos nacionais, intercâmbios de jovens e o sentimento de identidade nacional entre os jovens",
+        "fr": "Association de jeunesse dédiée à l'éducation patriotique et à l'amour de Macao, promouvant les voyages d'étude sur la réalité nationale, la diffusion de l'esprit des deux sessions et les échanges entre les jeunes des deux territoires, afin de cultiver le sentiment patriotique des jeunes"
       },
       "href": "https://www.bo.dsaj.gov.mo/cn/entities/priv/rec/7792"
     },
@@ -1727,13 +2025,15 @@
         "zh-TW": "澳門直播協會",
         "zh-CN": "澳门直播协会",
         "en": "Macao Live Streaming Association",
-        "pt": "Associação de Live Streaming de Macau"
+        "pt": "Associação de Live Streaming de Macau",
+        "fr": "Association de Live Streaming de Macao"
       },
       "desc": {
         "zh-TW": "直播電商與數字營銷行業組織，推動澳門數字經濟與青年創新發展",
         "zh-CN": "直播电商与数字营销行业组织，推动澳门数字经济与青年创新发展",
         "en": "An industry organisation for livestream e-commerce and digital marketing, advancing Macao's digital economy and youth innovation",
-        "pt": "Organização sectorial de comércio electrónico em direto e marketing digital, promovendo a economia digital e a inovação jovem de Macau"
+        "pt": "Organização sectorial de comércio electrónico em direto e marketing digital, promovendo a economia digital e a inovação jovem de Macau",
+        "fr": "Organisation professionnelle du commerce électronique en direct et du marketing numérique, au service de l'économie numérique et de l'innovation des jeunes à Macao"
       },
       "href": "https://www.facebook.com/MacauLiveAssociation/"
     },
@@ -1742,13 +2042,15 @@
         "zh-TW": "澳門財經科技與教育發展學會",
         "zh-CN": "澳门财经科技与教育发展学会",
         "en": "Macao Financial Technology and Education Development Association",
-        "pt": "Associação para o Desenvolvimento da Tecnologia Financeira e Educação de Macau"
+        "pt": "Associação para o Desenvolvimento da Tecnologia Financeira e Educação de Macau",
+        "fr": "Association pour le développement des technologies financières et de l'éducation de Macao"
       },
       "desc": {
         "zh-TW": "推動澳門多元化發展的非營利智庫，致力金融創新、電子商務、商業出海與中葡平台合作",
         "zh-CN": "推动澳门多元化发展的非营利智库，致力金融创新、电子商务、商业出海与中葡平台合作",
         "en": "A non-profit think tank driving Macao's diversified development, focusing on financial innovation, e-commerce, business internationalisation and Sino-Portuguese platform cooperation",
-        "pt": "Think tank sem fins lucrativos que promove o desenvolvimento diversificado de Macau, centrado na inovação financeira, comércio electrónico, internacionalização empresarial e cooperação da plataforma sino-lusófona"
+        "pt": "Think tank sem fins lucrativos que promove o desenvolvimento diversificado de Macau, centrado na inovação financeira, comércio electrónico, internacionalização empresarial e cooperação da plataforma sino-lusófona",
+        "fr": "Think tank à but non lucratif œuvrant à la diversification de Macao, axé sur l'innovation financière, le commerce électronique, l'internationalisation des entreprises et la coopération de la plateforme sino-lusophone"
       },
       "href": "https://mfteda.org"
     },
@@ -1757,13 +2059,15 @@
         "zh-TW": "澳門博士智庫",
         "zh-CN": "澳门博士智库",
         "en": "Doctoral Think Tank (Macao)",
-        "pt": "Doctoral Think Tank (Macau)"
+        "pt": "Doctoral Think Tank (Macau)",
+        "fr": "Doctoral Think Tank (Macao)"
       },
       "desc": {
         "zh-TW": "由百餘位澳門及海內外博士、博士後組成的跨學科綜合性高端智庫，以高端智慧服務澳門與國家發展",
         "zh-CN": "由百余位澳门及海内外博士、博士后组成的跨学科综合性高端智库，以高端智慧服务澳门与国家发展",
         "en": "A cross-disciplinary think tank uniting over a hundred doctoral and postdoctoral scholars from Macao and beyond, serving Macao and the nation with high-level expertise",
-        "pt": "Um think tank interdisciplinar que reúne mais de uma centena de doutores e pós-doutorados de Macau e do exterior, servindo Macau e o país com conhecimento de alto nível"
+        "pt": "Um think tank interdisciplinar que reúne mais de uma centena de doutores e pós-doutorados de Macau e do exterior, servindo Macau e o país com conhecimento de alto nível",
+        "fr": "Think tank pluridisciplinaire réunissant plus d'une centaine de docteurs et de chercheurs postdoctoraux de Macao et d'ailleurs, mettant son expertise de haut niveau au service du développement de Macao et du pays"
       },
       "href": "https://www.facebook.com/phdmacau/"
     },
@@ -1772,13 +2076,15 @@
         "zh-TW": "中西創新學院",
         "zh-CN": "中西创新学院",
         "en": "Macau Millennium College",
-        "pt": "Instituto Milénio de Macau"
+        "pt": "Instituto Milénio de Macau",
+        "fr": "Macau Millennium College"
       },
       "desc": {
         "zh-TW": "澳門私立高等院校，設數字科技、教育等應用型學科，培育數字經濟與管理人才",
         "zh-CN": "澳门私立高等院校，设数字科技、教育等应用型学科，培育数字经济与管理人才",
         "en": "A private higher education institution in Macao offering applied programmes in digital technology, education and management",
-        "pt": "Instituição privada de ensino superior de Macau, com cursos aplicados em tecnologia digital, educação e gestão"
+        "pt": "Instituição privada de ensino superior de Macau, com cursos aplicados em tecnologia digital, educação e gestão",
+        "fr": "Établissement privé d'enseignement supérieur de Macao proposant des formations appliquées en technologies numériques, en éducation et en gestion, formant des talents pour l'économie numérique"
       },
       "href": "https://www.mmc.edu.mo"
     },
@@ -1787,13 +2093,15 @@
         "zh-TW": "Bonjour Brand 中法品牌美學中心",
         "zh-CN": "Bonjour Brand 中法品牌美学中心",
         "en": "Bonjour Brand China-France Brand Aesthetics Centre",
-        "pt": "Centro de Estética de Marcas China-França Bonjour Brand"
+        "pt": "Centro de Estética de Marcas China-França Bonjour Brand",
+        "fr": "Centre d'esthétique des marques Chine-France Bonjour Brand"
       },
       "desc": {
         "zh-TW": "中法品牌合作與全球化平台，主辦中法品牌高峰論壇，推動中國品牌走向歐洲",
         "zh-CN": "中法品牌合作与全球化平台，主办中法品牌高峰论坛，推动中国品牌走向欧洲",
         "en": "A China-France brand cooperation and globalisation platform, organiser of the China-France Brand Summit, bringing Chinese brands to Europe",
-        "pt": "Plataforma de cooperação e globalização de marcas China-França, organizadora do Fórum China-França de Marcas, levando marcas chinesas à Europa"
+        "pt": "Plataforma de cooperação e globalização de marcas China-França, organizadora do Fórum China-França de Marcas, levando marcas chinesas à Europa",
+        "fr": "Plateforme de coopération et de mondialisation des marques Chine-France, organisatrice du Sommet des marques Chine-France, qui conduit les marques chinoises vers l'Europe"
       },
       "href": "https://www.bonjourbrand.com/"
     },
@@ -1802,13 +2110,15 @@
         "zh-TW": "南航科技（廣東橫琴）有限公司",
         "zh-CN": "南航科技（广东横琴）有限公司",
         "en": "CSAir Technology (Guangdong Hengqin) Co., Ltd.",
-        "pt": "CSAir Technology (Guangdong Hengqin) Co., Ltd."
+        "pt": "CSAir Technology (Guangdong Hengqin) Co., Ltd.",
+        "fr": "CSAir Technology (Guangdong Hengqin) Co., Ltd."
       },
       "desc": {
         "zh-TW": "中國南方航空集團成員企業，扎根橫琴粵澳深度合作區，主營飛行訓練設備、飛行安全與數據分析、低空經濟平台",
         "zh-CN": "中国南方航空集团成员企业，扎根横琴粤澳深度合作区，主营飞行训练设备、飞行安全与数据分析、低空经济平台",
         "en": "A member of China Southern Airlines Group based in the Hengqin Cooperation Zone, focusing on flight training equipment, flight safety and data analytics, and low-altitude economy platforms",
-        "pt": "Membro do grupo China Southern Airlines sediada na Zona de Cooperação de Hengqin, focada em equipamentos de treino de voo, segurança e análise de dados de voo e plataformas de economia de baixa altitude"
+        "pt": "Membro do grupo China Southern Airlines sediada na Zona de Cooperação de Hengqin, focada em equipamentos de treino de voo, segurança e análise de dados de voo e plataformas de economia de baixa altitude",
+        "fr": "Entreprise membre du groupe China Southern Airlines, établie dans la Zone de coopération approfondie Guangdong-Macao à Hengqin, spécialisée dans les équipements de formation au vol, la sécurité des vols et l'analyse de données, ainsi que les plateformes de l'économie de basse altitude"
       },
       "href": "#"
     },
@@ -1817,13 +2127,15 @@
         "zh-TW": "澳門海易通達科技有限公司",
         "zh-CN": "澳门海易通达科技有限公司",
         "en": "Macao Haiyi Tongda Technology Co., Ltd.",
-        "pt": "Macao Haiyi Tongda Technology Co., Ltd."
+        "pt": "Macao Haiyi Tongda Technology Co., Ltd.",
+        "fr": "Macao Haiyi Tongda Technology Co., Ltd."
       },
       "desc": {
         "zh-TW": "數字科技與品牌出海服務商，提供AI驅動的數字營銷與跨境解決方案，為協會「企業出海護航計劃」全程提供支持",
         "zh-CN": "数字科技与品牌出海服务商，提供AI驱动的数字营销与跨境解决方案，为协会「企业出海护航计划」全程提供支持",
-        "en": "A digital technology and brand go-global service provider offering AI-driven digital marketing and cross-border solutions, and the full-support partner of DIA's Go-Global Escort Program",
-        "pt": "Prestador de serviços de tecnologia digital e internacionalização de marcas, com soluções de marketing digital e transfronteiriço baseadas em IA, e parceiro de apoio integral do Programa de Acompanhamento da DIA"
+        "en": "A digital technology and brand go-global service provider offering AI-driven digital marketing and cross-border solutions, and the full-support partner of DIA's Go-Global Support Program",
+        "pt": "Prestador de serviços de tecnologia digital e internacionalização de marcas, com soluções de marketing digital e transfronteiriço baseadas em IA, e parceiro de apoio integral do Programa de Acompanhamento da DIA",
+        "fr": "Prestataire de technologies numériques et de services d'internationalisation des marques, proposant des solutions de marketing numérique et transfrontalier fondées sur l'IA, et partenaire de soutien intégral du Programme d'accompagnement à l'internationalisation de l'Association"
       },
       "href": "https://www.nexmatrixs.com"
     },
@@ -1832,13 +2144,15 @@
         "zh-TW": "科伊思（杭州）人工智能科技有限公司",
         "zh-CN": "科伊思（杭州）人工智能科技有限公司",
         "en": "COIOS (Hangzhou) Artificial Intelligence Technology Co., Ltd.",
-        "pt": "COIOS (Hangzhou) Artificial Intelligence Technology Co., Ltd."
+        "pt": "COIOS (Hangzhou) Artificial Intelligence Technology Co., Ltd.",
+        "fr": "COIOS (Hangzhou) Artificial Intelligence Technology Co., Ltd."
       },
       "desc": {
         "zh-TW": "新一代人工智能公司，研發第三代人工智能「認知智能協作系統 COIOS」，應用於生物醫學與健康管理等領域",
         "zh-CN": "新一代人工智能公司，研发第三代人工智能「认知智能协作系统 COIOS」，应用于生物医学与健康管理等领域",
         "en": "A next-generation AI company developing COIOS, a third-generation cognitive intelligent co-operating system applied in biomedicine and health management",
-        "pt": "Empresa de nova geração de IA, criadora do COIOS, sistema cognitivo inteligente de terceira geração aplicado à biomedicina e gestão de saúde"
+        "pt": "Empresa de nova geração de IA, criadora do COIOS, sistema cognitivo inteligente de terceira geração aplicado à biomedicina e gestão de saúde",
+        "fr": "Entreprise d'intelligence artificielle de nouvelle génération, conceptrice de COIOS, un système collaboratif d'intelligence cognitive de troisième génération appliqué notamment à la biomédecine et à la gestion de la santé"
       },
       "href": "http://coios-ai.com"
     },
@@ -1847,13 +2161,15 @@
         "zh-TW": "Beroni Group Limited 貝羅尼集團",
         "zh-CN": "Beroni Group Limited 贝罗尼集团",
         "en": "Beroni Group Limited",
-        "pt": "Beroni Group Limited"
+        "pt": "Beroni Group Limited",
+        "fr": "Beroni Group Limited"
       },
       "desc": {
         "zh-TW": "總部悉尼的國際生物科技集團（澳交所NSX:BTG、美國OTCQX上市），業務涵蓋保健品、細胞療法與新藥研發",
         "zh-CN": "总部悉尼的国际生物科技集团（澳交所NSX:BTG、美国OTCQX上市），业务涵盖保健品、细胞疗法与新药研发",
         "en": "An international biotechnology group headquartered in Sydney (listed on NSX: BTG and OTCQX), spanning health products, cell therapies and new drug R&D",
-        "pt": "Grupo internacional de biotecnologia sediado em Sydney (cotado na NSX: BTG e OTCQX), com actividades em produtos de saúde, terapias celulares e I&D de novos medicamentos"
+        "pt": "Grupo internacional de biotecnologia sediado em Sydney (cotado na NSX: BTG e OTCQX), com actividades em produtos de saúde, terapias celulares e I&D de novos medicamentos",
+        "fr": "Groupe international de biotechnologie basé à Sydney (coté NSX : BTG et OTCQX), actif dans les produits de santé, les thérapies cellulaires et la R-D de nouveaux médicaments"
       },
       "href": "https://www.beronigroup.com"
     },
@@ -1862,13 +2178,15 @@
         "zh-TW": "中盛國際實業有限公司",
         "zh-CN": "中盛国际实业有限公司",
         "en": "Zhongsheng International Industry Limited",
-        "pt": "Zhongsheng International Industry Limited"
+        "pt": "Zhongsheng International Industry Limited",
+        "fr": "Zhongsheng International Industry Limited"
       },
       "desc": {
         "zh-TW": "總部香港的國際貿易公司，主營國際貿易、海外工程承包、大宗商品交易與現代物流",
         "zh-CN": "总部香港的国际贸易公司，主营国际贸易、海外工程承包、大宗商品交易与现代物流",
         "en": "A Hong Kong-based international trading company engaged in international trade, overseas engineering contracting, bulk commodities and modern logistics",
-        "pt": "Empresa de comércio internacional sediada em Hong Kong, dedicada ao comércio internacional, empreitadas no exterior, commodities e logística moderna"
+        "pt": "Empresa de comércio internacional sediada em Hong Kong, dedicada ao comércio internacional, empreitadas no exterior, commodities e logística moderna",
+        "fr": "Société de commerce international basée à Hong Kong, active dans le commerce international, les marchés de travaux à l'étranger, les matières premières en vrac et la logistique moderne"
       },
       "href": "http://www.zhongshengindustry.com"
     },
@@ -1877,13 +2195,15 @@
         "zh-TW": "中光集團（長春）有限責任公司",
         "zh-CN": "中光集团（长春）有限责任公司",
         "en": "Zhongguang Group (Changchun) Co., Ltd.",
-        "pt": "Zhongguang Group (Changchun) Co., Ltd."
+        "pt": "Zhongguang Group (Changchun) Co., Ltd.",
+        "fr": "Zhongguang Group (Changchun) Co., Ltd."
       },
       "desc": {
         "zh-TW": "長春民辦教育投資控股集團，核心資產為長春電子科技學院，布局教育、科創園區與商貿市場多業態",
         "zh-CN": "长春民办教育投资控股集团，核心资产为长春电子科技学院，布局教育、科创园区与商贸市场多业态",
         "en": "A Changchun-based private education investment holding group whose core asset is Changchun College of Electronic Technology, with operations spanning education, innovation parks and trading markets",
-        "pt": "Grupo holding de investimento em educação privada sediado em Changchun, cujo principal activo é o Changchun College of Electronic Technology, com operações em educação, parques de inovação e mercados comerciais"
+        "pt": "Grupo holding de investimento em educação privada sediado em Changchun, cujo principal activo é o Changchun College of Electronic Technology, com operações em educação, parques de inovação e mercados comerciais",
+        "fr": "Groupe holding d'investissement dans l'enseignement privé basé à Changchun, dont l'actif principal est le Changchun College of Electronic Technology, présent dans l'éducation, les parcs d'innovation et les marchés commerciaux"
       },
       "href": "#"
     },
@@ -1892,13 +2212,15 @@
         "zh-TW": "澳門博士翻譯有限公司",
         "zh-CN": "澳门博士翻译有限公司",
         "en": "BOSS Translation Company Limited (Macao)",
-        "pt": "BOSS Translation Company Limited (Macau)"
+        "pt": "BOSS Translation Company Limited (Macau)",
+        "fr": "BOSS Translation Company Limited (Macao)"
       },
       "desc": {
         "zh-TW": "澳門專業翻譯機構，ISO9001 認證，提供中、英、葡等多語種筆譯、傳譯及公證文件翻譯服務",
         "zh-CN": "澳门专业翻译机构，ISO9001 认证，提供中、英、葡等多语种笔译、传译及公证文件翻译服务",
         "en": "An ISO 9001-certified professional translation company in Macao, providing translation, interpretation and notarised document translation in Chinese, English, Portuguese and other languages",
-        "pt": "Empresa profissional de tradução de Macau com certificação ISO 9001, prestando serviços de tradução, interpretação e tradução de documentos notariais em chinês, inglês, português e outras línguas"
+        "pt": "Empresa profissional de tradução de Macau com certificação ISO 9001, prestando serviços de tradução, interpretação e tradução de documentos notariais em chinês, inglês, português e outras línguas",
+        "fr": "Société de traduction professionnelle de Macao certifiée ISO 9001, offrant des services de traduction, d'interprétation et de traduction de documents notariés en chinois, anglais, portugais et autres langues"
       },
       "href": "https://www.boss.mo/tc/"
     },
@@ -1907,13 +2229,15 @@
         "zh-TW": "澳門橋霍頓有限公司",
         "zh-CN": "澳门桥霍顿有限公司",
         "en": "United Macao Bridge Holden Corporation Limited",
-        "pt": "United Macao Bridge Holden Corporation Limited (Macau)"
+        "pt": "United Macao Bridge Holden Corporation Limited (Macau)",
+        "fr": "United Macao Bridge Holden Corporation Limited"
       },
       "desc": {
         "zh-TW": "澳門跨境醫療服務企業，鏈接全球醫療資源，提供優質跨境醫療解決方案",
         "zh-CN": "澳门跨境医疗服务企业，链接全球医疗资源，提供优质跨境医疗解决方案",
         "en": "A Macao-based cross-border healthcare company connecting global medical resources and delivering quality cross-border healthcare solutions",
-        "pt": "Empresa de Macau dedicada a serviços de saúde transfronteiriços, ligando recursos médicos globais e oferecendo soluções de saúde transfronteiriças de qualidade"
+        "pt": "Empresa de Macau dedicada a serviços de saúde transfronteiriços, ligando recursos médicos globais e oferecendo soluções de saúde transfronteiriças de qualidade",
+        "fr": "Entreprise de Macao spécialisée dans les services de santé transfrontaliers, reliant les ressources médicales mondiales pour offrir des solutions de santé transfrontalières de qualité"
       },
       "href": "https://bridgeholdengroup.com/zh-TW/index.html"
     }
