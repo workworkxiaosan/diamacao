@@ -1901,6 +1901,21 @@
         "pt": "Empresa profissional de tradução de Macau com certificação ISO 9001, prestando serviços de tradução, interpretação e tradução de documentos notariais em chinês, inglês, português e outras línguas"
       },
       "href": "https://www.boss.mo/tc/"
+    },
+    {
+      "name": {
+        "zh-TW": "澳門橋霍頓有限公司",
+        "zh-CN": "澳门桥霍顿有限公司",
+        "en": "United Macao Bridge Holden Corporation Limited",
+        "pt": "United Macao Bridge Holden Corporation Limited (Macau)"
+      },
+      "desc": {
+        "zh-TW": "澳門跨境醫療服務企業，鏈接全球醫療資源，提供優質跨境醫療解決方案",
+        "zh-CN": "澳门跨境医疗服务企业，链接全球医疗资源，提供优质跨境医疗解决方案",
+        "en": "A Macao-based cross-border healthcare company connecting global medical resources and delivering quality cross-border healthcare solutions",
+        "pt": "Empresa de Macau dedicada a serviços de saúde transfronteiriços, ligando recursos médicos globais e oferecendo soluções de saúde transfronteiriças de qualidade"
+      },
+      "href": "https://bridgeholdengroup.com/zh-TW/index.html"
     }
   ]
 }
