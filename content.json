@@ -1192,6 +1192,32 @@
   ],
   "policies": [
     {
+      "date": "2026-10-10",
+      "region": "national",
+      "issuer": {
+        "zh-TW": "商務部等七部門",
+        "zh-CN": "商务部等七部门",
+        "en": "Ministry of Commerce and six other departments",
+        "pt": "Ministério do Comércio e outros seis departamentos",
+        "fr": "Ministère du Commerce et six autres départements"
+      },
+      "title": {
+        "zh-TW": "七部門聯合印發《關於實施品質電商「五優」行動的通知》 構建電商出海良好生態",
+        "zh-CN": "七部门联合印发《关于实施品质电商“五优”行动的通知》 构建电商出海良好生态",
+        "en": "Seven Departments Issue \"Five Excellence\" Action for Quality E-commerce, Fostering a Sound Ecosystem for E-commerce Going Global",
+        "pt": "Sete Departamentos Publicam a Acção dos \"Cinco Excelências\" para o Comércio Electrónico de Qualidade, Promovendo um Bom Ecossistema para a Internacionalização do Comércio Electrónico",
+        "fr": "Sept départements publient l'action des « Cinq excellences » pour un commerce électronique de qualité et le renforcement de l'écosystème d'internationalisation du e-commerce"
+      },
+      "summary": {
+        "zh-TW": "商務部、中央網信辦、國家發展改革委等七部門部署品質推優、創優、擇優、爭優、護優五大行動共15項舉措，包括建立全鏈路品控體系、培育「絲路雲品」品牌、開展電商出海反壟斷合規指導，推動電商合作從「商品出海」向「規則銜接」升級。文件2026年9月11日印發，10月10日對外發佈。",
+        "zh-CN": "商务部、中央网信办、国家发展改革委等七部门部署品质推优、创优、择优、争优、护优五大行动共15项举措，包括建立全链路品控体系、培育“丝路云品”品牌、开展电商出海反垄断合规指导，推动电商合作从“商品出海”向“规则衔接”升级。文件2026年9月11日印发，10月10日对外发布。",
+        "en": "The Ministry of Commerce, the Cyberspace Administration of China, the National Development and Reform Commission and four other departments have launched five actions with 15 measures covering quality promotion, brand building, consumer choice, Silk Road e-commerce and long-term standards — including full-chain quality control, cultivation of \"Silk Road Cloud Products\" brands and antitrust compliance guidance for e-commerce going global — upgrading cooperation from \"goods going global\" to \"rules alignment\". The document was issued on 11 September 2026 and released publicly on 10 October.",
+        "pt": "O Ministério do Comércio, a Administração do Ciberespaço da China, a Comissão Nacional de Desenvolvimento e Reforma e outros quatro departamentos lançaram cinco acções com 15 medidas — incluindo o controlo de qualidade em toda a cadeia, a criação da marca \"Produtos Cloud da Rota da Seda\" e orientação de conformidade antitruste para o comércio electrónico em internacionalização — elevando a cooperação da \"exportação de produtos\" para a \"articulação de regras\". O documento foi emitido a 11 de Setembro de 2026 e publicado a 10 de Outubro.",
+        "fr": "Le Ministère du Commerce, l'Administration du cyberespace de Chine, la Commission nationale du développement et de la réforme et quatre autres départements ont lancé cinq actions totalisant 15 mesures — dont un contrôle qualité sur toute la chaîne, la promotion des marques « Produits cloud de la Route de la soie » et un accompagnement en conformité antitrust pour le e-commerce à l'international — faisant passer la coopération de « l'exportation de biens » à « l'alignement des règles ». Le document a été adopté le 11 septembre 2026 et publié le 10 octobre."
+      },
+      "url": "https://www.mofcom.gov.cn/zwgk/gztz/art/2026/art_b73e63ca8fe9448e8004f3eede777d76.html"
+    },
+    {
       "date": "2026-09-21",
       "region": "national",
       "issuer": {
