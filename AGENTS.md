@@ -22,6 +22,12 @@
 3. `git add -A && git commit -m "..." && git push`。
 4. GitHub Actions 自動構建部署（`.github/workflows/deploy.yml`），約 1 分鐘後線上生效。
 
+## 監控與安全
+
+- `monitor.py`（2026-10-23 新增，僅標準庫）：`python3 monitor.py` 對線上站做 21 項檢查——DNS 是否仍指向 GitHub Pages 四 IP、www/裸域 TLS 證書驗證與到期天數（<30 天 WARN）、裸域 301 跳轉、14 個關鍵頁面 HTTP 200、首頁關鍵內容標記（防篡改/部署異常）、HSTS 標頭觀察。FAIL 任一項 exit 1。每日 08:37 由 cron 定時巡查，異常時按網絡安全工程師角色排查修復。
+- 安全現狀（2026-10-23 首輪審計）：全站 56 頁無失效內部鏈接；所有 `target="_blank"` 均帶 `rel="noopener"`；證書鏈完整（Let's Encrypt，GitHub 四邊緣節點逐一驗證）。**GitHub Pages 不支援自訂安全標頭**（HSTS/CSP/X-Frame-Options 需前置 CDN 如 Cloudflare 才能啟用，未啟用前置 CDN 前 monitor.py 對 HSTS 恆報 WARN，屬預期）。
+- 外鏈 http:// 保留屬刻意：coios-ai.com、zhongshengindustry.com、customs.gov.cn 的 https 實測不可達，保留 http 避免死鏈；mofcom/news.cn 已於 2026-10-23 升級 https。新增外鏈時優先用 https 並實測。
+
 ## 關鍵事實
 
 - 頁面共 8 個（`PAGES`）：index/about/members/news/policy/services/partners/contact。無 research/projects/publications/insights（與 MFTEDA 不同）；社評類稿件可作 `news` 條目（category 如「社評」）。
