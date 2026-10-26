@@ -1192,6 +1192,32 @@
   ],
   "policies": [
     {
+      "date": "2026-10-23",
+      "region": "macao",
+      "issuer": {
+        "zh-TW": "招商投資促進局",
+        "zh-CN": "招商投资促进局",
+        "en": "IPIM",
+        "pt": "IPIM",
+        "fr": "IPIM"
+      },
+      "title": {
+        "zh-TW": "三展聯動收官：700多場商業配對賦能企業出海 「澳門落戶+橫琴拓展」成新路徑",
+        "zh-CN": "三展联动收官：700多场商业配对赋能企业出海 “澳门落户+横琴拓展”成新路径",
+        "en": "Three-Show Synergy Concludes with 700+ Business Matchings Empowering Enterprises Going Global; \"Macao Base + Hengqin Expansion\" Emerges as New Pathway",
+        "pt": "Três Eventos em Sinergia Terminam com Mais de 700 Sessões de Contactos Comerciais para a Internacionalização das Empresas; \"Instalação em Macau + Expansão em Hengqin\" como Novo Caminho",
+        "fr": "Clôture des trois salons en synergie : plus de 700 rencontres d'affaires au service de l'internationalisation des entreprises ; « implantation à Macao + expansion à Hengqin », une nouvelle voie"
+      },
+      "summary": {
+        "zh-TW": "第31屆MIF、2026PLPEX、2026MFE三展於10月21至24日舉行，期間10個專題配對洽談促成超過700場商業配對，涵蓋大健康出海、跨境電商、葡語國家產品等主題；大會以「展會+考察+對接」模式組織澳琴及大灣區考察，有葡語國家客商計劃以「澳門落戶+橫琴拓展」雙向聯動開拓中國市場。",
+        "zh-CN": "第31届MIF、2026PLPEX、2026MFE三展于10月21至24日举行，期间10个专题配对洽谈促成超过700场商业配对，涵盖大健康出海、跨境电商、葡语国家产品等主题；大会以“展会+考察+对接”模式组织澳琴及大湾区考察，有葡语国家客商计划以“澳门落户+横琴拓展”双向联动开拓中国市场。",
+        "en": "The 31st MIF, 2026PLPEX and 2026MFE ran from 21 to 24 October, delivering over 700 business matchings across 10 thematic sessions spanning health-industry expansion abroad, cross-border e-commerce and Portuguese-speaking-country products. Under a \"show + visit + matching\" model, delegations toured Macao, Hengqin and other GBA cities, with Portuguese-speaking buyers planning a dual-track \"Macao base + Hengqin expansion\" approach to enter the Chinese market.",
+        "pt": "A 31.ª MIF, o 2026PLPEX e o 2026MFE decorreram de 21 a 24 de Outubro, tendo realizado mais de 700 contactos comerciais em 10 sessões temáticas que abrangeram a internacionalização da saúde, o comércio electrónico transfronteiriço e os produtos dos países lusófonos. No modelo \"exposição + visita + contactos\", as delegações visitaram Macau, Hengqin e outras cidades da Grande Baía, e compradores lusófonos planeiam entrar no mercado chinês através da via \"instalação em Macau + expansão em Hengqin\".",
+        "fr": "La 31e MIF, le 2026PLPEX et le 2026MFE se sont tenus du 21 au 24 octobre, avec plus de 700 rencontres d'affaires organisées dans 10 sessions thématiques couvrant l'internationalisation de la santé, le e-commerce transfrontalier et les produits des pays lusophones. Selon le modèle « salon + visite + mise en relation », des délégations ont visité Macao, Hengqin et d'autres villes de la Grande Baie ; des acheteurs lusophones envisagent d'entrer sur le marché chinois par la voie « implantation à Macao + expansion à Hengqin »."
+      },
+      "url": "https://www.ipim.gov.mo/zh-hant/ipim-news/2113542204795654146"
+    },
+    {
       "date": "2026-10-10",
       "region": "national",
       "issuer": {
