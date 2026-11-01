@@ -110,7 +110,7 @@ h1, h2, h3, h4 { font-family: var(--font-display); }
 @media (min-width: 1024px) { .main-nav { display: flex; } }
 .main-nav a {
   padding: .5rem .75rem; font-size: .875rem; font-weight: 500; border-radius: .5rem;
-  color: hsl(var(--foreground)); transition: all .2s;
+  color: hsl(var(--foreground)); transition: all .2s; white-space: nowrap;
 }
 .main-nav a:hover { color: hsl(var(--primary)); background: hsl(var(--primary) / .05); }
 .main-nav a.active { color: hsl(var(--primary)); background: hsl(var(--primary) / .1); }

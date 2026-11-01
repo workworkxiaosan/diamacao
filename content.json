@@ -436,8 +436,8 @@
         "about": "Sobre Nós",
         "members": "Estrutura",
         "news": "Notícias",
-        "policy": "Políticas de Internacionalização",
-        "services": "Programa de Acompanhamento",
+        "policy": "Políticas",
+        "services": "Acompanhamento",
         "partners": "Parceiros",
         "contact": "Contactos"
       },
@@ -560,10 +560,10 @@
     "fr": {
       "nav": {
         "home": "Accueil",
-        "about": "Qui sommes-nous",
+        "about": "À propos",
         "members": "Gouvernance",
         "news": "Actualités",
-        "policy": "Politiques d'internationalisation",
+        "policy": "Politiques",
         "services": "Accompagnement",
         "partners": "Partenaires",
         "contact": "Contact"
