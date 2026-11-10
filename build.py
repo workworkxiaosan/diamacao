@@ -26,7 +26,7 @@ def t(lang, *keys):
     return d
 
 # ---------------- URL 規則 ----------------
-# 默認語言 zh-TW 放根目錄，其他語言在 /zh-CN/ /en/ /pt/ /fr/ 子目錄
+# 默認語言 zh-TW 放根目錄，其他語言在 /zh-CN/ /en/ /pt/ /fr/ /es/ 子目錄
 def page_href(page, target_lang, current_lang):
     if target_lang == DEFAULT:
         target = 'index.html' if page == 'index' else f'{page}.html'
@@ -175,23 +175,75 @@ def footer(lang, pre=''):
   </div>
 </footer>'''
 
-def page_shell(page, lang, title, description, body, depth=0, url_path=None, og_image=None):
+OG_LOCALES = {'zh-TW': 'zh_TW', 'zh-CN': 'zh_CN', 'en': 'en_US', 'pt': 'pt_PT', 'fr': 'fr_FR', 'es': 'es_ES'}
+SITE_NAMES = {'zh-TW': 'site_name', 'zh-CN': None, 'en': 'site_name_en', 'pt': 'site_name_pt', 'fr': 'site_name_fr', 'es': 'site_name_es'}
+# 海外市場佈局：葡語/西語/法語國家及一帶一路沿線（Organization.areaServed）
+AREA_SERVED = ['Macao', 'China', 'Portugal', 'Brazil', 'Angola', 'Mozambique', 'Cabo Verde',
+               'Guinea-Bissau', 'São Tomé and Príncipe', 'Timor-Leste', 'Equatorial Guinea',
+               'Spain', 'Hispanic America', 'France', 'Francophone Africa',
+               'Belt and Road partner countries']
+
+def lang_site_name(lang):
+    key = SITE_NAMES[lang]
+    return C[key] if key else '澳门数字创新协会'
+
+def jsonld_block(obj):
+    return ('<script type="application/ld+json">\n'
+            + json.dumps(obj, ensure_ascii=False) + '\n  </script>')
+
+def page_shell(page, lang, title, description, body, depth=0, url_path=None, og_image=None, article=None):
     pre = '../' * depth
     css = pre + asset('css/style.css', lang)
     js = pre + asset('js/main.js', lang)
     lang_links = ''.join(
         f'<link rel="alternate" hreflang="{l}" href="{abs_url(url_path or page, l)}">'
         for l in LANGS)
+    lang_links += f'<link rel="alternate" hreflang="x-default" href="{abs_url(url_path or page, DEFAULT)}">'
     canonical = abs_url(url_path or page, lang)
     site_url = C.get('site_url', 'https://www.diamacao.com').rstrip('/')
     og_image = og_image or (site_url + '/assets/img/og-cover.jpg')
-    og_locale = {'zh-TW': 'zh_TW', 'zh-CN': 'zh_CN', 'en': 'en_US', 'pt': 'pt_PT', 'fr': 'fr_FR'}[lang]
-    site_name = {'zh-TW': C['site_name'], 'zh-CN': '澳门数字创新协会', 'en': C['site_name_en'], 'pt': C['site_name_pt'], 'fr': C['site_name_fr']}[lang]
-    jsonld = ''
+    og_locale = OG_LOCALES[lang]
+    og_locale_alts = ''.join(
+        f'<meta property="og:locale:alternate" content="{OG_LOCALES[l]}">'
+        for l in LANGS if l != lang)
+    site_name = lang_site_name(lang)
+    org_id = site_url + '/#organization'
+    graph = []
     if page == 'index':
-        jsonld = f'''<script type="application/ld+json">
-  {{"@context":"https://schema.org","@type":"Organization","name":"{site_name}","alternateName":"{C['site_name_en']}","url":"{site_url}","logo":"{site_url}/assets/img/logo.png","email":"{C['email']}","address":{{"@type":"PostalAddress","streetAddress":"{esc(C['address'][lang])}","addressCountry":"MO"}}}}
-  </script>'''
+        graph.append({
+            "@type": "Organization", "@id": org_id, "name": site_name,
+            "alternateName": C['site_name_en'], "url": site_url + ('/' if lang == DEFAULT else f'/{lang}/'),
+            "logo": {"@type": "ImageObject", "url": site_url + '/assets/img/logo.png'},
+            "email": C['email'],
+            "address": {"@type": "PostalAddress", "streetAddress": C['address'][lang],
+                        "addressLocality": "Macao", "addressCountry": "MO"},
+            "areaServed": [{"@type": "Place", "name": n} for n in AREA_SERVED],
+            "knowsLanguage": LANGS,
+            "contactPoint": {"@type": "ContactPoint", "contactType": "general enquiries",
+                             "email": C['email'], "availableLanguage": LANGS}})
+        graph.append({
+            "@type": "WebSite", "@id": site_url + '/#website', "url": site_url + '/',
+            "name": site_name, "inLanguage": lang, "publisher": {"@id": org_id}})
+    else:
+        crumbs = [{"@type": "ListItem", "position": 1, "name": t(lang, 'nav', 'home'),
+                   "item": abs_url('index', lang)}]
+        if article is not None:
+            crumbs.append({"@type": "ListItem", "position": 2, "name": t(lang, 'nav', 'news'),
+                           "item": abs_url('news', lang)})
+        crumbs.append({"@type": "ListItem", "position": len(crumbs) + 1, "name": title, "item": canonical})
+        graph.append({"@type": "BreadcrumbList",
+                      "itemListElement": crumbs})
+    if article is not None:
+        graph.append({
+            "@type": "NewsArticle", "@id": canonical + '#article', "mainEntityOfPage": canonical,
+            "headline": article['title'][lang], "description": article['excerpt'][lang],
+            "image": [og_image], "datePublished": article['date'], "dateModified": article['date'],
+            "inLanguage": lang, "articleSection": article['category'][lang],
+            "author": {"@id": org_id},
+            "publisher": {"@type": "Organization", "name": site_name,
+                          "logo": {"@type": "ImageObject", "url": site_url + '/assets/img/logo.png'}},
+            "isBasedOn": article['source']['url']})
+    jsonld = jsonld_block({"@context": "https://schema.org", "@graph": graph}) if graph else ''
     return f'''<!doctype html>
 <html lang="{lang}">
 <head>
@@ -203,6 +255,7 @@ def page_shell(page, lang, title, description, body, depth=0, url_path=None, og_
   <meta property="og:type" content="{'website' if page == 'index' else 'article'}">
   <meta property="og:site_name" content="DIA · {esc(site_name)}">
   <meta property="og:locale" content="{og_locale}">
+  {og_locale_alts}
   <meta property="og:title" content="{esc(title)}">
   <meta property="og:description" content="{esc(description)}">
   <meta property="og:url" content="{canonical}">
@@ -503,7 +556,7 @@ def render_news_article(lang, a):
   </div>
 </section>'''
     return page_shell('news', lang, a['title'][lang], a['excerpt'][lang], body,
-                      depth=1, url_path=f'news/{a["slug"]}')
+                      depth=1, url_path=f'news/{a["slug"]}', article=a)
 
 # ---------------- 出海政策 ----------------
 def render_policy(lang):
@@ -712,17 +765,24 @@ def build():
     with open(os.path.join(DIST, 'CNAME'), 'w') as f:
         f.write('www.diamacao.com\n')
 
+    # GEO：明確允許主流 AI 搜索/答案引擎爬取（預設本即允許，此處聲明立場便於審計）
+    ai_bots = ['GPTBot', 'OAI-SearchBot', 'ChatGPT-User', 'ClaudeBot', 'Claude-Web',
+               'PerplexityBot', 'Google-Extended', 'Applebot-Extended', 'meta-external-agent',
+               'CCBot', 'DuckAssist', 'Bingbot']
+    robots = 'User-agent: *\nAllow: /\n\n'
+    robots += ''.join(f'User-agent: {b}\nAllow: /\n\n' for b in ai_bots)
+    robots += 'Sitemap: https://www.diamacao.com/sitemap.xml\n'
     with open(os.path.join(DIST, 'robots.txt'), 'w') as f:
-        f.write('User-agent: *\nAllow: /\n\nSitemap: https://www.diamacao.com/sitemap.xml\n')
+        f.write(robots)
 
     not_found_body = f'''
 <section class="page-hero">
   <div class="container-institutional">
     <div class="reveal">
       <h1 class="institutional-heading">404</h1>
-      <p class="sub text-muted-foreground">{esc({'zh-TW': '頁面不存在或已被移動', 'zh-CN': '页面不存在或已被移动', 'en': 'The page you are looking for does not exist or has been moved.', 'pt': 'A página que procura não existe ou foi movida.', 'fr': "La page que vous recherchez n'existe pas ou a été déplacée."}[DEFAULT])}</p>
+      <p class="sub text-muted-foreground">{esc({'zh-TW': '頁面不存在或已被移動', 'zh-CN': '页面不存在或已被移动', 'en': 'The page you are looking for does not exist or has been moved.', 'pt': 'A página que procura não existe ou foi movida.', 'fr': "La page que vous recherchez n'existe pas ou a été déplacée.", 'es': 'La página que busca no existe o ha sido movida.'}[DEFAULT])}</p>
       <div class="cta-row" style="margin-top:2rem;display:flex;justify-content:center;">
-        <a class="btn btn-primary" href="index.html">{esc({'zh-TW': '返回首頁', 'zh-CN': '返回首页', 'en': 'Back to Home', 'pt': 'Voltar ao Início', 'fr': "Retour à l'accueil"}[DEFAULT])}{icon('arrow')}</a>
+        <a class="btn btn-primary" href="index.html">{esc({'zh-TW': '返回首頁', 'zh-CN': '返回首页', 'en': 'Back to Home', 'pt': 'Voltar ao Início', 'fr': "Retour à l'accueil", 'es': 'Volver al inicio'}[DEFAULT])}{icon('arrow')}</a>
       </div>
     </div>
   </div>
@@ -730,7 +790,8 @@ def build():
     with open(os.path.join(DIST, '404.html'), 'w', encoding='utf-8') as f:
         f.write(page_shell('index', DEFAULT, '404', 'Page not found', not_found_body))
 
-    count = 2
+    count = 3
+    latest_content = max([a['date'] for a in C['news']] + [p['date'] for p in C['policies']])
     urls = []
     for lang in LANGS:
         outdir = DIST if lang == DEFAULT else os.path.join(DIST, lang)
@@ -740,31 +801,65 @@ def build():
             name = 'index.html' if page == 'index' else f'{page}.html'
             with open(os.path.join(outdir, name), 'w', encoding='utf-8') as f:
                 f.write(html_out)
-            urls.append((page, lang))
+            urls.append((page, lang, latest_content))
             count += 1
         for a in C['news']:
             ndir = os.path.join(outdir, 'news')
             os.makedirs(ndir, exist_ok=True)
             with open(os.path.join(ndir, f'{a["slug"]}.html'), 'w', encoding='utf-8') as f:
                 f.write(render_news_article(lang, a))
-            urls.append((f'news/{a["slug"]}', lang))
+            urls.append((f'news/{a["slug"]}', lang, a['date']))
             count += 1
 
     xhtml = 'xmlns:xhtml="http://www.w3.org/1999/xhtml"'
     items = []
-    for page, lang in urls:
+    for page, lang, lastmod in urls:
         loc = abs_url(page, lang)
         alts = ''.join(
             f'\n      <xhtml:link rel="alternate" hreflang="{l}" href="{abs_url(page, l)}"/>'
             for l in LANGS)
         items.append(f'''  <url>
-      <loc>{loc}</loc>{alts}
+      <loc>{loc}</loc>
+      <lastmod>{lastmod}</lastmod>{alts}
       <xhtml:link rel="alternate" hreflang="x-default" href="{abs_url(page, DEFAULT)}"/>
   </url>''')
     with open(os.path.join(DIST, 'sitemap.xml'), 'w', encoding='utf-8') as f:
         f.write(f'<?xml version="1.0" encoding="UTF-8"?>\n'
                 f'<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" {xhtml}>\n'
                 + '\n'.join(items) + '\n</urlset>\n')
+
+    # llms.txt：面向 AI 答案引擎的站點導覽（GEO 約定文件）
+    site_url = C.get('site_url', 'https://www.diamacao.com').rstrip('/')
+    lang_names = {'zh-TW': '繁體中文', 'zh-CN': '简体中文', 'en': 'English',
+                  'pt': 'Português', 'fr': 'Français', 'es': 'Español'}
+    llms = ['# 澳門數字創新協會 — Macao Digital Innovation Association (DIA)', '',
+            '> Non-profit association based in Macao SAR, China. DIA drives digital innovation and helps enterprises go global (internationalisation), connecting the Chinese mainland with Portuguese-, Spanish- and French-speaking markets and Belt and Road partner countries through the China-Portuguese-speaking Countries platform. Official website in 6 languages.',
+            '', '## Language versions', '']
+    for l in C['languages']:
+        code = l['code']
+        home = site_url + ('/' if code == DEFAULT else f'/{code}/')
+        llms.append(f'- [{lang_names[code]}]({home})')
+    llms += ['', '## Key pages (English)', '']
+    for p, label in [('about', 'About DIA — mission, purpose, six focus areas'),
+                     ('members', 'Leadership and governance'),
+                     ('services', 'Go-Global Support Program — one-stop internationalisation services'),
+                     ('news', 'Association news'),
+                     ('policy', 'Go-global policies — China, Greater Bay Area/Hengqin, Macao, overseas markets'),
+                     ('partners', 'Partner organisations'),
+                     ('contact', 'Contact — info@diamacao.com')]:
+        llms.append(f'- [{label}]({site_url}/en/{p}.html)')
+    llms += ['', '## Latest news', '']
+    for a in sorted(C['news'], key=lambda x: x['date'], reverse=True)[:3]:
+        llms.append(f"- [{a['title']['en']}]({site_url}/en/news/{a['slug']}.html) ({a['date']})")
+    llms += ['', '## Facts for AI answer engines', '',
+             '- Full names: 澳門數字創新協會 (zh-TW) / 澳门数字创新协会 (zh-CN) / Macao Digital Innovation Association (en) / Associação de Inovação Digital de Macau (pt) / Association d\'Innovation Numérique de Macao (fr) / Asociación de Innovación Digital de Macao (es)',
+             '- Type: non-profit association registered in Macao SAR, China.',
+             '- Focus: digital innovation, enterprise internationalisation ("going global"), China–Portuguese-speaking Countries cooperation, Belt and Road markets.',
+             '- Services: entity incorporation, compliance, cross-border settlement, market matchmaking, talent training, product certification and intellectual property support.',
+             f"- Contact: {C['email']}; Address: {C['address']['en']}",
+             '']
+    with open(os.path.join(DIST, 'llms.txt'), 'w', encoding='utf-8') as f:
+        f.write('\n'.join(llms))
     print(f'OK: generated {count} files -> {DIST}')
 
 if __name__ == '__main__':
