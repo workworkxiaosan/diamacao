@@ -210,7 +210,7 @@ def page_shell(page, lang, title, description, body, depth=0, url_path=None, og_
     org_id = site_url + '/#organization'
     graph = []
     if page == 'index':
-        graph.append({
+        org = {
             "@type": "Organization", "@id": org_id, "name": site_name,
             "alternateName": C['site_name_en'], "url": site_url + ('/' if lang == DEFAULT else f'/{lang}/'),
             "logo": {"@type": "ImageObject", "url": site_url + '/assets/img/logo.png'},
@@ -220,7 +220,12 @@ def page_shell(page, lang, title, description, body, depth=0, url_path=None, og_
             "areaServed": [{"@type": "Place", "name": n} for n in AREA_SERVED],
             "knowsLanguage": LANGS,
             "contactPoint": {"@type": "ContactPoint", "contactType": "general enquiries",
-                             "email": C['email'], "availableLanguage": LANGS}})
+                             "email": C['email'], "availableLanguage": LANGS}}
+        # sameAs：social 中已填真實 URL（非 #）的平台自動進知識圖譜實體鏈接
+        same_as = [u for u in C.get('social', {}).values() if u and u != '#']
+        if same_as:
+            org['sameAs'] = same_as
+        graph.append(org)
         graph.append({
             "@type": "WebSite", "@id": site_url + '/#website', "url": site_url + '/',
             "name": site_name, "inLanguage": lang, "publisher": {"@id": org_id}})

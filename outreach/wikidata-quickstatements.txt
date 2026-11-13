@@ -1,0 +1,22 @@
+CREATE
+LAST|Lzh-hant|"澳門數字創新協會"
+LAST|Lzh-hans|"澳门数字创新协会"
+LAST|Len|"Macao Digital Innovation Association"
+LAST|Lpt|"Associação de Inovação Digital de Macau"
+LAST|Lfr|"Association d'Innovation Numérique de Macao"
+LAST|Les|"Asociación de Innovación Digital de Macao"
+LAST|Azh-hant|"DIA"
+LAST|Aen|"DIA"
+LAST|Dzh-hant|"澳門非牟利社團，推動數字創新與企業出海"
+LAST|Dzh-hans|"澳门非营利社团，推动数字创新与企业出海"
+LAST|Den|"Non-profit association in Macao SAR, China, promoting digital innovation and enterprise internationalisation"
+LAST|Dpt|"Associação sem fins lucrativos de Macau que promove a inovação digital e a internacionalização das empresas"
+LAST|Dfr|"Association à but non lucratif de Macao promouvant l'innovation numérique et l'internationalisation des entreprises"
+LAST|Des|"Asociación sin ánimo de lucro de Macao que promueve la innovación digital y la internacionalización de las empresas"
+LAST|P31|Q48204
+LAST|P17|Q148
+LAST|P131|Q14773
+LAST|P159|Q14773
+LAST|P856|"https://www.diamacao.com/"
+LAST|P1813|"DIA"
+LAST|P571|+2026-02-06T00:00:00Z|S854|"https://www.bo.dsaj.gov.mo/cn/entities/priv/rec/12543"
