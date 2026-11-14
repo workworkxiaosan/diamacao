@@ -23,7 +23,8 @@ GITHUB_IPS = {
 PAGES = [
     "/", "/about.html", "/members.html", "/news.html", "/policy.html",
     "/services.html", "/partners.html", "/contact.html",
-    "/zh-CN/", "/en/", "/pt/", "/fr/", "/sitemap.xml", "/robots.txt",
+    "/zh-CN/", "/en/", "/pt/", "/fr/", "/es/",
+    "/sitemap.xml", "/robots.txt", "/llms.txt",
 ]
 HOME_MARKERS = ["澳門數字創新協會", "數字引領", "首批經澳門出海對接企業"]
 CERT_WARN_DAYS = 30
